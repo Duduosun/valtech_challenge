@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.orevan.serenity.DefinitionTestSuite" time="28.597" tests="70" errors="2" skipped="2" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Automation Framework\ExampleAutomationFramework\mycucumber_serenity_arche\mySerenity"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Automation Framework\ExampleAutomationFramework\mycucumber_serenity_arche\mySerenity"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\tolaf\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Automation Framework\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Automation Framework\apache-maven-3.3.9\bin;C:\Automation Framework\gradle-2.14.1\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\tolaf"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="tolaf"/>
+    <property name="java.class.path" value="C:\Automation Framework\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Automation Framework\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given Luma Home Page" classname="Scenario: Home Page Browse Header" time="0.001"/>
+  <testcase name="When User Explores Home Page" classname="Scenario: Home Page Browse Header" time="0"/>
+  <testcase name="Then Header Elements are Interactive" classname="Scenario: Home Page Browse Header" time="0"/>
+  <testcase name="Scenario: Home Page Browse Header" classname="Scenario: Home Page Browse Header" time="2.628"/>
+  <testcase name="Given Luma Home Page" classname="Scenario: Home Page Browse Footer" time="0"/>
+  <testcase name="When User Explores Home Page" classname="Scenario: Home Page Browse Footer" time="0"/>
+  <testcase name="Then Footer Elements are Interactive" classname="Scenario: Home Page Browse Footer" time="0"/>
+  <testcase name="Scenario: Home Page Browse Footer" classname="Scenario: Home Page Browse Footer" time="2.074"/>
+  <testcase name="Given Luma Home Page" classname="| Default welcome msg! | Welcome, BDD1001 Duduosun! |" time="0"/>
+  <testcase name="When User Interact with Luma Website" classname="| Default welcome msg! | Welcome, BDD1001 Duduosun! |" time="0"/>
+  <testcase name="Then Luma Module for Guest &quot;Default welcome msg!&quot; is available" classname="| Default welcome msg! | Welcome, BDD1001 Duduosun! |" time="0"/>
+  <testcase name="But Luma Modules for Registered &quot;Welcome, BDD1001 Duduosun!&quot; is not available" classname="| Default welcome msg! | Welcome, BDD1001 Duduosun! |" time="0"/>
+  <testcase name="| Default welcome msg! | Welcome, BDD1001 Duduosun! |" classname="| Default welcome msg! | Welcome, BDD1001 Duduosun! |" time="3.261"/>
+  <testcase name="Given Luma Home Page" classname="| Sign In | BDD1002 Duduosun |" time="0"/>
+  <testcase name="When User Interact with Luma Website" classname="| Sign In | BDD1002 Duduosun |" time="0"/>
+  <testcase name="Then Luma Module for Guest &quot;Sign In&quot; is available" classname="| Sign In | BDD1002 Duduosun |" time="0"/>
+  <testcase name="But Luma Modules for Registered &quot;BDD1002 Duduosun&quot; is not available" classname="| Sign In | BDD1002 Duduosun |" time="0"/>
+  <testcase name="| Sign In | BDD1002 Duduosun |" classname="| Sign In | BDD1002 Duduosun |" time="3.291"/>
+  <testcase name="Given Luma Home Page" classname="| Create an Account | Welcome Pinguino Volante! |" time="0"/>
+  <testcase name="When User Interact with Luma Website" classname="| Create an Account | Welcome Pinguino Volante! |" time="0"/>
+  <testcase name="Then Luma Module for Guest &quot;Create an Account&quot; is available" classname="| Create an Account | Welcome Pinguino Volante! |" time="0"/>
+  <testcase name="But Luma Modules for Registered &quot;Welcome Pinguino Volante!&quot; is not available" classname="| Create an Account | Welcome Pinguino Volante! |" time="0"/>
+  <testcase name="| Create an Account | Welcome Pinguino Volante! |" classname="| Create an Account | Welcome Pinguino Volante! |" time="3.502"/>
+  <testcase name="Given Luma Home Page" classname="| Welcome, bdd1002 Serenity! | bdd1002@duduosun.com | salmon02 | Sign In |" time="0"/>
+  <testcase name="When User Interact with Luma Website" classname="| Welcome, bdd1002 Serenity! | bdd1002@duduosun.com | salmon02 | Sign In |" time="0"/>
+  <testcase name="And Trigger Registered &quot;Welcome, bdd1002 Serenity!&quot; Action with &quot;bdd1002@duduosun.com&quot; and &quot;salmon02&quot;" classname="| Welcome, bdd1002 Serenity! | bdd1002@duduosun.com | salmon02 | Sign In |" time="0"/>
+  <testcase name="Then Luma Module for Registered &quot;Welcome, bdd1002 Serenity!&quot; is available" classname="| Welcome, bdd1002 Serenity! | bdd1002@duduosun.com | salmon02 | Sign In |" time="0"/>
+  <testcase name="But Luma Modules for Guest &quot;Sign In&quot; is not available" classname="| Welcome, bdd1002 Serenity! | bdd1002@duduosun.com | salmon02 | Sign In |" time="0"/>
+  <testcase name="| Welcome, bdd1002 Serenity! | bdd1002@duduosun.com | salmon02 | Sign In |" classname="| Welcome, bdd1002 Serenity! | bdd1002@duduosun.com | salmon02 | Sign In |" time="0.911"/>
+  <testcase name="Given Luma Home Page" classname="| bdd1001 Serenity | bdd1001@duduosun.com | salmon01 |" time="0"/>
+  <testcase name="When User Interact with Luma Website" classname="| bdd1001 Serenity | bdd1001@duduosun.com | salmon01 |" time="0"/>
+  <testcase name="And Trigger Registered &quot;bdd1001 Serenity&quot; Action with &quot;bdd1001@duduosun.com&quot; and &quot;salmon01&quot;" classname="| bdd1001 Serenity | bdd1001@duduosun.com | salmon01 |" time="0"/>
+  <testcase name="Then Luma Module for Registered &quot;bdd1001 Serenity&quot; is available" classname="| bdd1001 Serenity | bdd1001@duduosun.com | salmon01 |" time="0"/>
+  <testcase name="Then User &quot;bdd1001 Serenity&quot; is active" classname="| bdd1001 Serenity | bdd1001@duduosun.com | salmon01 |" time="0"/>
+  <testcase name="| bdd1001 Serenity | bdd1001@duduosun.com | salmon01 |" classname="| bdd1001 Serenity | bdd1001@duduosun.com | salmon01 |" time="1.698"/>
+  <testcase name="Given Luma Home Page" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="0"/>
+  <testcase name="When User Trigger Top Level Entry &quot;What&apos;s New&quot;" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="0"/>
+  <testcase name="Then Page &quot;What&apos;s New&quot; Header and Footer Elements are Interactive" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="0"/>
+  <testcase name="And Complete LHS and Promo Module is Visible" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="0"/>
+  <testcase name="And Product List is Displayed with &quot;Wayfarer Messenger Bag&quot;" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="0"/>
+  <testcase name="| What&apos;s New | Wayfarer Messenger Bag |" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="2.325"/>
+  <testcase name="Given Luma Home Page" classname="| Women | Radiant Tee |" time="0"/>
+  <testcase name="When User Trigger Top Level Entry &quot;Women&quot;" classname="| Women | Radiant Tee |" time="0"/>
+  <testcase name="Then Page &quot;Women&quot; Header and Footer Elements are Interactive" classname="| Women | Radiant Tee |" time="0">
+    <error message="Timed out after 5 seconds waiting for title to be &quot;Women&quot;. Current title: &quot;Home Page&quot;&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;Duduosun&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: net.thucydides.core.webdriver.WebDriverFacade" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for title to be "Women". Current title: "Home Page"
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at net.serenitybdd.core.pages.PageObject.waitForTitleToAppear(PageObject.java:345)
+	at com.orevan.serenity.pages.luma.LumaBasePage.verifyBasePage(LumaBasePage.java:245)
+	at com.orevan.serenity.steps.luma.BasePageSteps.pageHeaderAndFooterElementsAreInteractive(BasePageSteps.java:25)
+	at ✽.Then Page "Women" Header and Footer Elements are Interactive(TopCatView.feature:12)
+</error>
+  </testcase>
+  <testcase name="| Women | Radiant Tee |" classname="| Women | Radiant Tee |" time="0">
+    <error message="Timed out after 5 seconds waiting for title to be &quot;Women&quot;. Current title: &quot;Home Page&quot;&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;Duduosun&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: net.thucydides.core.webdriver.WebDriverFacade" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for title to be "Women". Current title: "Home Page"
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at net.serenitybdd.core.pages.PageObject.waitForTitleToAppear(PageObject.java:345)
+	at com.orevan.serenity.pages.luma.LumaBasePage.verifyBasePage(LumaBasePage.java:245)
+	at com.orevan.serenity.steps.luma.BasePageSteps.pageHeaderAndFooterElementsAreInteractive(BasePageSteps.java:25)
+	at ✽.Then Page "Women" Header and Footer Elements are Interactive(TopCatView.feature:12)
+</error>
+  </testcase>
+  <testcase name="And Complete LHS and Promo Module is Visible" classname="| Women | Radiant Tee |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Product List is Displayed with &quot;Radiant Tee&quot;" classname="| Women | Radiant Tee |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given Luma Home Page" classname="| Men | Geo Insulated Jogging Pant |" time="0"/>
+  <testcase name="When User Trigger Top Level Entry &quot;Men&quot;" classname="| Men | Geo Insulated Jogging Pant |" time="0"/>
+  <testcase name="Then Page &quot;Men&quot; Header and Footer Elements are Interactive" classname="| Men | Geo Insulated Jogging Pant |" time="0"/>
+  <testcase name="And Complete LHS and Promo Module is Visible" classname="| Men | Geo Insulated Jogging Pant |" time="0"/>
+  <testcase name="And Product List is Displayed with &quot;Geo Insulated Jogging Pant&quot;" classname="| Men | Geo Insulated Jogging Pant |" time="0"/>
+  <testcase name="| Men | Geo Insulated Jogging Pant |" classname="| Men | Geo Insulated Jogging Pant |" time="2.227"/>
+  <testcase name="Given Luma Home Page" classname="| Gear | Sprite Yoga Companion Kit |" time="0"/>
+  <testcase name="When User Trigger Top Level Entry &quot;Gear&quot;" classname="| Gear | Sprite Yoga Companion Kit |" time="0"/>
+  <testcase name="Then Page &quot;Gear&quot; Header and Footer Elements are Interactive" classname="| Gear | Sprite Yoga Companion Kit |" time="0"/>
+  <testcase name="And Empty LHS and Promo Module is Visible" classname="| Gear | Sprite Yoga Companion Kit |" time="0"/>
+  <testcase name="And Product List is Displayed with &quot;Sprite Yoga Companion Kit&quot;" classname="| Gear | Sprite Yoga Companion Kit |" time="0"/>
+  <testcase name="| Gear | Sprite Yoga Companion Kit |" classname="| Gear | Sprite Yoga Companion Kit |" time="2.488"/>
+  <testcase name="Given Luma Home Page" classname="| Training | Luma Yoga For Life |" time="0"/>
+  <testcase name="When User Trigger Top Level Entry &quot;Training&quot;" classname="| Training | Luma Yoga For Life |" time="0"/>
+  <testcase name="Then Page &quot;Training&quot; Header and Footer Elements are Interactive" classname="| Training | Luma Yoga For Life |" time="0"/>
+  <testcase name="And Single LHS and Promo Module is Visible" classname="| Training | Luma Yoga For Life |" time="0"/>
+  <testcase name="And Product List is Displayed with &quot;Luma Yoga For Life&quot;" classname="| Training | Luma Yoga For Life |" time="0"/>
+  <testcase name="| Training | Luma Yoga For Life |" classname="| Training | Luma Yoga For Life |" time="2.02"/>
+  <testcase name="Given Luma Home Page" classname="| Sale |" time="0"/>
+  <testcase name="When User Trigger Top Level Entry &quot;Sale&quot;" classname="| Sale |" time="0"/>
+  <testcase name="Then Page &quot;Sale&quot; Header and Footer Elements are Interactive" classname="| Sale |" time="0"/>
+  <testcase name="And Complete LHS and Promo Module is Visible" classname="| Sale |" time="0"/>
+  <testcase name="| Sale |" classname="| Sale |" time="2.171"/>
+</testsuite>

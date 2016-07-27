@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB"><head>
+        <script>
+    var require = {
+        "baseUrl": "http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB"
+    };
+</script>
+        <meta charset="utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="Default Description" name="description" />
+<meta content="Magento, Varien, E-commerce" name="keywords" />
+<meta content="INDEX,FOLLOW" name="robots" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport" />
+<title>Home Page</title>
+<link href="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/calendar.css" media="all" type="text/css" rel="stylesheet" />
+<link href="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/css/styles-m.css" media="all" type="text/css" rel="stylesheet" />
+<link href="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/css/styles-l.css" media="screen and (min-width: 768px)" type="text/css" rel="stylesheet" />
+<link href="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/css/print.css" media="print" type="text/css" rel="stylesheet" />
+<link href="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Theme/favicon.ico" type="image/x-icon" rel="icon" />
+<link href="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Theme/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+<script src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/requirejs/require.js" type="text/javascript"></script>
+<script src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/requirejs/mixins.js" type="text/javascript"></script>
+<script src="http://magento2.nublue.co.uk/pub/static/_requirejs/frontend/Magento/luma/en_GB/requirejs-config.js" type="text/javascript"></script>
+<link href="http://521159259.r.worldcdn.net/pub/media/styles.css" media="all" type="text/css" rel="stylesheet" />            <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.mobile.custom" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/jquery/jquery.mobile.custom.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/responsive" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/js/responsive.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dataPost" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/dataPost.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/theme" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/js/theme.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/bootstrap" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/bootstrap.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/jquery.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/checkout-loader" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Checkout/js/checkout-loader.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/translate-inline" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/translate-inline.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/translate" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/translate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.cookie" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/jquery/jquery.cookie.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/template" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/template.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/tabs" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/tabs.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="domReady" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/requirejs/domReady.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/smart-keyboard-handler" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/smart-keyboard-handler.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/mage" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/mage.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/ie-class-fixer" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/ie-class-fixer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/apply/main" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/apply/main.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="matchMedia" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/matchMedia.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="underscore" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/underscore.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/collapsible" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/collapsible.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/common" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/common.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-migrate" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/jquery/jquery-migrate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/jquery/jquery-ui.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-storageapi" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/jquery/jquery.storageapi.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/apply/scripts" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/apply/scripts.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/requirejs/text.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/loader" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/loader.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_PageCache/js/page-cache" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_PageCache/js/page-cache.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/app" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/core/app.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dropdown" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/dropdown.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Search/form-mini" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Search/form-mini.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/menu" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/menu.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/validation/validation" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/validation/validation.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/cookies" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/cookies.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/block-loader" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/block-loader.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/section-config" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Customer/js/section-config.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/customer-data" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Customer/js/customer-data.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/initialize" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/initialize.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/renderer/types" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/core/renderer/types.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/renderer/layout" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/core/renderer/layout.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/validation" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/validation.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/knockoutjs/knockout.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/template/loader" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/template/loader.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-repeat" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/knockoutjs/knockout-repeat.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-fast-foreach" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/knockoutjs/knockout-fast-foreach.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-es5" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/knockoutjs/knockout-es5.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/template/engine" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/template/engine.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/scope" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/scope.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/staticChecked" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/staticChecked.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/datepicker" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/datepicker.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/outer_click" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/outer_click.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/keyboard" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/keyboard.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/optgroup" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/optgroup.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/fadeVisible" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/fadeVisible.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/mage-init" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/mage-init.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/after-render" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/after-render.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/i18n" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/i18n.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/collapsible" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/collapsible.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/bind/autoselect" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/bind/autoselect.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/extender/observable_array" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/extender/observable_array.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/extender/bound-nodes" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/extender/bound-nodes.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/main" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/utils/main.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/registry/registry" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/registry/registry.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/validate" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/jquery/jquery.validate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/calendar" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/calendar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/template/observable_source" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/template/observable_source.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/ko/template/renderer" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/ko/template/renderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/wrapper" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/utils/wrapper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/events" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/core/events.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="es6-collections" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/es6-collections.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/arrays" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/utils/arrays.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/compare" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/utils/compare.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/misc" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/utils/misc.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/objects" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/utils/objects.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/strings" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/utils/strings.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/template" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/utils/template.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/registry/storage" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/registry/storage.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/registry/events" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/registry/events.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/class" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/core/class.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-ui-timepicker-addon" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/jquery/jquery-ui-timepicker-addon.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.metadata" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/jquery/jquery.metadata.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/view/minicart" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Checkout/js/view/minicart.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/collection" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/core/collection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Tax/js/view/checkout/minicart/subtotal/totals" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Msrp/js/view/checkout/minicart/subtotal/totals" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/view/image" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Catalog/js/view/image.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/view/compare-products" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Catalog/js/view/compare-products.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/view/authentication-popup" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Customer/js/view/authentication-popup.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/view/messages" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/view/messages.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/view/checkout/loginCaptcha" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Captcha/js/view/checkout/loginCaptcha.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/view/customer" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Customer/js/view/customer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/view/messages" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Theme/js/view/messages.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/sidebar" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Checkout/js/sidebar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/element/element" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/core/element/element.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/view/checkout/defaultCaptcha" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Captcha/js/view/checkout/defaultCaptcha.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/model/captchaList" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Captcha/js/model/captchaList.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/action/login" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Customer/js/action/login.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/form/form" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/form/form.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/model/authentication-popup" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Customer/js/model/authentication-popup.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/url" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/url.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/alert" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/modal/alert.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/model/messageList" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/model/messageList.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/confirm" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/modal/confirm.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/decorate" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/decorate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/element/links" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/core/element/links.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/storage" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/core/storage.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/model/captcha" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Captcha/js/model/captcha.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/modal" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/modal/modal.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/storage" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/mage/storage.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/spinner" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/spinner.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/form/adapter" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/form/adapter.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/model/messages" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/model/messages.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/action/refresh" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Captcha/js/action/refresh.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/key-codes" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/Magento_Ui/js/lib/key-codes.js"></script></head>
+    <body class="cms-home cms-index-index page-layout-1column" data-container="body">
+            <script>
+        require.config({
+            deps: [
+                'jquery',
+                'mage/translate',
+                'jquery/jquery-storageapi'
+            ],
+            callback: function ($) {
+                'use strict';
+
+                var dependencies = [],
+                    versionObj;
+
+                $.initNamespaceStorage('mage-translation-storage');
+                $.initNamespaceStorage('mage-translation-file-version');
+                versionObj = $.localStorage.get('mage-translation-file-version');
+
+                if (versionObj.version !== '7bb4d4f8ffa1a670b3247a7fbfeaffa556e0d702') {
+                    dependencies.push(
+                        'text!js-translation.json'
+                    );
+
+                }
+
+                require.config({
+                    deps: dependencies,
+                    callback: function (string) {
+                        if (typeof string === 'string') {
+                            $.mage.translate.add(JSON.parse(string));
+                            $.localStorage.set('mage-translation-storage', string);
+                            $.localStorage.set(
+                                'mage-translation-file-version',
+                                {
+                                    version: '7bb4d4f8ffa1a670b3247a7fbfeaffa556e0d702'
+                                }
+                            );
+                        } else {
+                            $.mage.translate.add($.localStorage.get('mage-translation-storage'));
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+
+    <noscript>
+        &lt;div class="message global noscript"&gt;
+            &lt;div class="content"&gt;
+                &lt;p&gt;
+                    &lt;strong&gt;JavaScript seems to be disabled in your browser.&lt;/strong&gt;
+                    &lt;span&gt;For the best experience on our site, be sure to turn on Javascript in your browser.&lt;/span&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    </noscript>
+<div class="page-wrapper"><header class="page-header"><div class="panel wrapper"><div class="panel header"><a href="#contentarea" class="action skip contentarea"><span>Skip to Content</span></a>
+
+<ul class="header links">        <li data-bind="scope: 'customer'" class="greet welcome">
+            <span data-bind="text: customer().fullname ? $t('Welcome, %1!').replace('%1', customer().fullname) : 'Default welcome msg!'">Default welcome msg!</span>
+        </li>
+        
+    <li data-label="or" class="authorization-link">
+    <a href="http://magento2.nublue.co.uk/customer/account/login/">
+        Sign In    </a>
+</li>
+<li><a href="http://magento2.nublue.co.uk/customer/account/create/">Create an Account</a></li></ul></div></div><div class="header content"><span class="action nav-toggle" data-action="toggle-nav"><span>Toggle Nav</span></span>
+    <strong class="logo">
+        <img height="43" width="148" alt="Magento Commerce" src="http://magento2.nublue.co.uk/pub/static/frontend/Magento/luma/en_GB/images/logo.svg" />
+    </strong>
+
+<div class="minicart-wrapper" data-block="minicart">
+    <a data-bind="scope: 'minicart_content'" href="http://magento2.nublue.co.uk/checkout/cart/" class="action showcart">
+        <span class="text">My Cart</span>
+        <span data-bind="css: { empty: cart().summary_count == 0 }, blockLoader: isLoading" class="counter qty">
+            <span class="counter-number"><!-- ko text: cart().summary_count --><!-- /ko --></span>
+            <span class="counter-label">
+            <!-- ko if: cart().summary_count --><!-- /ko -->
+            </span>
+        </span>
+    </a>
+            
+        <script>
+        window.checkout = {"shoppingCartUrl":"http:\/\/magento2.nublue.co.uk\/checkout\/cart\/","checkoutUrl":"http:\/\/magento2.nublue.co.uk\/checkout\/","updateItemQtyUrl":"http:\/\/magento2.nublue.co.uk\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"http:\/\/magento2.nublue.co.uk\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"http:\/\/magento2.nublue.co.uk\/","customerLoginUrl":"http:\/\/magento2.nublue.co.uk\/customer\/account\/login\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"http:\/\/magento2.nublue.co.uk\/captcha\/refresh\/","isRequired":false},"guest_checkout":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"http:\/\/magento2.nublue.co.uk\/captcha\/refresh\/","isRequired":false}}};
+    </script>
+    
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" style="display: none;" tabindex="-1" role="dialog" aria-describedby="ui-id-28"><div data-role="dropdownDialog" class="block block-minicart empty ui-dialog-content ui-widget-content" id="ui-id-28" style="display: block;">
+            <div data-bind="scope: 'minicart_content'" id="minicart-content-wrapper">
+                <!-- ko template: getTemplate() -->
+<div class="block-title">
+    <strong>
+        <span class="text"><!-- ko i18n: 'My Cart' --><span>My Cart</span><!-- /ko --></span>
+        <span data-bind="css: { empty: cart().summary_count == 0 },
+                       attr: { title: $t('Items in Cart') }" class="qty" title="Items in Cart">
+            <!-- ko text: cart().summary_count --><!-- /ko -->
+        </span>
+    </strong>
+</div>
+
+<div class="block-content">
+    <button data-bind="attr: { title: $t('Close') }" data-action="close" class="action close" id="btn-minicart-close" type="button" title="Close">
+        <span><!-- ko i18n: 'Close' --><span>Close</span><!-- /ko --></span>
+    </button>
+
+    <!-- ko if: cart().summary_count --><!-- /ko -->
+
+    <!-- ko if: cart().summary_count --><!-- /ko -->
+
+    <!-- ko ifnot: cart().summary_count -->
+        <strong data-bind="visible: closeSidebar()" class="subtitle empty">
+            <!-- ko i18n: 'You have no items in your shopping cart.' --><span>You have no items in your shopping cart.</span><!-- /ko -->
+        </strong>
+        <!-- ko if: cart().cart_empty_message --><!-- /ko -->
+    <!-- /ko -->
+
+    <!-- ko if: cart().summary_count --><!-- /ko -->
+
+    <div class="minicart-widgets" id="minicart-widgets">
+        <!-- ko foreach: getRegion('promotion') -->
+            <!-- ko template: getTemplate() -->
+<!-- ko foreach: { data: elems, as: 'element' } --><!-- /ko -->
+<!-- /ko -->
+        <!-- /ko -->
+    </div>
+</div>
+<!-- ko foreach: getRegion('sign-in-popup') --><!-- /ko -->
+<!-- /ko -->
+            </div>
+        </div></div></div>
+
+
+<div class="block block-search">
+    <div class="block block-title"><strong>Search</strong></div>
+    <div class="block block-content">
+        <form method="get" action="http://magento2.nublue.co.uk/catalogsearch/result/" id="search_mini_form" class="form minisearch">
+            <div class="field search">
+                <label data-role="minisearch-label" for="search" class="label">
+                    <span>Search</span>
+                </label>
+                <div class="control">
+                    <input type="text" autocomplete="off" aria-autocomplete="both" aria-haspopup="false" role="combobox" maxlength="128" class="input-text" placeholder="Search entire store here..." value="" name="q" id="search" />
+                    <div class="search-autocomplete" id="search_autocomplete" style="display: none;"></div>
+                    <div class="nested">
+    <a data-action="advanced-search" href="http://magento2.nublue.co.uk/catalogsearch/advanced/" class="action advanced">
+        Advanced Search    </a>
+</div>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="action search" title="Search" type="submit" disabled="disabled">
+                    <span>Search</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<ul class="compare wrapper"><li data-role="compare-products-link" data-bind="scope: 'compareProducts'" class="item link compare">
+    <a data-bind="attr: {'href': compareProducts().listUrl}, css: {'no-display': !compareProducts().count}" title="Compare Products" class="action compare no-display">
+        Compare Products        <span data-bind="text: compareProducts().countCaption" class="counter qty"></span>
+    </a>
+</li>
+
+</ul></div></header>    <div class="sections nav-sections">
+                <div class="section-items nav-sections-items" role="tablist">
+                                            <div data-role="collapsible" class="section-item-title nav-sections-item-title active" role="tab" data-collapsible="true" aria-controls="store.menu" aria-selected="false" aria-expanded="true" tabindex="0">
+                    <a href="#store.menu" data-toggle="switch" class="nav-sections-item-switch">Menu</a>
+                </div>
+                <div data-role="content" id="store.menu" class="section-item-content nav-sections-item-content" role="tabpanel" aria-hidden="false">
+<nav role="navigation" class="navigation">
+    <ul id="ui-id-1" class="ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" tabindex="0">
+        <li class="level0 nav-1 first level-top ui-menu-item" role="presentation"><a class="level-top ui-corner-all" href="http://magento2.nublue.co.uk/what-is-new.html" id="ui-id-2" tabindex="-1" role="menuitem"><span>What's New</span></a></li><li class="level0 nav-2 level-top parent ui-menu-item" role="presentation"><a class="level-top ui-corner-all" href="http://magento2.nublue.co.uk/women.html" aria-haspopup="true" id="ui-id-3" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Women</span></a><ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" style="display: none;" role="menu" aria-hidden="true" aria-expanded="false"><li class="level1 nav-2-1 first parent ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/women/tops-women.html" aria-haspopup="true" id="ui-id-8" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Tops</span></a><ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" style="display: none;" role="menu" aria-hidden="true" aria-expanded="false"><li class="level2 nav-2-1-1 first ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/women/tops-women/jackets-women.html" id="ui-id-10" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Jackets</span></a></li><li class="level2 nav-2-1-2 ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/women/tops-women/hoodies-and-sweatshirts-women.html" id="ui-id-11" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Hoodies &amp; Sweatshirts</span></a></li><li class="level2 nav-2-1-3 ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/women/tops-women/tees-women.html" id="ui-id-12" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Tees</span></a></li><li class="level2 nav-2-1-4 last ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/women/tops-women/tanks-women.html" id="ui-id-13" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Bras &amp; Tanks</span></a></li></ul></li><li class="level1 nav-2-2 last parent ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/women/bottoms-women.html" aria-haspopup="true" id="ui-id-9" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Bottoms</span></a><ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" style="display: none;" role="menu" aria-hidden="true" aria-expanded="false"><li class="level2 nav-2-2-1 first ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/women/bottoms-women/pants-women.html" id="ui-id-14" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Pants</span></a></li><li class="level2 nav-2-2-2 last ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/women/bottoms-women/shorts-women.html" id="ui-id-15" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Shorts</span></a></li></ul></li></ul></li><li class="level0 nav-3 level-top parent ui-menu-item" role="presentation"><a class="level-top ui-corner-all" href="http://magento2.nublue.co.uk/men.html" aria-haspopup="true" id="ui-id-4" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Men</span></a><ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" style="display: none;" role="menu" aria-hidden="true" aria-expanded="false"><li class="level1 nav-3-1 first parent ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/men/tops-men.html" aria-haspopup="true" id="ui-id-16" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Tops</span></a><ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" style="display: none;" role="menu" aria-hidden="true" aria-expanded="false"><li class="level2 nav-3-1-1 first ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/men/tops-men/jackets-men.html" id="ui-id-18" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Jackets</span></a></li><li class="level2 nav-3-1-2 ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/men/tops-men/hoodies-and-sweatshirts-men.html" id="ui-id-19" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Hoodies &amp; Sweatshirts</span></a></li><li class="level2 nav-3-1-3 ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/men/tops-men/tees-men.html" id="ui-id-20" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Tees</span></a></li><li class="level2 nav-3-1-4 last ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/men/tops-men/tanks-men.html" id="ui-id-21" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Tanks</span></a></li></ul></li><li class="level1 nav-3-2 last parent ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/men/bottoms-men.html" aria-haspopup="true" id="ui-id-17" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Bottoms</span></a><ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" style="display: none;" role="menu" aria-hidden="true" aria-expanded="false"><li class="level2 nav-3-2-1 first ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/men/bottoms-men/pants-men.html" id="ui-id-22" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Pants</span></a></li><li class="level2 nav-3-2-2 last ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/men/bottoms-men/shorts-men.html" id="ui-id-23" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Shorts</span></a></li></ul></li></ul></li><li class="level0 nav-4 level-top parent ui-menu-item" role="presentation"><a class="level-top ui-corner-all" href="http://magento2.nublue.co.uk/gear.html" aria-haspopup="true" id="ui-id-5" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Gear</span></a><ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" style="display: none;" role="menu" aria-hidden="true" aria-expanded="false"><li class="level1 nav-4-1 first ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/gear/bags.html" id="ui-id-24" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Bags</span></a></li><li class="level1 nav-4-2 ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/gear/fitness-equipment.html" id="ui-id-25" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Fitness Equipment</span></a></li><li class="level1 nav-4-3 last ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/gear/watches.html" id="ui-id-26" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Watches</span></a></li></ul></li><li class="level0 nav-5 level-top parent ui-menu-item" role="presentation"><a class="level-top ui-corner-all" href="http://magento2.nublue.co.uk/training.html" aria-haspopup="true" id="ui-id-6" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Training</span></a><ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" style="display: none;" role="menu" aria-hidden="true" aria-expanded="false"><li class="level1 nav-5-1 first last ui-menu-item" role="presentation"><a href="http://magento2.nublue.co.uk/training/training-video.html" id="ui-id-27" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Video Download</span></a></li></ul></li><li class="level0 nav-6 last level-top ui-menu-item" role="presentation"><a class="level-top ui-corner-all" href="http://magento2.nublue.co.uk/sale.html" id="ui-id-7" tabindex="-1" role="menuitem"><span>Sale</span></a></li>    </ul>
+</nav>
+</div>
+                                            <div data-role="collapsible" class="section-item-title nav-sections-item-title" role="tab" data-collapsible="true" aria-controls="store.links" aria-selected="false" aria-expanded="false" tabindex="0">
+                    <a href="#store.links" data-toggle="switch" class="nav-sections-item-switch">Account</a>
+                </div>
+                <div data-role="content" id="store.links" class="section-item-content nav-sections-item-content" role="tabpanel" aria-hidden="true" style="display: none;"><!-- Account links --><ul class="header links">        <li data-bind="scope: 'customer'" class="greet welcome">
+            <span data-bind="text: customer().fullname ? $t('Welcome, %1!').replace('%1', customer().fullname) : 'Default welcome msg!'">Default welcome msg!</span>
+        </li>
+        
+    <li data-label="or" class="authorization-link">
+    <a href="http://magento2.nublue.co.uk/customer/account/login/">
+        Sign In    </a>
+</li>
+<li><a href="http://magento2.nublue.co.uk/customer/account/create/">Create an Account</a></li></ul></div>
+                                    </div>
+    </div>
+<main class="page-main" id="maincontent"><a tabindex="-1" name="contentarea" id="contentarea"></a>
+<div class="page-title-wrapper">
+    <h1 class="page-title">
+        <span data-ui-id="page-title-wrapper" class="base">Home Page</span>    </h1>
+    </div>
+<div class="page messages"><div data-placeholder="messages"></div><div data-bind="scope: 'messages'">
+    <div class="messages" data-bind="foreach: { data: cookieMessages, as: 'message' }"></div>
+    <div class="messages" data-bind="foreach: { data: messages().messages, as: 'message' }"></div>
+</div>
+
+</div><div class="columns"><div class="column main"><input type="hidden" value="bGrzxA2ZqqTayxQU" name="form_key" /><div style="display: none;" data-bind="scope:'authenticationPopup'" id="authenticationPopup">
+    <script>
+        window.authenticationPopup = {"customerRegisterUrl":"http:\/\/magento2.nublue.co.uk\/customer\/account\/create\/","customerForgotPasswordUrl":"http:\/\/magento2.nublue.co.uk\/customer\/account\/forgotpassword\/","baseUrl":"http:\/\/magento2.nublue.co.uk\/"};
+    </script>
+    <!-- ko template: getTemplate() -->
+
+
+
+<!-- /ko -->
+    
+</div>
+
+
+<div class="widget block block-static-block">
+    <div class="blocks-promo">
+   <a class="block-promo home-main" href="http://magento2.nublue.co.uk/collections/yoga-new.html">
+       <img alt="" src="http://521159259.r.worldcdn.net/pub/media/wysiwyg/home/home-main.jpg" />
+       <span class="content bg-white">
+           <span class="info">New Luma Yoga Collection</span>
+           <strong class="title">Get fit and look fab in new seasonal styles</strong>
+           <span class="action more button">Shop New Yoga</span>
+       </span>
+   </a>
+   <div class="block-promo-wrapper block-promo-hp">
+       <a class="block-promo home-pants" href="http://magento2.nublue.co.uk/promotions/pants-all.html">
+           <img alt="" src="http://521159259.r.worldcdn.net/pub/media/wysiwyg/home/home-pants.jpg" />
+           <span class="content">
+               <strong class="title">20% OFF</strong>
+               <span class="info">Luma pants when you shop today*</span>
+               <span class="action more icon">Shop Pants</span>
+           </span>
+       </a>
+       <a class="block-promo home-t-shirts" href="http://magento2.nublue.co.uk/promotions/tees-all.html">
+           <span class="image"><img alt="" src="http://521159259.r.worldcdn.net/pub/media/wysiwyg/home/home-t-shirts.png" /></span>
+           <span class="content">
+               <strong class="title">Even more ways to mix and match</strong>
+               <span class="info">Buy 3 Luma tees get a 4th free</span>
+               <span class="action more icon">Shop Tees</span>
+           </span>
+       </a>
+       <a class="block-promo home-erin" href="http://magento2.nublue.co.uk/collections/erin-recommends.html">
+           <img alt="" src="http://521159259.r.worldcdn.net/pub/media/wysiwyg/home/home-erin.jpg" />
+           <span class="content">
+               <strong class="title">Take it from Erin</strong>
+               <span class="info">Luma founder Erin Renny shares her favorites!</span>
+               <span class="action more icon">Shop Erin Recommends</span>
+           </span>
+       </a>
+       <a class="block-promo home-performance" href="http://magento2.nublue.co.uk/collections/performance-fabrics.html">
+           <img alt="" src="http://521159259.r.worldcdn.net/pub/media/wysiwyg/home/home-performance.jpg" />
+           <span class="content bg-white">
+               <strong class="title">Science meets performance</strong>
+               <span class="info">Wicking to raingear, Luma covers you</span>
+               <span class="action more icon">Shop Performance</span>
+           </span>
+       </a>
+       <a class="block-promo home-eco" href="http://magento2.nublue.co.uk/collections/eco-friendly.html">
+           <img alt="" src="http://521159259.r.worldcdn.net/pub/media/wysiwyg/home/home-eco.jpg" />
+           <span class="content bg-white">
+               <strong class="title">Twice around, twice as nice</strong>
+               <span class="info">Find conscientious, comfy clothing in our <nobr>eco-friendly</nobr> collection</span>
+               <span class="action more icon">Shop Eco-Friendly</span>
+           </span>
+       </a>
+   </div>
+</div>
+<div class="content-heading">
+   <h2 class="title">Hot Sellers</h2>
+   <p class="info">Here is what`s trending on Luma right now</p>
+</div>
+    <div class="block widget block-products-list grid">
+                <div class="block-content">
+            <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
+                <ol class="product-items widget-product-grid">
+                                                                <li class="product-item">                        <div class="product-item-info">
+                            <a class="product-item-photo" href="http://magento2.nublue.co.uk/fusion-backpack.html">
+                                
+<span style="width:240px;" class="product-image-container">
+    <span style="padding-bottom: 125%;" class="product-image-wrapper">
+        <img height="300" width="240" alt="Fusion Backpack" src="https://magento2.nublue.co.uk/pub/media/catalog/product/cache/1/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/m/b/mb02-gray-0.jpg" class="product-image-photo" /></span>
+</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a class="product-item-link" href="http://magento2.nublue.co.uk/fusion-backpack.html" title="Fusion Backpack">
+                                        Fusion Backpack                                    </a>
+                                </strong>
+                                <div data-product-id="6" data-role="priceBox" class="price-box price-final_price">
+    
+
+<span class="price-container price-final_price tax weee">
+        <span class="price-wrapper " data-price-type="finalPrice" data-price-amount="59" id="old-price-6-widget-product-grid">
+        <span class="price">£59.00</span>    </span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button title="Add to Cart" type="button" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv\/product\/6\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;6&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocart primary">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div data-role="add-to-links" class="actions-secondary">
+                                                                                                    <a title="Add to Wish List" data-action="add-to-wishlist" class="action towishlist" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/wishlist\/index\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;6&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" href="#">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a title="Add to Compare" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/catalog\/product_compare\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;6&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocompare" href="#">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a class="product-item-photo" href="http://magento2.nublue.co.uk/push-it-messenger-bag.html">
+                                
+<span style="width:240px;" class="product-image-container">
+    <span style="padding-bottom: 125%;" class="product-image-wrapper">
+        <img height="300" width="240" alt="Push It Messenger Bag" src="https://magento2.nublue.co.uk/pub/media/catalog/product/cache/1/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/w/b/wb04-blue-0.jpg" class="product-image-photo" /></span>
+</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a class="product-item-link" href="http://magento2.nublue.co.uk/push-it-messenger-bag.html" title="Push It Messenger Bag">
+                                        Push It Messenger Bag                                    </a>
+                                </strong>
+                                <div data-product-id="14" data-role="priceBox" class="price-box price-final_price">
+    
+
+<span class="price-container price-final_price tax weee">
+        <span class="price-wrapper " data-price-type="finalPrice" data-price-amount="45" id="old-price-14-widget-product-grid">
+        <span class="price">£45.00</span>    </span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button title="Add to Cart" type="button" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv\/product\/14\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;14&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocart primary">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div data-role="add-to-links" class="actions-secondary">
+                                                                                                    <a title="Add to Wish List" data-action="add-to-wishlist" class="action towishlist" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/wishlist\/index\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;14&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" href="#">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a title="Add to Compare" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/catalog\/product_compare\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;14&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocompare" href="#">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a class="product-item-photo" href="http://magento2.nublue.co.uk/lifelong-fitness-iv.html">
+                                
+<span style="width:240px;" class="product-image-container">
+    <span style="padding-bottom: 125%;" class="product-image-wrapper">
+        <img height="300" width="240" alt="LifeLong Fitness IV" src="https://magento2.nublue.co.uk/pub/media/catalog/product/cache/1/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/l/t/lt02.jpg" class="product-image-photo" /></span>
+</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a class="product-item-link" href="http://magento2.nublue.co.uk/lifelong-fitness-iv.html" title="LifeLong Fitness IV">
+                                        LifeLong Fitness IV                                    </a>
+                                </strong>
+                                <div data-product-id="47" data-role="priceBox" class="price-box price-final_price">
+    
+
+<span class="price-container price-final_price tax weee">
+        <span class="price-wrapper " data-price-type="finalPrice" data-price-amount="14" id="old-price-47-widget-product-grid">
+        <span class="price">£14.00</span>    </span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button title="Add to Cart" type="button" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv\/product\/47\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;47&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocart primary">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div data-role="add-to-links" class="actions-secondary">
+                                                                                                    <a title="Add to Wish List" data-action="add-to-wishlist" class="action towishlist" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/wishlist\/index\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;47&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" href="#">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a title="Add to Compare" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/catalog\/product_compare\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;47&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocompare" href="#">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a class="product-item-photo" href="http://magento2.nublue.co.uk/hero-hoodie.html">
+                                
+<span style="width:240px;" class="product-image-container">
+    <span style="padding-bottom: 125%;" class="product-image-wrapper">
+        <img height="300" width="240" alt="Hero Hoodie" src="https://magento2.nublue.co.uk/pub/media/catalog/product/cache/1/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/m/h/mh07-gray_main.jpg" class="product-image-photo" /></span>
+</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a class="product-item-link" href="http://magento2.nublue.co.uk/hero-hoodie.html" title="Hero Hoodie">
+                                        Hero Hoodie                                    </a>
+                                </strong>
+                                <div data-product-id="163" data-role="priceBox" class="price-box price-final_price">
+    
+
+<span class="price-container price-final_price tax weee">
+        <span class="price-wrapper " data-price-type="finalPrice" data-price-amount="54" id="old-price-163-widget-product-grid">
+        <span class="price">£54.00</span>    </span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button title="Add to Cart" type="button" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv\/product\/163\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;163&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocart primary">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div data-role="add-to-links" class="actions-secondary">
+                                                                                                    <a title="Add to Wish List" data-action="add-to-wishlist" class="action towishlist" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/wishlist\/index\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;163&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" href="#">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a title="Add to Compare" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/catalog\/product_compare\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;163&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocompare" href="#">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a class="product-item-photo" href="http://magento2.nublue.co.uk/argus-all-weather-tank.html">
+                                
+<span style="width:240px;" class="product-image-container">
+    <span style="padding-bottom: 125%;" class="product-image-wrapper">
+        <img height="300" width="240" alt="Argus All-Weather Tank" src="https://magento2.nublue.co.uk/pub/media/catalog/product/cache/1/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/m/t/mt07-gray_main.jpg" class="product-image-photo" /></span>
+</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a class="product-item-link" href="http://magento2.nublue.co.uk/argus-all-weather-tank.html" title="Argus All-Weather Tank">
+                                        Argus All-Weather Tank                                    </a>
+                                </strong>
+                                <div data-product-id="699" data-role="priceBox" class="price-box price-final_price">
+    
+
+<span class="price-container price-final_price tax weee">
+        <span class="price-wrapper " data-price-type="finalPrice" data-price-amount="22" id="old-price-699-widget-product-grid">
+        <span class="price">£22.00</span>    </span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button title="Add to Cart" type="button" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv\/product\/699\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;699&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocart primary">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div data-role="add-to-links" class="actions-secondary">
+                                                                                                    <a title="Add to Wish List" data-action="add-to-wishlist" class="action towishlist" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/wishlist\/index\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;699&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" href="#">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a title="Add to Compare" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/catalog\/product_compare\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;699&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocompare" href="#">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a class="product-item-photo" href="http://magento2.nublue.co.uk/radiant-tee.html">
+                                
+<span style="width:240px;" class="product-image-container">
+    <span style="padding-bottom: 125%;" class="product-image-wrapper">
+        <img height="300" width="240" alt="Radiant Tee" src="https://magento2.nublue.co.uk/pub/media/catalog/product/cache/1/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/w/s/ws12-orange_main.jpg" class="product-image-photo" /></span>
+</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a class="product-item-link" href="http://magento2.nublue.co.uk/radiant-tee.html" title="Radiant Tee">
+                                        Radiant Tee                                    </a>
+                                </strong>
+                                <div data-product-id="1561" data-role="priceBox" class="price-box price-final_price">
+    
+
+<span class="price-container price-final_price tax weee">
+        <span class="price-wrapper " data-price-type="finalPrice" data-price-amount="22" id="old-price-1561-widget-product-grid">
+        <span class="price">£22.00</span>    </span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button title="Add to Cart" type="button" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv\/product\/1561\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;1561&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocart primary">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div data-role="add-to-links" class="actions-secondary">
+                                                                                                    <a title="Add to Wish List" data-action="add-to-wishlist" class="action towishlist" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/wishlist\/index\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;1561&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" href="#">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a title="Add to Compare" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/catalog\/product_compare\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;1561&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocompare" href="#">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a class="product-item-photo" href="http://magento2.nublue.co.uk/breathe-easy-tank.html">
+                                
+<span style="width:240px;" class="product-image-container">
+    <span style="padding-bottom: 125%;" class="product-image-wrapper">
+        <img height="300" width="240" alt="Breathe-Easy Tank" src="https://magento2.nublue.co.uk/pub/media/catalog/product/cache/1/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/w/t/wt09-white_main.jpg" class="product-image-photo" /></span>
+</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a class="product-item-link" href="http://magento2.nublue.co.uk/breathe-easy-tank.html" title="Breathe-Easy Tank">
+                                        Breathe-Easy Tank                                    </a>
+                                </strong>
+                                <div data-product-id="1817" data-role="priceBox" class="price-box price-final_price">
+    
+
+<span class="price-container price-final_price tax weee">
+        <span class="price-wrapper " data-price-type="finalPrice" data-price-amount="34" id="old-price-1817-widget-product-grid">
+        <span class="price">£34.00</span>    </span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button title="Add to Cart" type="button" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv\/product\/1817\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;1817&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocart primary">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div data-role="add-to-links" class="actions-secondary">
+                                                                                                    <a title="Add to Wish List" data-action="add-to-wishlist" class="action towishlist" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/wishlist\/index\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;1817&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" href="#">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a title="Add to Compare" data-post="{&quot;action&quot;:&quot;http:\/\/magento2.nublue.co.uk\/catalog\/product_compare\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;1817&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly9tYWdlbnRvMi5udWJsdWUuY28udWsv&quot;}}" class="action tocompare" href="#">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                        </li>                                    </ol>
+            </div>
+                    </div>
+    </div>
+
+</div>
+</div></div></main><footer class="page-footer"><div class="footer content"><div class="block newsletter">
+    <div class="title"><strong>Newsletter</strong></div>
+    <div class="content">
+        <form id="newsletter-validate-detail" method="post" action="http://magento2.nublue.co.uk/newsletter/subscriber/new/" novalidate="novalidate" class="form subscribe">
+            <div class="field newsletter">
+                <label for="newsletter" class="label"><span>Sign Up for Our Newsletter:</span></label>
+                <div class="control">
+                    <input type="email" data-validate="{required:true, 'validate-email':true}" placeholder="Enter your email address" id="newsletter" name="email" />
+                </div>
+            </div>
+            <div class="actions">
+                <button type="submit" title="Subscribe" class="action subscribe primary">
+                    <span>Subscribe</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="links"><div class="widget block block-static-block">
+    <ul class="footer links">
+    <li class="nav item"><a href="http://magento2.nublue.co.uk/about-us/">About us</a></li>
+    <li class="nav item"><a href="http://magento2.nublue.co.uk/customer-service/">Customer Service</a></li>
+</ul>
+</div>
+</div><ul class="footer links"><li class="nav item"><a href="http://magento2.nublue.co.uk/privacy-policy-cookie-restriction-mode/">Privacy and Cookie Policy</a></li><li class="nav item"><a href="http://magento2.nublue.co.uk/search/term/popular/">Search Terms</a></li><li class="nav item"><a href="http://magento2.nublue.co.uk/contact/">Contact Us</a></li><li class="nav item"><a data-action="advanced-search" href="http://magento2.nublue.co.uk/catalogsearch/advanced/">Advanced Search</a></li><li class="nav item"><a href="http://magento2.nublue.co.uk/sales/guest/form/">Orders and Returns</a></li></ul></div></footer><small class="copyright">
+    <span>Copyright © 2015 Magento. All rights reserved.</span>
+</small>
+</div>    
+
+<div class="modals-wrapper"><!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+
+<aside tabindex="0" data-type="popup" data-role="modal" class="modal-popup popup-authentication
+           modal-slide
+           _inner-scroll">
+    <div tabindex="0" data-role="focusable-start"></div>
+    <div data-role="focusable-scope" class="modal-inner-wrap">
+        <header class="modal-header">
+            
+            <button type="button" data-role="closeBtn" class="action-close">
+                <span>Close</span>
+            </button>
+        </header>
+        <div data-role="content" class="modal-content"><div style="" data-bind="afterRender: setModalElement, blockLoader: isLoading" class="block-authentication">
+    <div data-bind="attr: {'data-label': $t('or')}" class="block block-new-customer" data-label="or">
+        <div class="block-title">
+            <strong data-bind="i18n: 'Checkout out as a new customer'" aria-level="2" role="heading" id="block-new-customer-heading">Checkout out as a new customer</strong>
+        </div>
+        <div aria-labelledby="block-new-customer-heading" class="block-content">
+            <p data-bind="i18n: 'Creating an account has many benefits:'">Creating an account has many benefits:</p>
+            <ul>
+                <li data-bind="i18n: 'See order and shipping status'">See order and shipping status</li>
+                <li data-bind="i18n: 'Track order history'">Track order history</li>
+                <li data-bind="i18n: 'Check out faster'">Check out faster</li>
+            </ul>
+            <div class="actions-toolbar">
+                <div class="primary">
+                    <a data-bind="attr: {href: registerUrl}" class="action action-register primary" href="http://magento2.nublue.co.uk/customer/account/create/">
+                        <span data-bind="i18n: 'Create Account'">Create Account</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-bind="attr: {'data-label': $t('or')}" class="block block-customer-login" data-label="or">
+        <div class="block-title">
+            <strong data-bind="i18n: 'Checkout out using your account'" aria-level="2" role="heading" id="block-customer-login-heading">Checkout out using your account</strong>
+        </div>
+        <!-- ko foreach: getRegion('messages') -->
+        <!-- ko template: getTemplate() -->
+<div data-bind="visible: isVisible(), click: removeAll" class="messages" data-role="checkout-messages">
+    <!-- ko foreach: messageContainer.getErrorMessages() --><!--/ko-->
+    <!-- ko foreach: messageContainer.getSuccessMessages() --><!--/ko-->
+</div><!-- /ko -->
+        <!--/ko-->
+        <!-- ko foreach: getRegion('before') --><!-- /ko -->
+        <div aria-labelledby="block-customer-login-heading" class="block-content">
+            <form id="login-form" data-bind="submit:login" method="post" class="form form-login">
+                <div data-bind="attr: {'data-hasrequired': $t('* Required Fields')}" class="fieldset login" data-hasrequired="* Required Fields">
+                    <div class="field email required">
+                        <label for="email" class="label"><span data-bind="i18n: 'Email Address'">Email Address</span></label>
+                        <div class="control">
+                            <input type="email" data-validate="{required:true, 'validate-email':true}" data-bind="attr: {autocomplete: autocomplete}" class="input-text" id="email" name="username" autocomplete="off" />
+                        </div>
+                    </div>
+                    <div class="field password required">
+                        <label class="label" for="pass"><span data-bind="i18n: 'Password'">Password</span></label>
+                        <div class="control">
+                            <input type="password" data-validate="{required:true, 'validate-password':true}" data-bind="attr: {autocomplete: autocomplete}" id="pass" class="input-text" name="password" autocomplete="off" />
+                        </div>
+                    </div>
+                    <!-- ko foreach: getRegion('additional-login-form-fields') -->
+                    <!-- ko template: getTemplate() -->
+<!-- ko if: (isRequired() && getIsVisible())--><!-- /ko -->
+<!-- /ko -->
+                    <!-- /ko -->
+                    </div>
+                    <div class="actions-toolbar">
+                        <input type="hidden" value="checkout" name="context" />
+                        <div class="primary">
+                            <button id="send2" name="send" class="action action-login secondary" type="submit">
+                                <span data-bind="i18n: 'Sign In'">Sign In</span>
+                            </button>
+                        </div>
+                        <div class="secondary">
+                            <a data-bind="attr: {href: forgotPasswordUrl}" class="action" href="http://magento2.nublue.co.uk/customer/account/forgotpassword/">
+                                <span data-bind="i18n: 'Forgot Your Password?'">Forgot Your Password?</span>
+                            </a>
+                        </div>
+                    </div>
+                </form></div>
+            
+        </div>
+    </div></div>
+        
+    </div>
+    <div tabindex="0" data-role="focusable-end"></div>
+</aside></div></body><canvas id="fxdriver-screenshot-canvas" style="display: none;" width="1124" height="2761"></canvas></html>

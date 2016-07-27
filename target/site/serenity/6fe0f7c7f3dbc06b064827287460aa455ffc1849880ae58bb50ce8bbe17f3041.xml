@@ -1,0 +1,25 @@
+<acceptance-test-run title="Home Page Browse Footer" name="Home Page Browse Footer" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12891" timestamp="2016-07-26T00:48:46.042+01:00" session-id="ddda5d89-8044-4627-ac40-d18c0c26f169">
+  <user-story id="guest-user-and-registered-user-entry-point" name="Guest User and Registered User Entry Point" path="LumaEntryPoint.feature"/>
+  <tags>
+    <tag name="Guest User and Registered User Entry Point" type="feature"/>
+    <tag name="quicksmoke" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7103">
+    <screenshots>
+      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+    </screenshots>
+    <description>Given Luma Home Page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2824">
+    <screenshots>
+      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+    </screenshots>
+    <description>When User Explores Home Page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2961">
+    <screenshots>
+      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+    </screenshots>
+    <description>Then Footer Elements are Interactive</description>
+  </test-step>
+</acceptance-test-run>

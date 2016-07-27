@@ -1,0 +1,111 @@
+<acceptance-test-run title="Navigate Mixed Products PLP List View" name="Navigate Mixed Products PLP List View" description="" steps="15" successful="3" failures="3" skipped="3" ignored="0" pending="6" annotated-result="FAILURE" result="FAILURE" duration="31982" timestamp="2016-07-25T23:50:27.224+01:00" session-id="3aa1d8b3-4052-42d2-a4a1-f6594cdb1c60">
+  <user-story id="luma-product-list-page" name="Luma Product List Page" path="PLP.feature"/>
+  <tags>
+    <tag name="Luma Product List Page" type="feature"/>
+    <tag name="eproduct" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>tcat</header>
+      <header>eproduct</header>
+    </headers>
+    <rows>
+      <row result="FAILURE">
+        <value>Gifts for him</value>
+        <value>Audi Sport bath robe</value>
+      </row>
+      <row result="FAILURE">
+        <value>Gifts for him</value>
+        <value>Audi Sport Corkscrew</value>
+      </row>
+      <row result="FAILURE">
+        <value>Gifts for him</value>
+        <value>Audi Sport Introductory Experience</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {tcat=Gifts for him, eproduct=Audi Sport bath robe}" result="FAILURE">
+    <test-step result="SUCCESS" duration="7132">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>Given Luma Home Page</description>
+    </test-step>
+    <test-step result="FAILURE" duration="2952">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png" source="pagesource8993227383901368225.html.txt"/>
+      </screenshots>
+      <description>When User Click Top Level &quot;Gifts for him&quot; CTA</description>
+      <error>java.lang.AssertionError</error>
+      <exception>java.lang.AssertionError:null&#xd;
+[com.orevan.serenity.steps.luma.EcommerceSteps.userClickTopLevelCTA(EcommerceSteps.java:20), ✽.When User Click Top Level &quot;Gifts for him&quot; CTA(PLP.feature:98)]</exception>
+    </test-step>
+    <test-step result="PENDING" duration="0">
+      <description>And Click Switch View CTA</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="1">
+      <description>Then Products List for &quot;Gifts for him&quot; is Displayed</description>
+    </test-step>
+    <test-step result="PENDING" duration="0">
+      <description>And Displayed In PLP List View with Product &quot;Audi Sport bath robe&quot;</description>
+    </test-step>
+  </test-group>
+  <test-group name="[1] {tcat=Gifts for him, eproduct=Audi Sport Corkscrew}" result="FAILURE">
+    <test-step result="SUCCESS" duration="7589">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>Given Luma Home Page</description>
+    </test-step>
+    <test-step result="FAILURE" duration="2896">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png" source="pagesource5658778004173513243.html.txt"/>
+      </screenshots>
+      <description>When User Click Top Level &quot;Gifts for him&quot; CTA</description>
+      <error>java.lang.AssertionError</error>
+      <exception>java.lang.AssertionError:null&#xd;
+[com.orevan.serenity.steps.luma.EcommerceSteps.userClickTopLevelCTA(EcommerceSteps.java:20), ✽.When User Click Top Level &quot;Gifts for him&quot; CTA(PLP.feature:98)]</exception>
+    </test-step>
+    <test-step result="PENDING" duration="1">
+      <description>And Click Switch View CTA</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="0">
+      <description>Then Products List for &quot;Gifts for him&quot; is Displayed</description>
+    </test-step>
+    <test-step result="PENDING" duration="1">
+      <description>And Displayed In PLP List View with Product &quot;Audi Sport Corkscrew&quot;</description>
+    </test-step>
+  </test-group>
+  <test-group name="[1] {tcat=Gifts for him, eproduct=Audi Sport Introductory Experience}" result="FAILURE">
+    <test-step result="SUCCESS" duration="7441">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>Given Luma Home Page</description>
+    </test-step>
+    <test-step result="FAILURE" duration="2832">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png" source="pagesource5363203246354542208.html.txt"/>
+      </screenshots>
+      <description>When User Click Top Level &quot;Gifts for him&quot; CTA</description>
+      <error>java.lang.AssertionError</error>
+      <exception>java.lang.AssertionError:null&#xd;
+[com.orevan.serenity.steps.luma.EcommerceSteps.userClickTopLevelCTA(EcommerceSteps.java:20), ✽.When User Click Top Level &quot;Gifts for him&quot; CTA(PLP.feature:98)]</exception>
+    </test-step>
+    <test-step result="PENDING" duration="1">
+      <description>And Click Switch View CTA</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="0">
+      <description>Then Products List for &quot;Gifts for him&quot; is Displayed</description>
+    </test-step>
+    <test-step result="PENDING" duration="1">
+      <description>And Displayed In PLP List View with Product &quot;Audi Sport Introductory Experience&quot;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

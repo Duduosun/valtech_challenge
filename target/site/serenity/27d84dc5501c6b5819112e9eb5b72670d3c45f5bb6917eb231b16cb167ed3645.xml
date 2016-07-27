@@ -1,0 +1,24 @@
+<acceptance-test-run title="Navigate Configurable Product" name="Navigate Configurable Product" description="" steps="4" successful="1" failures="0" skipped="0" ignored="0" pending="3" annotated-result="PENDING" result="PENDING" duration="8753" timestamp="2016-07-25T23:45:49.630+01:00" session-id="8a1ad407-29a5-43be-ba77-5a111e7589a8">
+  <user-story id="luma-product-details-page---category-and-search" name="Luma Product Details Page - Category and Search" path="PDP.feature"/>
+  <tags>
+    <tag name="Luma Product Details Page - Category and Search" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7291">
+    <screenshots>
+      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+    </screenshots>
+    <description>Given Luma Home Page</description>
+  </test-step>
+  <test-step result="PENDING" duration="1459">
+    <screenshots>
+      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+    </screenshots>
+    <description>When User Click Second Level &quot;&lt;scat&gt;&quot; CTA</description>
+  </test-step>
+  <test-step result="PENDING" duration="1">
+    <description>And User Click Configurable Product</description>
+  </test-step>
+  <test-step result="PENDING" duration="0">
+    <description>Then Audi PDP is Displayed</description>
+  </test-step>
+</acceptance-test-run>

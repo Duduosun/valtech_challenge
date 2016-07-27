@@ -1,0 +1,117 @@
+<acceptance-test-run title="Guest User" name="Guest User" description="" steps="12" successful="12" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="53271" timestamp="2016-07-26T00:48:59.605+01:00" session-id="e33db4d2-743b-4b78-9db7-760875713bbc">
+  <user-story id="guest-user-and-registered-user-entry-point" name="Guest User and Registered User Entry Point" path="LumaEntryPoint.feature"/>
+  <tags>
+    <tag name="Guest User and Registered User Entry Point" type="feature"/>
+    <tag name="quicksmoke" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>gUser</header>
+      <header>rUser</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>Default welcome msg!</value>
+        <value>Welcome, BDD1001 Duduosun!</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Sign In</value>
+        <value>BDD1002 Duduosun</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Create an Account</value>
+        <value>Welcome Pinguino Volante!</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {gUser=Default welcome msg!, rUser=Welcome, BDD1001 Duduosun!}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7561">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>Given Luma Home Page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3124">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>When User Interact with Luma Website</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3067">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>Then Luma Module for Guest &quot;Default welcome msg!&quot; is available</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2828">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>But Luma Modules for Registered &quot;Welcome, BDD1001 Duduosun!&quot; is not available</description>
+    </test-step>
+  </test-group>
+  <test-group name="[1] {gUser=Sign In, rUser=BDD1002 Duduosun}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6663">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>Given Luma Home Page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3027">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>When User Interact with Luma Website</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3145">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>Then Luma Module for Guest &quot;Sign In&quot; is available</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2891">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>But Luma Modules for Registered &quot;BDD1002 Duduosun&quot; is not available</description>
+    </test-step>
+  </test-group>
+  <test-group name="[1] {gUser=Create an Account, rUser=Welcome Pinguino Volante!}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6842">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>Given Luma Home Page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2999">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>When User Interact with Luma Website</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2993">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>Then Luma Module for Guest &quot;Create an Account&quot; is available</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2885">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>But Luma Modules for Registered &quot;Welcome Pinguino Volante!&quot; is not available</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Luma Product Details Page - Category and Search" skipped="5" tests="6" time="53.18" timestamp="2016-07-207 11:45:38"><testcase name="Navigate Simple Product"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.orevan.serenity.steps.luma.EcommerceSteps.userClickTopLevelCTA(EcommerceSteps.java:20)&#13;
+✽.When User Click Top Level "Accessories" CTA(PDP.feature:11)&#13;
+</system-err></testcase><testcase name="Navigate Configurable Product"><skipped/></testcase><testcase name="Navigate Audi Experience Product"><skipped/></testcase><testcase name="Search Simple Product"><skipped/></testcase><testcase name="Search Configurable Product"><skipped/></testcase><testcase name="Search Audi Experience Product"><skipped/></testcase></testsuite>

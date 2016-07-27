@@ -1,0 +1,62 @@
+<acceptance-test-run title="Registered User Login and Logout" name="Registered User Login and Logout" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="20028" timestamp="2016-07-26T00:50:12.437+01:00" session-id="fd62cccb-c9e7-406c-acec-63f343a48e63">
+  <user-story id="guest-user-to-registered-user-login-and-logout" name="Guest User to Registered User Login and Logout" path="RegisterLoginLogout.feature"/>
+  <tags>
+    <tag name="Guest User to Registered User Login and Logout" type="feature"/>
+    <tag name="quicksmoke" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>rUser</header>
+      <header>rUsername</header>
+      <header>rPassword</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>bdd1001 Serenity</value>
+        <value>bdd1001@duduosun.com</value>
+        <value>salmon01</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {rUser=bdd1001 Serenity, rUsername=bdd1001@duduosun.com, rPassword=salmon01}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f9f01782f7a32ff2b5202e3bf46b8ac4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7259">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>Given Luma Home Page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2999">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      </screenshots>
+      <description>When User Interact with Luma Website</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="6644">
+      <screenshots>
+        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="a0e965936b832503d763b6295edceffe.png"/>
+      </screenshots>
+      <description>And Trigger Registered &quot;bdd1001 Serenity&quot; Action with &quot;bdd1001@duduosun.com&quot; and &quot;salmon01&quot;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="900">
+      <screenshots>
+        <screenshot image="a0e965936b832503d763b6295edceffe.png"/>
+        <screenshot image="f014b2528c408d7364e1bb55141eba48.png"/>
+      </screenshots>
+      <description>Then Luma Module for Registered &quot;bdd1001 Serenity&quot; is available</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1918">
+      <screenshots>
+        <screenshot image="f014b2528c408d7364e1bb55141eba48.png"/>
+        <screenshot image="f9f01782f7a32ff2b5202e3bf46b8ac4.png"/>
+      </screenshots>
+      <description>Then User &quot;bdd1001 Serenity&quot; is active</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

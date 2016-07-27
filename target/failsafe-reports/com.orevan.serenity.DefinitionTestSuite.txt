@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.orevan.serenity.DefinitionTestSuite
+-------------------------------------------------------------------------------
+Tests run: 70, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 232.886 sec <<< FAILURE! - in com.orevan.serenity.DefinitionTestSuite
+Then Page "Women" Header and Footer Elements are Interactive(| Women | Radiant Tee |)  Time elapsed: 0 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for title to be "Women". Current title: "Home Page"
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at net.serenitybdd.core.pages.PageObject.waitForTitleToAppear(PageObject.java:345)
+	at com.orevan.serenity.pages.luma.LumaBasePage.verifyBasePage(LumaBasePage.java:245)
+	at com.orevan.serenity.steps.luma.BasePageSteps.pageHeaderAndFooterElementsAreInteractive(BasePageSteps.java:25)
+	at ?.Then Page "Women" Header and Footer Elements are Interactive(TopCatView.feature:12)
+
+| Women | Radiant Tee |  Time elapsed: 0 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for title to be "Women". Current title: "Home Page"
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at net.serenitybdd.core.pages.PageObject.waitForTitleToAppear(PageObject.java:345)
+	at com.orevan.serenity.pages.luma.LumaBasePage.verifyBasePage(LumaBasePage.java:245)
+	at com.orevan.serenity.steps.luma.BasePageSteps.pageHeaderAndFooterElementsAreInteractive(BasePageSteps.java:25)
+	at ?.Then Page "Women" Header and Footer Elements are Interactive(TopCatView.feature:12)
+

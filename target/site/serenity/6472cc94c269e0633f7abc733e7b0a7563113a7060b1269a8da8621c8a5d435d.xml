@@ -1,0 +1,27 @@
+<acceptance-test-run title="Search Audi Experience Product" name="Search Audi Experience Product" description="" steps="5" successful="1" failures="0" skipped="0" ignored="0" pending="4" annotated-result="PENDING" result="PENDING" duration="8801" timestamp="2016-07-25T23:46:27.769+01:00" session-id="c2bdc742-d8f7-4fd4-a71b-edcbb1d9c19b">
+  <user-story id="luma-product-details-page---category-and-search" name="Luma Product Details Page - Category and Search" path="PDP.feature"/>
+  <tags>
+    <tag name="Luma Product Details Page - Category and Search" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7449">
+    <screenshots>
+      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+    </screenshots>
+    <description>Given Luma Home Page</description>
+  </test-step>
+  <test-step result="PENDING" duration="1349">
+    <screenshots>
+      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+    </screenshots>
+    <description>When User Search Product</description>
+  </test-step>
+  <test-step result="PENDING" duration="1">
+    <description>When User Search Audi Store with String &quot;&lt;search&gt;&quot;</description>
+  </test-step>
+  <test-step result="PENDING" duration="1">
+    <description>And User Click Audi Experience Product</description>
+  </test-step>
+  <test-step result="PENDING" duration="0">
+    <description>Then Audi PDP is Displayed</description>
+  </test-step>
+</acceptance-test-run>
