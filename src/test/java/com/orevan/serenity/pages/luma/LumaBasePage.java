@@ -61,6 +61,8 @@ public class LumaBasePage extends PageObject {
     private By btnShopYoga  = By.cssSelector(".action.more.button");
     private By trendingContent = By.cssSelector(".content-heading");
     private By productNodes = By.cssSelector(".product-item-info");
+    private By productLinkNodes = By.cssSelector(".product-item-name>a"); // .product-item-name>a  .product-item-link
+
 
     //Base page
     private By breadcrumbs = By.cssSelector(".breadcrumbs");
@@ -216,18 +218,36 @@ public class LumaBasePage extends PageObject {
     public void vpSingleLHS(){
         shouldBeVisible(bottomLHS);
     }
+    public void vpPLPLHS(){
+        shouldBeVisible(topLHS);
+        shouldBeVisible(bottomLHS);
+    }
     public void vpPromo(){
         shouldBeVisible(promoBlock);
         shouldBeVisible(promoNodes);
         shouldBeVisible(contentNodes);
     }
-    public void verifyProductEspot(String eproduct){
-        List<WebElement> sProductNodes = thenReturnElementList(productNodes);
-        for (WebElement iProduct:sProductNodes){
-            iProduct.getText().equals(eproduct);
-            iProduct.isDisplayed();
+    public void verifyProductEspot(String eproduct) {
+        List<WebElement> sProductNodes = thenReturnElementList(productLinkNodes);
+        for (WebElement iProduct : sProductNodes) {
+            if (iProduct.getText().equals(eproduct)) {
+                iProduct.isDisplayed();
+                iProduct.isEnabled();
+                break;
+            }
+            shouldBeVisible(trendingContent);
         }
-        shouldBeVisible(trendingContent);
+    }
+
+    public String espotProducts(String eproduct) {
+        List<WebElement> sProductNodes = thenReturnElementList(productLinkNodes);
+        String espot = null;
+        for (WebElement iProduct : sProductNodes) {
+            if (iProduct.getAttribute("title").equals(eproduct)) {
+                espot = iProduct.getText();
+            }
+        }
+        return espot;
     }
 
     @FindBy(css = ".base") WebElementFacade sPageHeading;
@@ -238,8 +258,6 @@ public class LumaBasePage extends PageObject {
         waitForAnyTextToAppear(sBreadcrumbs, "Home");
         waitForAnyTextToAppear(sBreadcrumbs, bpage);
     }
-
-
 }
 
 //(fuelLevel > 0) ? 'Y': 'N';

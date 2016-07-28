@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Browse Top Level Category" skipped="0" tests="6" time="105.58" timestamp="2016-07-208 12:50:33"><testcase name="What's New, Women and Men"><error message="Timed out after 5 seconds waiting for title to be &quot;Women&quot;. Current title: &quot;Home Page&quot;&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'&#10;Driver info: net.thucydides.core.webdriver.WebDriverFacade&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Timed out after 5 seconds waiting for title to be "Women". Current title: "Home Page"
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: net.thucydides.core.webdriver.WebDriverFacade
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: driver.version: unknown</error><system-err>Timed out after 5 seconds waiting for title to be "Women". Current title: "Home Page"
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: net.thucydides.core.webdriver.WebDriverFacade
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: driver.version: unknown&#13;
-com.orevan.serenity.pages.luma.LumaBasePage.verifyBasePage(LumaBasePage.java:245)&#13;
-com.orevan.serenity.steps.luma.BasePageSteps.pageHeaderAndFooterElementsAreInteractive(BasePageSteps.java:25)&#13;
-✽.Then Page "Women" Header and Footer Elements are Interactive(TopCatView.feature:12)&#13;
-</system-err></testcase><testcase name="Gear with Empty LHS"/><testcase name="Training with Promo Only"/><testcase name="Sale without Products"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Browse Top Level Category" skipped="0" tests="6" time="114.83" timestamp="2016-07-211 12:37:03"><testcase name="What's New, Women and Men"/><testcase name="Gear with Empty LHS"/><testcase name="Training with Promo Only"/><testcase name="Sale without Products"/></testsuite>

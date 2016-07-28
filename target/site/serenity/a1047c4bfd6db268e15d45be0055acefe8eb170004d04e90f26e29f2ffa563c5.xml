@@ -1,8 +1,9 @@
-<acceptance-test-run title="Sale without Products" name="Sale without Products" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="13154" timestamp="2016-07-26T00:52:08.727+01:00" session-id="15e9b91b-4c21-4e6b-9188-cfc8ec9e19d8">
+<acceptance-test-run title="Sale without Products" name="Sale without Products" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16844" timestamp="2016-07-29T00:38:46.645+01:00" session-id="8cb01467-b3b9-4775-9ab1-e26bfdbbe479">
   <user-story id="browse-top-level-category" name="Browse Top Level Category" path="TopCatView.feature"/>
   <tags>
     <tag name="Browse Top Level Category" type="feature"/>
-    <tag name="quicksmoke" type="tag"/>
+    <tag name="regression" type="tag"/>
+    <tag name="topcat" type="tag"/>
   </tags>
   <examples>
     <datasets>
@@ -21,26 +22,26 @@
     <screenshots>
       <screenshot image="606189dc693d8beb6d8ce5bc02090c72.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="6616">
+    <test-step result="SUCCESS" duration="7428">
       <screenshots>
         <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
       </screenshots>
       <description>Given Luma Home Page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3168">
+    <test-step result="SUCCESS" duration="5407">
       <screenshots>
         <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
         <screenshot image="606189dc693d8beb6d8ce5bc02090c72.png"/>
       </screenshots>
       <description>When User Trigger Top Level Entry &quot;Sale&quot;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1413">
+    <test-step result="SUCCESS" duration="1656">
       <screenshots>
         <screenshot image="606189dc693d8beb6d8ce5bc02090c72.png"/>
       </screenshots>
       <description>Then Page &quot;Sale&quot; Header and Footer Elements are Interactive</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1365">
+    <test-step result="SUCCESS" duration="1652">
       <screenshots>
         <screenshot image="606189dc693d8beb6d8ce5bc02090c72.png"/>
       </screenshots>

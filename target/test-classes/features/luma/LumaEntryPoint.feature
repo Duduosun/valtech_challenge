@@ -1,3 +1,4 @@
+@regression
 Feature: Guest User and Registered User Entry Point
   As a User
   I want to browse Magento 2 Demo Website
@@ -5,17 +6,17 @@ Feature: Guest User and Registered User Entry Point
   Background:
     Given Luma Home Page
 
-  @quicksmoke
+  @users
   Scenario: Home Page Browse Header
     When User Explores Home Page
     Then Header Elements are Interactive
 
-  @quicksmoke
+  @users
   Scenario: Home Page Browse Footer
     When User Explores Home Page
     Then Footer Elements are Interactive
 
-  @quicksmoke
+  @users
     Scenario Outline: Guest User
     When User Interact with Luma Website
     Then Luma Module for Guest "<gUser>" is available
@@ -26,7 +27,7 @@ Feature: Guest User and Registered User Entry Point
       | Sign In | BDD1002 Duduosun |
       | Create an Account | Welcome Pinguino Volante! |
 
-  @quicksmoke
+  @users
   Scenario Outline: Registered User
     When User Interact with Luma Website
     And Trigger Registered "<rUser>" Action with "<rUsername>" and "<rPassword>"

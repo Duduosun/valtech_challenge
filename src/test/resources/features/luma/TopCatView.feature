@@ -1,3 +1,4 @@
+@regression
 Feature: Browse Top Level Category
   As a User
   I want to browse and navigate all Top Level Categories
@@ -6,7 +7,7 @@ Feature: Browse Top Level Category
   Background:
     Given Luma Home Page
 
-  @quicksmoke
+  @topcat
   Scenario Outline: What's New, Women and Men
     When User Trigger Top Level Entry "<topcat>"
     Then Page "<topcat>" Header and Footer Elements are Interactive
@@ -15,10 +16,10 @@ Feature: Browse Top Level Category
     Examples:
       | topcat | espotproduct |
       | What's New | Wayfarer Messenger Bag |
-      | Women | Radiant Tee |
+      | Women | Selene Yoga Hoodie |
       | Men | Geo Insulated Jogging Pant |
 
-  @quicksmoke
+  @topcat
   Scenario Outline: Gear with Empty LHS
     When User Trigger Top Level Entry "<topcat>"
     Then Page "<topcat>" Header and Footer Elements are Interactive
@@ -28,7 +29,7 @@ Feature: Browse Top Level Category
       | topcat | espotproduct |
       | Gear | Sprite Yoga Companion Kit |
 
-  @quicksmoke
+  @topcat
   Scenario Outline: Training with Promo Only
     When User Trigger Top Level Entry "<topcat>"
     Then Page "<topcat>" Header and Footer Elements are Interactive
@@ -38,7 +39,7 @@ Feature: Browse Top Level Category
       | topcat | espotproduct |
       | Training | Luma Yoga For Life |
 
-  @quicksmoke
+  @topcat
   Scenario Outline: Sale without Products
     When User Trigger Top Level Entry "<topcat>"
     Then Page "<topcat>" Header and Footer Elements are Interactive

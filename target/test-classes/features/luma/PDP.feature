@@ -1,3 +1,4 @@
+@regression
 Feature: Luma Product Details Page - Category and Search
   As a customer
   I want to see the details for the product I am interested in
@@ -6,43 +7,47 @@ Feature: Luma Product Details Page - Category and Search
   Background:
     Given Luma Home Page
 
-  @eproduct
-  Scenario Outline: Navigate Simple Product
-    When User Click Top Level "<tcat>" CTA
-    And User Click Simple Product "<eproduct>"
-    Then Audi PDP is Displayed with "<eproduct>"
-
+  @pdp
+  Scenario Outline: Navigate Simple Product via Top Category
+    When User Trigger Top Level Entry "<topcat>"
+    And User Click Simple Product "<sproduct>"
+    Then PDP for Simple Product "<sproduct>" is Displayed
     Examples:
-      | tcat | eproduct |
-      | Accessories | New Auto Test |
+      | topcat | sproduct |
+      | What's New | Overnight Duffle |
+      | Gear | Push It Messenger Bag |
+      | Training | LifeLong Fitness IV |
 
+  @pdp
+  Scenario Outline: Navigate Simple Product via Sub Category
+    When User Trigger Top Level "<topcat>" then Sub Category Level "<subcategory>"
+    And User Click Simple Product "<sproduct>"
+    Then PDP for Simple Product "<sproduct>" is Displayed
+    Examples:
+      | topcat | subcategory | sproduct |
+      | Training | Video Download | Luma Yoga For Life |
+      | Gear | Bags | Endeavor Daytrip Backpack |
+      | Gear | Fitness Equipment | Sprite Foam Roller |
+      | Gear | Watches | Bolo Sport Watch |
 
-  Scenario: Navigate Configurable Product
-    When User Click Second Level "<scat>" CTA
-    And User Click Configurable Product
-    Then Audi PDP is Displayed
+  @pdp
+  Scenario Outline: Navigate Configurable Product via Top Category
+    When User Trigger Top Level Entry "<topcat>"
+    And User Click Configurable Product "<cproduct>"
+    Then PDP for Configurable Product "<cproduct>" is Displayed
+    Examples:
+      | topcat | cproduct |
+      | Men | Geo Insulated Jogging Pant |
+      | Women | Deirdre Relaxed-Fit Capri |
 
-  Scenario: Navigate Audi Experience Product
-    When User Navigate Category
-    When User Click Top Level "<tcat>" CTA
-    And User Click Audi Experience Product
-    Then Audi PDP is Displayed
-
-
-  Scenario: Search Simple Product
-    When User Search Product
-    When User Search Audi Store with String "<search>"
-    And User Click Simple Product
-    Then Audi PDP is Displayed
-
-  Scenario: Search Configurable Product
-    When User Search Product
-    When User Search Audi Store with String "<search>"
-    And User Click Configurable Product
-    Then Audi PDP is Displayed
-
-  Scenario: Search Audi Experience Product
-    When User Search Product
-    When User Search Audi Store with String "<search>"
-    And User Click Audi Experience Product
-    Then Audi PDP is Displayed
+  @pdp
+  Scenario Outline: Navigate Configurable Product via Sub Category
+    When User Trigger Top Level "<topcat>" then Sub Category Level "<subcategory>"
+    And User Click Configurable Product "<cproduct>"
+    Then PDP for Configurable Product "<cproduct>" is Displayed
+    Examples:
+      | topcat | subcategory | cproduct |
+      | Women | Women Tops | Karissa V-Neck Tee |
+      | Men | Men Bottoms | Hawkeye Yoga Short |
+      | Women | Women Bottoms | Gwen Drawstring Bike Short |
+      | Men | Men Tops | Cassius Sparring Tank |

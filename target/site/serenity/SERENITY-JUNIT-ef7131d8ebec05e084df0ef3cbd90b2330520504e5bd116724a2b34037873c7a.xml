@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Guest User to Registered User Login and Logout" skipped="0" tests="1" time="20.03" timestamp="2016-07-208 12:50:12"><testcase name="Registered User Login and Logout"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Guest User to Registered User Login and Logout" skipped="0" tests="1" time="22.75" timestamp="2016-07-210 08:12:21"><testcase name="Registered User Login and Logout"><error message="Timed out after 5 seconds waiting for title to be &quot;My Account&quot;. Current title: &quot;Customer Login&quot;&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'&#10;Driver info: net.thucydides.core.webdriver.WebDriverFacade&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Timed out after 5 seconds waiting for title to be "My Account". Current title: "Customer Login"
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown</error><system-err>Timed out after 5 seconds waiting for title to be "My Account". Current title: "Customer Login"
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Duduosun', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown&#13;
+com.orevan.serenity.pages.luma.LumaAccountPage.myAccountPage(LumaAccountPage.java:37)&#13;
+com.orevan.serenity.steps.luma.RegisteredUserEntryPointSteps.lumaModuleForRegisteredIsAvailable(RegisteredUserEntryPointSteps.java:36)&#13;
+</system-err></testcase></testsuite>

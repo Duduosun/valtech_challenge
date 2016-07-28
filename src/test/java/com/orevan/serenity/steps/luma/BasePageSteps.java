@@ -42,8 +42,8 @@ public class BasePageSteps {
     @And("^Product List is Displayed with \"([^\"]*)\"$")
     public void productListIsDisplayedWith(String eproduct) throws Throwable {
         lumaBasePage.verifyProductEspot(eproduct);
-        //Assert.assertTrue(lumaBasePage.countProductNodes().equals(4));
         Assert.assertTrue((lumaBasePage.countProductNodes()) <= 4);
+        Assert.assertTrue(lumaBasePage.espotProducts(eproduct).equals(eproduct));
     }
 
 

@@ -65,7 +65,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-07-2016 23:53</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-07-2016 00:39</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -84,7 +84,7 @@
                                 </h3>
 
                                 <div class="discreet-requirement-narrative-title">
-                                As a customer<br>I want to choose whether I want to see product lists presented as a list or a grid view<br>So that I can see it in a way that works for me
+                                As a customer<br>I want to choose whether I want to see products presented as a list or a grid view<br>So that I can see it in a way that works for me
                                 </div>
                             </div>
 
@@ -92,7 +92,13 @@
                         <td valign="top">
                             <p class="tag">
                                 <span class="badge tag-badge">
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="e6f6164564ae2c1a9f501a54edcc7b524f88b60c95220effaddabc562da69766.html">Eproduct
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="1d0c02fb9cb969bbd9e2f900ec6333e01b070c6fb5e26345e9374169cfab9e68.html">Regression
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="92ea2fb1e1b0d4846a35392964536c1a6a15fba9abe367a187ac50edce6684ef.html">Subcat
                                     (tag)</a>
                                 </span>
                             </p>
@@ -104,10 +110,10 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-3x' title='FAILURE'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
 
-                                <span class="failing-color">Navigate Configurable Products Plp List View
+                                <span class="success-color">Navigate Configurable Products Plp List View
                                     <span class="related-issue-title"></span>
                             </span>
                         </span>
@@ -123,7 +129,7 @@
     <div class="story-title">
         <h3 class="story-header">Scenario:</h3>
 
-        <div class="scenario">Given Luma Home Page<br>When User Click Top Level "Gifts for her" CTA<br>And Click Switch View CTA<br>Then Products List for "Gifts for her" is Displayed<br>And Displayed In PLP List View with Product "Women's S line t-shirt"</div>
+        <div class="scenario">Given Luma Home Page<br>When User Trigger Top Level "Women" then Sub Category Level "Women Bottoms"<br>And User Click Switch View CTA<br>Then Configurable Products "Echo Fit Compression Short" are Displayed in List View</div>
 
     </div>
 
@@ -137,27 +143,26 @@
             <table>
                 <thead>
                 <tr>
-                        <th>Tcat</th>
-                        <th>Eproduct</th>
+                        <th>Topcat</th>
+                        <th>Subcategory</th>
+                        <th>Cproducts</th>
                 </tr>
                 </thead>
                 <tbody>
                     <tr>
-                            <td class="test-FAILURE"><a href="#0">Gifts for her</a>
+                            <td class="test-SUCCESS"><a href="#0">Women</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">Women's S line t-shirt</a>
+                            <td class="test-SUCCESS"><a href="#0">Women Bottoms</a>
                             </td>
-                    </tr>
-                    <tr>
-                            <td class="test-FAILURE"><a href="#1">Gifts for him</a>
-                            </td>
-                            <td class="test-FAILURE"><a href="#1">Audi Sport bath robe</a>
+                            <td class="test-SUCCESS"><a href="#0">Echo Fit Compression Short</a>
                             </td>
                     </tr>
                     <tr>
-                            <td class="test-FAILURE"><a href="#2">Motorsport</a>
+                            <td class="test-SUCCESS"><a href="#1">Men</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#2">Men's S line t-shirt, black</a>
+                            <td class="test-SUCCESS"><a href="#1">Men Tops</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">Aero Daily Fitness Tee</a>
                             </td>
                     </tr>
                 </tbody>
@@ -181,26 +186,26 @@
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')" style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0 failure-icon" style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon" style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
                     <td>
                         <div class="step-description">
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
-                            <span class="top-level-step">[1] {tcat=Gifts for her, eproduct=Women's S line t-shirt}</span>
+                            <span class="top-level-step">[1] {topcat=Women, subcategory=Women Bottoms, cproducts=Echo Fit Compression Short}</span>
                             </a>
 
                         </div>
                     </td>
-                        <td width="100" class="FAILURE-text">
+                        <td width="100" class="SUCCESS-text">
                         </td>
-                    <td width="100"><span class="top-level-step">FAILURE</span></td>
-                    <td width="100"><span class="top-level-step">10.3s</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">23.35s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -228,153 +233,8 @@
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">7.21s</span></td>
+                    <td width="100"><span class="nested-group-step">7.05s</span></td>
                 </tr>
-                <tr class="test-FAILURE">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">When User Click Top Level "Gifts for her" CTA</span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="FAILURE-text">
-                                <a href="98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016_screenshots.html#screenshots?screenshot=1">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="c039bb7e7fe4df51557cda629785667e.png"
-                                         href="c039bb7e7fe4df51557cda629785667e.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
-                    <td width="100"><span class="nested-group-step">3.1s</span></td>
-                </tr>
-                    <tr class="test-FAILURE">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-                            <div class="error-message ellipsis"
-                                  title='Assertion error'><pre>Assertion error</pre></div>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal">
-                        View stack trace
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                java.lang.AssertionError
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                
-                                com.orevan.serenity.steps.luma.EcommerceSteps.userClickTopLevelCTA(EcommerceSteps.java
-                                    :20) <br>
-                                ✽.When User Click Top Level "Gifts for her" CTA(PLP.feature
-                                    :72) <br>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        </td>
-                    </tr>
-                <tr class="test-PENDING">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">And Click Switch View CTA</span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="PENDING-text">
-                        </td>
-                    <td width="100"><span class="nested-group-step">PENDING</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-                <tr class="test-SKIPPED">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">Then Products List for "Gifts for her" is Displayed</span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SKIPPED-text">
-                        </td>
-                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-                <tr class="test-PENDING">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">And Displayed In PLP List View with Product "Women's S line t-shirt"</span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="PENDING-text">
-                        </td>
-                    <td width="100"><span class="nested-group-step">PENDING</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-FAILURE">
-                    <td width="60" class="step-icon">
-                        <a name="1"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')" style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1 failure-icon" style="margin-left: 20px; float:left;  padding-right:5px"></i>
-                            </a>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block;">
-                            <span class="top-level-step">[1] {tcat=Gifts for him, eproduct=Audi Sport bath robe}</span>
-                            </a>
-
-                        </div>
-                    </td>
-                        <td width="100" class="FAILURE-text">
-                        </td>
-                    <td width="100"><span class="top-level-step">FAILURE</span></td>
-                    <td width="100"><span class="top-level-step">10.03s</span></td>
-                </tr>
-                    <tr>
-                    <td colspan="5">
-                    <table id="stepSection1" style="display:none; width:100%">
-
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
@@ -383,12 +243,12 @@
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-group-step">Given Luma Home Page</span>
+                            <span class="nested-group-step">When User Trigger Top Level "Women" then Sub Category Level "Women Bottoms"</span>
 
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016_screenshots.html#screenshots?screenshot=3">
+                                <a href="98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016_screenshots.html#screenshots?screenshot=1">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
                                     <img src="c039bb7e7fe4df51557cda629785667e.png"
                                          href="c039bb7e7fe4df51557cda629785667e.png"
@@ -397,152 +257,84 @@
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">7.1s</span></td>
+                    <td width="100"><span class="nested-group-step">4.26s</span></td>
                 </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-group-step">When User Click Top Level "Gifts for him" CTA</span>
+                            <span class="nested-group-step">And User Click Switch View CTA</span>
 
                         </div>
                     </td>
-                        <td width="100" class="FAILURE-text">
-                                <a href="98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016_screenshots.html#screenshots?screenshot=4">
+                        <td width="100" class="SUCCESS-text">
+                                <a href="98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016_screenshots.html#screenshots?screenshot=3">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="c039bb7e7fe4df51557cda629785667e.png"
-                                         href="c039bb7e7fe4df51557cda629785667e.png"
+                                    <img src="707fb76ff49c751dca77601ba6b836d1.png"
+                                         href="707fb76ff49c751dca77601ba6b836d1.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
-                    <td width="100"><span class="nested-group-step">2.92s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">5.65s</span></td>
                 </tr>
-                    <tr class="test-FAILURE">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-                            <div class="error-message ellipsis"
-                                  title='Assertion error'><pre>Assertion error</pre></div>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal">
-                        View stack trace
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                java.lang.AssertionError
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                
-                                com.orevan.serenity.steps.luma.EcommerceSteps.userClickTopLevelCTA(EcommerceSteps.java
-                                    :20) <br>
-                                ✽.When User Click Top Level "Gifts for him" CTA(PLP.feature
-                                    :72) <br>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        </td>
-                    </tr>
-                <tr class="test-PENDING">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-group-step">And Click Switch View CTA</span>
+                            <span class="nested-group-step">Then Configurable Products "Echo Fit Compression Short" are Displayed in List View</span>
 
                         </div>
                     </td>
-                        <td width="100" class="PENDING-text">
+                        <td width="100" class="SUCCESS-text">
+                                <a href="98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016_screenshots.html#screenshots?screenshot=5">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="47f14a732c1e940d3abee234463ccc78.png"
+                                         href="47f14a732c1e940d3abee234463ccc78.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
                         </td>
-                    <td width="100"><span class="nested-group-step">PENDING</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-                <tr class="test-SKIPPED">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">Then Products List for "Gifts for him" is Displayed</span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SKIPPED-text">
-                        </td>
-                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-                <tr class="test-PENDING">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">And Displayed In PLP List View with Product "Audi Sport bath robe"</span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="PENDING-text">
-                        </td>
-                    <td width="100"><span class="nested-group-step">PENDING</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">5.71s</span></td>
                 </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
-                        <a name="2"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')" style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection2 failure-icon" style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')" style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection1 success-icon" style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
                     <td>
                         <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                style="display:block;">
-                            <span class="top-level-step">[1] {tcat=Motorsport, eproduct=Men's S line t-shirt, black}</span>
+                            <span class="top-level-step">[1] {topcat=Men, subcategory=Men Tops, cproducts=Aero Daily Fitness Tee}</span>
                             </a>
 
                         </div>
                     </td>
-                        <td width="100" class="FAILURE-text">
+                        <td width="100" class="SUCCESS-text">
                         </td>
-                    <td width="100"><span class="top-level-step">FAILURE</span></td>
-                    <td width="100"><span class="top-level-step">9.85s</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">25.13s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
-                    <table id="stepSection2" style="display:none; width:100%">
+                    <table id="stepSection1" style="display:none; width:100%">
 
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -566,21 +358,21 @@
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">6.98s</span></td>
+                    <td width="100"><span class="nested-group-step">7.1s</span></td>
                 </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-group-step">When User Click Top Level "Motorsport" CTA</span>
+                            <span class="nested-group-step">When User Trigger Top Level "Men" then Sub Category Level "Men Tops"</span>
 
                         </div>
                     </td>
-                        <td width="100" class="FAILURE-text">
+                        <td width="100" class="SUCCESS-text">
                                 <a href="98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016_screenshots.html#screenshots?screenshot=7">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
                                     <img src="c039bb7e7fe4df51557cda629785667e.png"
@@ -589,109 +381,65 @@
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
-                    <td width="100"><span class="nested-group-step">2.86s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">4.29s</span></td>
                 </tr>
-                    <tr class="test-FAILURE">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-                            <div class="error-message ellipsis"
-                                  title='Assertion error'><pre>Assertion error</pre></div>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal">
-                        View stack trace
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                java.lang.AssertionError
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                
-                                com.orevan.serenity.steps.luma.EcommerceSteps.userClickTopLevelCTA(EcommerceSteps.java
-                                    :20) <br>
-                                ✽.When User Click Top Level "Motorsport" CTA(PLP.feature
-                                    :72) <br>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        </td>
-                    </tr>
-                <tr class="test-PENDING">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-group-step">And Click Switch View CTA</span>
+                            <span class="nested-group-step">And User Click Switch View CTA</span>
 
                         </div>
                     </td>
-                        <td width="100" class="PENDING-text">
+                        <td width="100" class="SUCCESS-text">
+                                <a href="98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016_screenshots.html#screenshots?screenshot=9">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="82af91a1bc00eb7d9eb66531d8f8a871.png"
+                                         href="82af91a1bc00eb7d9eb66531d8f8a871.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
                         </td>
-                    <td width="100"><span class="nested-group-step">PENDING</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">7.27s</span></td>
                 </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-group-step">Then Products List for "Motorsport" is Displayed</span>
+                            <span class="nested-group-step">Then Configurable Products "Aero Daily Fitness Tee" are Displayed in List View</span>
 
                         </div>
                     </td>
-                        <td width="100" class="SKIPPED-text">
+                        <td width="100" class="SUCCESS-text">
+                                <a href="98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016_screenshots.html#screenshots?screenshot=11">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="232f5043aa2034bcb82c517c9c38f4dd.png"
+                                         href="232f5043aa2034bcb82c517c9c38f4dd.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
                         </td>
-                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-                <tr class="test-PENDING">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">And Displayed In PLP List View with Product "Men's S line t-shirt, black"</span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="PENDING-text">
-                        </td>
-                    <td width="100"><span class="nested-group-step">PENDING</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">5.78s</span></td>
                 </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                         <td colspan="3"></td>
-                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>31.32s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>49.1s</em></span></td>
                 </tr>
 
             </table>
