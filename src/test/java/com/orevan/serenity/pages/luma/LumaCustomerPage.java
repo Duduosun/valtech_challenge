@@ -20,9 +20,6 @@ public class LumaCustomerPage extends PageObject {
     private String newCustomerPage = "Create New Customer Account";
     private String customerLoginPage = "Customer Login";
 
-
-
-
     private By pageHeader = By.cssSelector(".base");
     private By emailAddress = By.cssSelector("#email");
     private By passWord = By.cssSelector("#pass");
@@ -31,7 +28,6 @@ public class LumaCustomerPage extends PageObject {
     private By email = By.cssSelector("#email_address");
     private By nPassword = By.cssSelector("#password");
     private By cPassword = By.cssSelector("#password-confirmation");
-
 
     @FindBy(css = ".base") WebElementFacade sPageHeader;
     public void newCustomerPage(){

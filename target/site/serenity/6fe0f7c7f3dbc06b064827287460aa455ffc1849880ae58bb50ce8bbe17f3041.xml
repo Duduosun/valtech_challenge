@@ -1,25 +1,25 @@
-<acceptance-test-run title="Home Page Browse Footer" name="Home Page Browse Footer" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="14280" timestamp="2016-07-29T00:21:35.996+01:00" session-id="4219607b-b714-414b-a90f-114a19902932">
+<acceptance-test-run title="Home Page Browse Footer" name="Home Page Browse Footer" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17999" timestamp="2016-07-31T01:10:58.004+01:00" session-id="5d7e7313-94a3-4168-902c-616cecc8873d">
   <user-story id="guest-user-and-registered-user-entry-point" name="Guest User and Registered User Entry Point" path="LumaEntryPoint.feature"/>
   <tags>
     <tag name="Guest User and Registered User Entry Point" type="feature"/>
     <tag name="regression" type="tag"/>
     <tag name="users" type="tag"/>
   </tags>
-  <test-step result="SUCCESS" duration="7833">
+  <test-step result="SUCCESS" duration="9794">
     <screenshots>
-      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
     </screenshots>
     <description>Given Luma Home Page</description>
   </test-step>
-  <test-step result="SUCCESS" duration="3201">
+  <test-step result="SUCCESS" duration="4269">
     <screenshots>
-      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
     </screenshots>
     <description>When User Explores Home Page</description>
   </test-step>
-  <test-step result="SUCCESS" duration="3245">
+  <test-step result="SUCCESS" duration="3934">
     <screenshots>
-      <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+      <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
     </screenshots>
     <description>Then Footer Elements are Interactive</description>
   </test-step>

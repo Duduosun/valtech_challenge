@@ -1,4 +1,4 @@
-<acceptance-test-run title="Gear with Empty LHS" name="Gear with Empty LHS" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24000" timestamp="2016-07-29T00:38:02.769+01:00" session-id="9a81389e-d089-48f0-89c0-2e87715de517">
+<acceptance-test-run title="Gear with Empty LHS" name="Gear with Empty LHS" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26511" timestamp="2016-07-31T00:59:21.880+01:00" session-id="cbd15735-3267-4f4f-b8cc-43186a60edee">
   <user-story id="browse-top-level-category" name="Browse Top Level Category" path="TopCatView.feature"/>
   <tags>
     <tag name="Browse Top Level Category" type="feature"/>
@@ -22,36 +22,36 @@
   </examples>
   <test-group name="[1] {topcat=Gear, espotproduct=Sprite Yoga Companion Kit}" result="SUCCESS">
     <screenshots>
-      <screenshot image="2c92685b24c366b6f9d016aaa29da4e6.png"/>
+      <screenshot image="5f166d1b15feda71d52a777c1a668909.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7331">
+    <test-step result="SUCCESS" duration="9865">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
       </screenshots>
       <description>Given Luma Home Page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4076">
+    <test-step result="SUCCESS" duration="4326">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-        <screenshot image="2c92685b24c366b6f9d016aaa29da4e6.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
+        <screenshot image="5f166d1b15feda71d52a777c1a668909.png"/>
       </screenshots>
       <description>When User Trigger Top Level Entry &quot;Gear&quot;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2309">
+    <test-step result="SUCCESS" duration="2101">
       <screenshots>
-        <screenshot image="2c92685b24c366b6f9d016aaa29da4e6.png"/>
+        <screenshot image="5f166d1b15feda71d52a777c1a668909.png"/>
       </screenshots>
       <description>Then Page &quot;Gear&quot; Header and Footer Elements are Interactive</description>
     </test-step>
-    <test-step result="SUCCESS" duration="7181">
+    <test-step result="SUCCESS" duration="7357">
       <screenshots>
-        <screenshot image="2c92685b24c366b6f9d016aaa29da4e6.png"/>
+        <screenshot image="5f166d1b15feda71d52a777c1a668909.png"/>
       </screenshots>
       <description>And Empty LHS and Promo Module is Visible</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2203">
+    <test-step result="SUCCESS" duration="1991">
       <screenshots>
-        <screenshot image="2c92685b24c366b6f9d016aaa29da4e6.png"/>
+        <screenshot image="5f166d1b15feda71d52a777c1a668909.png"/>
       </screenshots>
       <description>And Product List is Displayed with &quot;Sprite Yoga Companion Kit&quot;</description>
     </test-step>

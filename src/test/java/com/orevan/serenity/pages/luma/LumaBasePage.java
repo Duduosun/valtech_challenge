@@ -20,8 +20,8 @@ public class LumaBasePage extends PageObject {
      * Marketing Page
      */
     //private String luma = "http://magento2.nublue.co.uk/";
-    //private String luma = "http://magento2-demo.nexcess.net/";
-    private String luma = "http://magento2.nublue.co.uk/?_ga=1.162718655.222142942.1469213708";
+    private String luma = "http://magento2-demo.nexcess.net/";
+    //private String luma = "http://magento2.nublue.co.uk/?_ga=1.162718655.222142942.1469213708";
 
 
     private String homePage = "Home Page";
@@ -135,9 +135,14 @@ public class LumaBasePage extends PageObject {
     }
 
     @FindBy(css = ".panel.header") WebElementFacade sPanelHeader;
-    public void currentUserMode(String ocurrent){
+    public String currentUserMode(String ocurrent){
+        String cUser = null;
         shouldBeVisible(panelHeader);
-        sPanelHeader.getText().contains(ocurrent);
+
+        if(sPanelHeader.getText().contains(ocurrent)){
+            cUser = sPanelHeader.getText();
+        }
+        return cUser;
     }
     public String guestUser(){
         shouldBeVisible(panelHeader);

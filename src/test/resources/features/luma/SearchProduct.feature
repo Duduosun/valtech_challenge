@@ -13,7 +13,7 @@ Feature: Product Search
     Then Search Results for "<sproducts>" are Displayed in Grid View
     Examples:
       | search | sproducts |
-      | backpack | Crown Summit Backpack |
+      | Backpack | Crown Summit Backpack |
       | video | Advanced Pilates & Yoga (Strength) |
 
   @search
@@ -23,8 +23,8 @@ Feature: Product Search
     Then Search Results for "<cproducts>" are Displayed in List View
     Examples:
       | search | cproducts |
-      | tees on sale | Deion Long-Sleeve EverCool™ Tee |
-      | new yoga | Zeppelin Yoga Pant |
+      | Tees on sale | Deion Long-Sleeve EverCool™ Tee |
+      | New Yoga | Zeppelin Yoga Pant |
 
   @search
     Scenario Outline: Search Product with Empty Result
@@ -33,7 +33,6 @@ Feature: Product Search
     Examples:
       | search | message |
       | children | Your search returned no results |
-
 
   @search
   Scenario Outline: Search and Navigate to Simple Product

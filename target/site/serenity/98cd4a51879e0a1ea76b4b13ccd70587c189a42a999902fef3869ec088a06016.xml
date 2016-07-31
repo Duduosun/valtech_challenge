@@ -1,4 +1,4 @@
-<acceptance-test-run title="Navigate Configurable Products PLP List View" name="Navigate Configurable Products PLP List View" description="" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="49096" timestamp="2016-07-29T00:31:44.396+01:00" session-id="170d6b2c-a627-4e41-ab99-8c1e9532977d">
+<acceptance-test-run title="Navigate Configurable Products PLP List View" name="Navigate Configurable Products PLP List View" description="" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="46403" timestamp="2016-07-31T00:53:47.849+01:00" session-id="cd48d849-57cd-409c-a56f-98d6195d7d02">
   <user-story id="luma-product-list-page" name="Luma Product List Page" path="PLP.feature"/>
   <tags>
     <tag name="Luma Product List Page" type="feature"/>
@@ -29,62 +29,62 @@
   </examples>
   <test-group name="[1] {topcat=Women, subcategory=Women Bottoms, cproducts=Echo Fit Compression Short}" result="SUCCESS">
     <screenshots>
-      <screenshot image="47f14a732c1e940d3abee234463ccc78.png"/>
+      <screenshot image="85c70c29ee34460c872a6d2e5ca9f59a.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7052">
+    <test-step result="SUCCESS" duration="9593">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
       </screenshots>
       <description>Given Luma Home Page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4263">
+    <test-step result="SUCCESS" duration="4112">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-        <screenshot image="707fb76ff49c751dca77601ba6b836d1.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
+        <screenshot image="940f534bf5f98e5c4f911dd877d2ad43.png"/>
       </screenshots>
       <description>When User Trigger Top Level &quot;Women&quot; then Sub Category Level &quot;Women Bottoms&quot;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5651">
+    <test-step result="SUCCESS" duration="2663">
       <screenshots>
-        <screenshot image="707fb76ff49c751dca77601ba6b836d1.png"/>
-        <screenshot image="47f14a732c1e940d3abee234463ccc78.png"/>
+        <screenshot image="940f534bf5f98e5c4f911dd877d2ad43.png"/>
+        <screenshot image="85c70c29ee34460c872a6d2e5ca9f59a.png"/>
       </screenshots>
       <description>And User Click Switch View CTA</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5709">
+    <test-step result="SUCCESS" duration="5782">
       <screenshots>
-        <screenshot image="47f14a732c1e940d3abee234463ccc78.png"/>
+        <screenshot image="85c70c29ee34460c872a6d2e5ca9f59a.png"/>
       </screenshots>
       <description>Then Configurable Products &quot;Echo Fit Compression Short&quot; are Displayed in List View</description>
     </test-step>
   </test-group>
   <test-group name="[1] {topcat=Men, subcategory=Men Tops, cproducts=Aero Daily Fitness Tee}" result="SUCCESS">
     <screenshots>
-      <screenshot image="232f5043aa2034bcb82c517c9c38f4dd.png"/>
+      <screenshot image="98fcb77b33fe023a110876dd955cb368.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7100">
+    <test-step result="SUCCESS" duration="9225">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
       </screenshots>
       <description>Given Luma Home Page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4285">
+    <test-step result="SUCCESS" duration="4343">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-        <screenshot image="82af91a1bc00eb7d9eb66531d8f8a871.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
+        <screenshot image="a9d04b0523f1b7064c192a2522266e85.png"/>
       </screenshots>
       <description>When User Trigger Top Level &quot;Men&quot; then Sub Category Level &quot;Men Tops&quot;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="7270">
+    <test-step result="SUCCESS" duration="3016">
       <screenshots>
-        <screenshot image="82af91a1bc00eb7d9eb66531d8f8a871.png"/>
-        <screenshot image="232f5043aa2034bcb82c517c9c38f4dd.png"/>
+        <screenshot image="a9d04b0523f1b7064c192a2522266e85.png"/>
+        <screenshot image="98fcb77b33fe023a110876dd955cb368.png"/>
       </screenshots>
       <description>And User Click Switch View CTA</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5784">
+    <test-step result="SUCCESS" duration="5808">
       <screenshots>
-        <screenshot image="232f5043aa2034bcb82c517c9c38f4dd.png"/>
+        <screenshot image="98fcb77b33fe023a110876dd955cb368.png"/>
       </screenshots>
       <description>Then Configurable Products &quot;Aero Daily Fitness Tee&quot; are Displayed in List View</description>
     </test-step>

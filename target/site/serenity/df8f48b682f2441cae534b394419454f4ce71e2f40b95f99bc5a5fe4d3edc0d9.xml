@@ -1,4 +1,4 @@
-<acceptance-test-run title="Guest User Sign Up to be Registered User" name="Guest User Sign Up to be Registered User" description="" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="45600" timestamp="2016-07-29T00:32:34.678+01:00" session-id="b807622e-a77d-403e-a1c8-239b71371854">
+<acceptance-test-run title="Guest User Sign Up to be Registered User" name="Guest User Sign Up to be Registered User" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="20269" timestamp="2016-07-31T00:54:35.512+01:00" session-id="cd3f7602-127e-418f-ad00-bb1b2882bea6">
   <user-story id="guest-user-to-registered-user-login-and-logout" name="Guest User to Registered User Login and Logout" path="RegisterLoginLogout.feature"/>
   <tags>
     <tag name="Guest User to Registered User Login and Logout" type="feature"/>
@@ -18,69 +18,37 @@
     </headers>
     <rows>
       <row result="SUCCESS">
-        <value>bdd1003</value>
-        <value>Serenity</value>
-        <value>bdd1003@duduosun.com</value>
-        <value>salmon03</value>
-        <value>bdd1003 Serenity</value>
-      </row>
-      <row result="SUCCESS">
-        <value>bdd1004</value>
-        <value>Serenity</value>
-        <value>bdd1004@duduosun.com</value>
-        <value>salmon04</value>
-        <value>bdd1004 Serenity</value>
+        <value>bdd3005</value>
+        <value>Duduosun</value>
+        <value>bdd3005@duduosun.com</value>
+        <value>salmon05</value>
+        <value>bdd3005 Duduosun</value>
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {firstName=bdd1003, lastName=Serenity, email=bdd1003@duduosun.com, password=salmon03, rUser=bdd1003 Serenity}" result="SUCCESS">
+  <test-group name="[1] {firstName=bdd3005, lastName=Duduosun, email=bdd3005@duduosun.com, password=salmon05, rUser=bdd3005 Duduosun}" result="SUCCESS">
     <screenshots>
       <screenshot image="2bcc5f03621474e66e19642a5a0fb617.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7121">
+    <test-step result="SUCCESS" duration="9100">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
       </screenshots>
       <description>Given Luma Home Page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="11317">
+    <test-step result="SUCCESS" duration="7933">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-        <screenshot image="3848885ab8790c6c40450156abb8d9ae.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
+        <screenshot image="a3618800cbc3978a213ce6d0e7a39b7b.png"/>
       </screenshots>
-      <description>When User Trigger Sign Up Action with &quot;bdd1003&quot;,&quot;Serenity&quot;,&quot;bdd1003@duduosun.com&quot;,&quot;salmon03&quot; Details</description>
+      <description>When User Trigger Sign Up Action with &quot;bdd3005&quot;,&quot;Duduosun&quot;,&quot;bdd3005@duduosun.com&quot;,&quot;salmon05&quot; Details</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4757">
+    <test-step result="SUCCESS" duration="3122">
       <screenshots>
-        <screenshot image="3848885ab8790c6c40450156abb8d9ae.png"/>
-        <screenshot image="2bcc5f03621474e66e19642a5a0fb617.png"/>
-      </screenshots>
-      <description>Then New User &quot;bdd1003 Serenity&quot; is active</description>
-    </test-step>
-  </test-group>
-  <test-group name="[1] {firstName=bdd1004, lastName=Serenity, email=bdd1004@duduosun.com, password=salmon04, rUser=bdd1004 Serenity}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="aced650b27d99bbda7989afccb84626d.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="7172">
-      <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-      </screenshots>
-      <description>Given Luma Home Page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="10270">
-      <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-        <screenshot image="07af398718a17fd6315cf025b6fb3907.png"/>
-      </screenshots>
-      <description>When User Trigger Sign Up Action with &quot;bdd1004&quot;,&quot;Serenity&quot;,&quot;bdd1004@duduosun.com&quot;,&quot;salmon04&quot; Details</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="4244">
-      <screenshots>
-        <screenshot image="07af398718a17fd6315cf025b6fb3907.png"/>
+        <screenshot image="a3618800cbc3978a213ce6d0e7a39b7b.png"/>
         <screenshot image="aced650b27d99bbda7989afccb84626d.png"/>
       </screenshots>
-      <description>Then New User &quot;bdd1004 Serenity&quot; is active</description>
+      <description>Then New User &quot;bdd3005 Duduosun&quot; is active</description>
     </test-step>
   </test-group>
 </acceptance-test-run>

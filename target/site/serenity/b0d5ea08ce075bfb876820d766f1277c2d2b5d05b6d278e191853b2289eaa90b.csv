@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Luma Product Details Page - Category and Search","Navigate Simple Product","FAILURE","2016-07-25T23:45:38.618+01:00","0.0","10.05"
+"Luma Product Details Page - Category and Search","Navigate Configurable Product via Sub Category","SUCCESS","2016-07-31T00:50:15.728+01:00","0.0","74.84"
+"Luma Product Details Page - Category and Search","Navigate Configurable Product via Top Category","SUCCESS","2016-07-31T00:49:37.488+01:00","0.0","36.87"
+"Luma Product Details Page - Category and Search","Navigate Simple Product via Sub Category","SUCCESS","2016-07-31T00:47:33.063+01:00","0.0","122.61"
+"Luma Product Details Page - Category and Search","Navigate Simple Product via Top Category","SUCCESS","2016-07-31T00:45:58.333+01:00","0.0","93.35"

@@ -1,4 +1,4 @@
-<acceptance-test-run title="Sale without Products" name="Sale without Products" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16844" timestamp="2016-07-29T00:38:46.645+01:00" session-id="8cb01467-b3b9-4775-9ab1-e26bfdbbe479">
+<acceptance-test-run title="Sale without Products" name="Sale without Products" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18355" timestamp="2016-07-31T01:00:10.319+01:00" session-id="9d860eb2-f9b5-4d56-ba06-ed9fd7f6be2f">
   <user-story id="browse-top-level-category" name="Browse Top Level Category" path="TopCatView.feature"/>
   <tags>
     <tag name="Browse Top Level Category" type="feature"/>
@@ -20,30 +20,30 @@
   </examples>
   <test-group name="[1] {topcat=Sale}" result="SUCCESS">
     <screenshots>
-      <screenshot image="606189dc693d8beb6d8ce5bc02090c72.png"/>
+      <screenshot image="b6a02dee81ecf7817328efe5a6e601e7.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7428">
+    <test-step result="SUCCESS" duration="10075">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
       </screenshots>
       <description>Given Luma Home Page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5407">
+    <test-step result="SUCCESS" duration="4104">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-        <screenshot image="606189dc693d8beb6d8ce5bc02090c72.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
+        <screenshot image="b6a02dee81ecf7817328efe5a6e601e7.png"/>
       </screenshots>
       <description>When User Trigger Top Level Entry &quot;Sale&quot;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1656">
+    <test-step result="SUCCESS" duration="1801">
       <screenshots>
-        <screenshot image="606189dc693d8beb6d8ce5bc02090c72.png"/>
+        <screenshot image="b6a02dee81ecf7817328efe5a6e601e7.png"/>
       </screenshots>
       <description>Then Page &quot;Sale&quot; Header and Footer Elements are Interactive</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1652">
+    <test-step result="SUCCESS" duration="1745">
       <screenshots>
-        <screenshot image="606189dc693d8beb6d8ce5bc02090c72.png"/>
+        <screenshot image="b6a02dee81ecf7817328efe5a6e601e7.png"/>
       </screenshots>
       <description>And Complete LHS and Promo Module is Visible</description>
     </test-step>

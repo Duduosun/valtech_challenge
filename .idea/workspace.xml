@@ -2,28 +2,273 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae7d386a-1fbd-4153-8abe-3f6b630d1ff6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/features/luma/SearchProduct.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/AccountSteps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/features/luma/CompareProducts.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/features/luma/MyAccount.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/features/luma/WishList.feature" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0556d4fcabe976062591e60c608e13befc11cd3943cbc882d82b7231d7615bc8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0556d4fcabe976062591e60c608e13befc11cd3943cbc882d82b7231d7615bc8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0556d4fcabe976062591e60c608e13befc11cd3943cbc882d82b7231d7615bc8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0556d4fcabe976062591e60c608e13befc11cd3943cbc882d82b7231d7615bc8_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/09fe1dbaee131ea0e893b481c339f55af185ce8634d34269e2b780c33080c2c9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/09fe1dbaee131ea0e893b481c339f55af185ce8634d34269e2b780c33080c2c9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0ae6a37120a2d869d6fec22637ad75d2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0ce909d107472f1a630974e931c8a3a0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0cf929cd101ffa1b9ced86a6d5c2c9c6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0f7710346e06c7f770e97d8ea67a14e6e65c2a1e5714ce7e12153d6d19c3859a.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0f7710346e06c7f770e97d8ea67a14e6e65c2a1e5714ce7e12153d6d19c3859a.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0f7710346e06c7f770e97d8ea67a14e6e65c2a1e5714ce7e12153d6d19c3859a.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0f7710346e06c7f770e97d8ea67a14e6e65c2a1e5714ce7e12153d6d19c3859a_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/118a4b8bf8cc2a0c04b9250013557785b2e621b5c7f0a08de3232308389d8a65.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/130446c8c0e9c96ba51a92fe8fcb489be2f464a24187091e1ac3d0b527b5e9e0.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/130446c8c0e9c96ba51a92fe8fcb489be2f464a24187091e1ac3d0b527b5e9e0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/159a2a5b030ba637165ec7998421aba65fb88677af2e4115f53faa744e5c6e8a.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/159a2a5b030ba637165ec7998421aba65fb88677af2e4115f53faa744e5c6e8a.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/159a2a5b030ba637165ec7998421aba65fb88677af2e4115f53faa744e5c6e8a.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/159a2a5b030ba637165ec7998421aba65fb88677af2e4115f53faa744e5c6e8a_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/15c98130a497e6bd386950eded4110a83cc9c50621186b648fd21d42f2e23889.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/22fb0c7d46f2f177bf027696f31d9e9d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/27d84dc5501c6b5819112e9eb5b72670d3c45f5bb6917eb231b16cb167ed3645.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/27d84dc5501c6b5819112e9eb5b72670d3c45f5bb6917eb231b16cb167ed3645.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/27d84dc5501c6b5819112e9eb5b72670d3c45f5bb6917eb231b16cb167ed3645.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/27d84dc5501c6b5819112e9eb5b72670d3c45f5bb6917eb231b16cb167ed3645_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2e896ad72f265c3512dffd8d541c30a48cb4d689fab6f45cb63c0d0e231f8a54.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2e896ad72f265c3512dffd8d541c30a48cb4d689fab6f45cb63c0d0e231f8a54.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2e896ad72f265c3512dffd8d541c30a48cb4d689fab6f45cb63c0d0e231f8a54.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2e896ad72f265c3512dffd8d541c30a48cb4d689fab6f45cb63c0d0e231f8a54_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2f189f11ee648889b64398a2c9454a45201bc0ecea0485bab280d9f619194163.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2f189f11ee648889b64398a2c9454a45201bc0ecea0485bab280d9f619194163.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/32012e0efec1d9b49e1d12f47984de122c5e3a76c0e5c9ba427015ac56199684.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/32012e0efec1d9b49e1d12f47984de122c5e3a76c0e5c9ba427015ac56199684.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/32012e0efec1d9b49e1d12f47984de122c5e3a76c0e5c9ba427015ac56199684.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/32012e0efec1d9b49e1d12f47984de122c5e3a76c0e5c9ba427015ac56199684_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/350c68ae8e0674b36b9c7644846a9d314ccf09bf1620c4a36e5382f40b056de9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/350c68ae8e0674b36b9c7644846a9d314ccf09bf1620c4a36e5382f40b056de9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/37c16caf1a318ec285566c601e1dd79cc1e3fb1e7797f46413ad59c2607b5956.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/3bc2a1e447c98c11532d15f6ee919d4bfc26795af38b4b1e2fc0ac33f5f7d3ce.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/3bc2a1e447c98c11532d15f6ee919d4bfc26795af38b4b1e2fc0ac33f5f7d3ce.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/3c028d4ca20a593099954a25a99afafd9f85fd1858baded327eb2db7a5c87eed.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/44275d9f9111ed8f021935f8223474ad05159345316b8d05e4983f1519a1b67c.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/44275d9f9111ed8f021935f8223474ad05159345316b8d05e4983f1519a1b67c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4641e92aa646ce3e26bb0a02defa085d634b276fde9ae816832e397c3e29188f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4641e92aa646ce3e26bb0a02defa085d634b276fde9ae816832e397c3e29188f.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4641e92aa646ce3e26bb0a02defa085d634b276fde9ae816832e397c3e29188f.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4641e92aa646ce3e26bb0a02defa085d634b276fde9ae816832e397c3e29188f_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/47e668d81fd05a3de5a7be0b3f12b1e2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/48091b933acafc0961170e3a672433e245992a5f4070e8c237b1e044e9600e54.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/48091b933acafc0961170e3a672433e245992a5f4070e8c237b1e044e9600e54.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/532b30854bdd47fb44d1631e41e43f04fb591009544b81836976f7a5ed528c37.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/535594f62acf3601fd9c1af8cfb68865d2738298e5610063a674b02d8799219f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/535594f62acf3601fd9c1af8cfb68865d2738298e5610063a674b02d8799219f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/56a82d68104a22bf5797b587fe7bf123.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/59420a0ccef948a2e3bec743647a20d2712a9e50187062038923a9d90dbdb840.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/59420a0ccef948a2e3bec743647a20d2712a9e50187062038923a9d90dbdb840.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/59420a0ccef948a2e3bec743647a20d2712a9e50187062038923a9d90dbdb840.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/59420a0ccef948a2e3bec743647a20d2712a9e50187062038923a9d90dbdb840_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5d8c9bd66eb563c584cbd0f75ebfb8d216817799a802b95f0a4d8971fde788ef.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5d8c9bd66eb563c584cbd0f75ebfb8d216817799a802b95f0a4d8971fde788ef.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5d8c9bd66eb563c584cbd0f75ebfb8d216817799a802b95f0a4d8971fde788ef.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5d8c9bd66eb563c584cbd0f75ebfb8d216817799a802b95f0a4d8971fde788ef_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5dda6233bd120a25f65738dc0fc7fef2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6278427a03f6bd47a51d6325e25ae626.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6472cc94c269e0633f7abc733e7b0a7563113a7060b1269a8da8621c8a5d435d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6472cc94c269e0633f7abc733e7b0a7563113a7060b1269a8da8621c8a5d435d.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6472cc94c269e0633f7abc733e7b0a7563113a7060b1269a8da8621c8a5d435d.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6472cc94c269e0633f7abc733e7b0a7563113a7060b1269a8da8621c8a5d435d_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/66c61cb55f4988204f1d9c6c4fe892b9a4fb05af832f3435506bcc01f9d63728.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/67a545891b8a3263232727e314f13829.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/67b838c0941a59d28754f1a482cd3955d76a521d175686ea6741c0262dad3c7e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/67b838c0941a59d28754f1a482cd3955d76a521d175686ea6741c0262dad3c7e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/67b838c0941a59d28754f1a482cd3955d76a521d175686ea6741c0262dad3c7e.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/67b838c0941a59d28754f1a482cd3955d76a521d175686ea6741c0262dad3c7e_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6c695546601b23235a19227278d5fabc5a4f9a0dad692de81008b4f234644ae5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6c695546601b23235a19227278d5fabc5a4f9a0dad692de81008b4f234644ae5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6c695546601b23235a19227278d5fabc5a4f9a0dad692de81008b4f234644ae5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6c695546601b23235a19227278d5fabc5a4f9a0dad692de81008b4f234644ae5_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/742d170d315324a9c3e6bde5024b2e70ca320a5e78dc475f0e93339fdb6008c7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/742d170d315324a9c3e6bde5024b2e70ca320a5e78dc475f0e93339fdb6008c7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/760ffbd6d2c7395bce08d0acf7b439329426675667c854eea78e00eb92547043.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/760ffbd6d2c7395bce08d0acf7b439329426675667c854eea78e00eb92547043.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7857a84679d6240c5260fd32fd152769.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/79fb4546ba492fea0c292f3bf01eaf0f4f54752b637bfd0aaf3638a89e4fcb25.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/79fb4546ba492fea0c292f3bf01eaf0f4f54752b637bfd0aaf3638a89e4fcb25.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7b7f6e57fd33ee1ac01c9b77a65e07c25e7bc3f2de648e908716483882bf04d9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7b7f6e57fd33ee1ac01c9b77a65e07c25e7bc3f2de648e908716483882bf04d9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7e42c77a660eb15b190a3769a37a69e0e48e5e9bbb4a21813908631b461465d1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/874ab10a5e01b8973775ea5a9e89637a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/877ec968503b1519211a0ee6137ea9acc9dcc28afdcc489c41aabe81c79cabc5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/877ec968503b1519211a0ee6137ea9acc9dcc28afdcc489c41aabe81c79cabc5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8ac5deaa0057bb0dee8b08e76a7d677f9c331bdc1e85f6b063db608d8e63eaa6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8ac5deaa0057bb0dee8b08e76a7d677f9c331bdc1e85f6b063db608d8e63eaa6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8c04d130b741d3dc1803102ef6f9847951ab6170186164be77e37e02acf74ca9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8fe4662d745e6a2ca1cb5e40f83cf2818d840cafaed3772770d5cc33b55af7bb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8fe4662d745e6a2ca1cb5e40f83cf2818d840cafaed3772770d5cc33b55af7bb.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/931059ea55ba8392900cd9c93be7e40fc8f4e6d82d5473fc7f27254181887bc6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/97a04eb14dca7367e7b8f066299431209bc02d4e25392b879810da29a9da6d74.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/98b6944c6547032bec0505c7e3015194.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/98c85f0bb82a377162bcb68f58d06970.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9cbc9252a1969bb372c2205ae2a42a56f57794e7451bbae15bfdf5a7655370bf.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-0556d4fcabe976062591e60c608e13befc11cd3943cbc882d82b7231d7615bc8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-67b838c0941a59d28754f1a482cd3955d76a521d175686ea6741c0262dad3c7e.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6c695546601b23235a19227278d5fabc5a4f9a0dad692de81008b4f234644ae5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a1e06875d76f38fc509dd5d33405b7170c0ee2a308c54f8bbf816f1f64d73fa8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-b63f4fb2bff2477d4a76f1a1af846f47db4d503cb1c52d38aa5bcd7bd5b0ffa3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a0e965936b832503d763b6295edceffe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a1e06875d76f38fc509dd5d33405b7170c0ee2a308c54f8bbf816f1f64d73fa8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a1e06875d76f38fc509dd5d33405b7170c0ee2a308c54f8bbf816f1f64d73fa8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a1e06875d76f38fc509dd5d33405b7170c0ee2a308c54f8bbf816f1f64d73fa8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a1e06875d76f38fc509dd5d33405b7170c0ee2a308c54f8bbf816f1f64d73fa8_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a2e1402528b7839a5f61393cee3a3c9957697374ec88c04da4d12350f007a3c4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a2e1402528b7839a5f61393cee3a3c9957697374ec88c04da4d12350f007a3c4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a2e1402528b7839a5f61393cee3a3c9957697374ec88c04da4d12350f007a3c4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a2e1402528b7839a5f61393cee3a3c9957697374ec88c04da4d12350f007a3c4_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a3a8d08483fee5a95c021a2793d9dde8b81b0c5ec03b97d9d59d176d2cabdc8c.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a3a8d08483fee5a95c021a2793d9dde8b81b0c5ec03b97d9d59d176d2cabdc8c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a736730efde2d3f091136b86a39d8981.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a88cd596b0f9617d6eb6a6f8f11ef7c88aae4e483b9ebbb3482195066ea994d3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a88cd596b0f9617d6eb6a6f8f11ef7c88aae4e483b9ebbb3482195066ea994d3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a88cd596b0f9617d6eb6a6f8f11ef7c88aae4e483b9ebbb3482195066ea994d3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a88cd596b0f9617d6eb6a6f8f11ef7c88aae4e483b9ebbb3482195066ea994d3_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b0425bbd53f839e45d723e75f3ad57e22003a719e828b18fc21f973c73d34c02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b0425bbd53f839e45d723e75f3ad57e22003a719e828b18fc21f973c73d34c02.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b0425bbd53f839e45d723e75f3ad57e22003a719e828b18fc21f973c73d34c02.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b0425bbd53f839e45d723e75f3ad57e22003a719e828b18fc21f973c73d34c02_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b63f4fb2bff2477d4a76f1a1af846f47db4d503cb1c52d38aa5bcd7bd5b0ffa3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b63f4fb2bff2477d4a76f1a1af846f47db4d503cb1c52d38aa5bcd7bd5b0ffa3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b63f4fb2bff2477d4a76f1a1af846f47db4d503cb1c52d38aa5bcd7bd5b0ffa3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b63f4fb2bff2477d4a76f1a1af846f47db4d503cb1c52d38aa5bcd7bd5b0ffa3_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b6c0969365cf56bcb7ec5fdda9a289b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b7551ec22565387836c5039057511db5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b797aace91f0efabed3dd203a3e634c4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b965ff440326594a4079a5309c2993e8e539217184cc59f0df353cad62f3cecf.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b965ff440326594a4079a5309c2993e8e539217184cc59f0df353cad62f3cecf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b9711c2fea0ccd282d57d16b2ab545cac8559be5e5c084b7e204dd692e7de135.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b9ebcd7d9783c3c27826ac645598fb97c9addf03d991af118aec028ef7059e1c.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b9ebcd7d9783c3c27826ac645598fb97c9addf03d991af118aec028ef7059e1c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c34aa8b58641211ff146c6eb0b3ed4cdc26fd3bd69d4f242e2ae24cd5779014c.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c34aa8b58641211ff146c6eb0b3ed4cdc26fd3bd69d4f242e2ae24cd5779014c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c509b86ce4244cf659da0d41fbf52797.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c7918a568dfbfc93b90b43eb0374d73340e81853abed55daf34cfc52d263abdc.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c7918a568dfbfc93b90b43eb0374d73340e81853abed55daf34cfc52d263abdc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c9396ac4c841ce420185bfa269eb6c58a90866a0b282562a972ff2f3d51c0988.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c99ebdd5cb55f114998ab3f33860d8fdb41ed5197b896baa0240dd3e677e4876.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c99ebdd5cb55f114998ab3f33860d8fdb41ed5197b896baa0240dd3e677e4876.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cc434d66dfd5941650e7babbdc5b4976430aa375510df13ad4e0d9b5ef196fbb.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cc434d66dfd5941650e7babbdc5b4976430aa375510df13ad4e0d9b5ef196fbb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cc434d66dfd5941650e7babbdc5b4976430aa375510df13ad4e0d9b5ef196fbb.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cc434d66dfd5941650e7babbdc5b4976430aa375510df13ad4e0d9b5ef196fbb_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d3f4df02c827082e260555dbd572adfa4bc77aeab79e4db1de724abd393d8661.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d3f4df02c827082e260555dbd572adfa4bc77aeab79e4db1de724abd393d8661.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d5c7548ea6ceb192a061809da5d93061ed487f8b2f0b97907d9401848a30cb13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d705ad1bc0f3e377478d4234a6194bd4ed6b4cec79d1147d417d6f8e4d4765a9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d705ad1bc0f3e377478d4234a6194bd4ed6b4cec79d1147d417d6f8e4d4765a9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d705ad1bc0f3e377478d4234a6194bd4ed6b4cec79d1147d417d6f8e4d4765a9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d705ad1bc0f3e377478d4234a6194bd4ed6b4cec79d1147d417d6f8e4d4765a9_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d924b2fa28896eadce0bed1bf728ce340dc48b30ee95c250a67f14d996cb177c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dc18519a2df5e299baca8bb83938d171.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e516ddf02351fbb6ec78b1101a76790c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e6f6164564ae2c1a9f501a54edcc7b524f88b60c95220effaddabc562da69766.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e6f6164564ae2c1a9f501a54edcc7b524f88b60c95220effaddabc562da69766.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e848063338195dd6592f338dcea87c4d0cc0b50ee91a8689cb6ebe7e9f82f397.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/eb99680a103812a26c1299908e25589c629effa8223f4c78c21ce341f010d340.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/eb99680a103812a26c1299908e25589c629effa8223f4c78c21ce341f010d340.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ee120c31e6a4862d0fa2e8b48169fe709858e7babd5f814c41a98a6a22981d25.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ee120c31e6a4862d0fa2e8b48169fe709858e7babd5f814c41a98a6a22981d25.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ee327c6d9feef908128be75c543b716e850e60e2db0d3a49581c843b0d339ce8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ee327c6d9feef908128be75c543b716e850e60e2db0d3a49581c843b0d339ce8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/eeaa767cc196d0414851e76fe04f8985ded53236a355c032b1db9d2475cc71ca.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f014b2528c408d7364e1bb55141eba48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f33226f7e20ddeda089d50eeb39ac811a69dc26f24eec6884875bb7a16a1c163.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f33226f7e20ddeda089d50eeb39ac811a69dc26f24eec6884875bb7a16a1c163.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f3d55f04c03a7930ed4fe14af85e6cc66c165bc44d19dddff26820ae35cdf45a.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f3d55f04c03a7930ed4fe14af85e6cc66c165bc44d19dddff26820ae35cdf45a.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f5b24d6b1f210cbafaf2add4e78066fdfbcbae8de685366c5b4b73d7f8e601ae.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f5b24d6b1f210cbafaf2add4e78066fdfbcbae8de685366c5b4b73d7f8e601ae.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f8697bb75a3d9f54ee4f7d23d1224034e005b4468582122e78f76edf428b7c9a.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f8697bb75a3d9f54ee4f7d23d1224034e005b4468582122e78f76edf428b7c9a.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f90cfcf62cd1832772a35be9196aacc44fc60470d2e7e53629a7ee993f01479e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f90cfcf62cd1832772a35be9196aacc44fc60470d2e7e53629a7ee993f01479e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f9f01782f7a32ff2b5202e3bf46b8ac4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ff20eff672069cfc898938aa254949836e4a5d88eb438616659e7350c6acb26a.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ff20eff672069cfc898938aa254949836e4a5d88eb438616659e7350c6acb26a.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource1023201489952981641.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource1769453253085128582.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource2400453197908836835.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource2436296968233468950.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource3162143286508552627.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource3399380724244403336.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource3692861289145751109.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource3795308439295522044.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource4148244200910389875.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource4175182958047953551.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource4371270814548598025.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource4459512012802966314.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource4775016269498280449.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource4998849188652035232.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource5087594796620622184.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource5154551068227207889.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource5363203246354542208.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource5446219106118347513.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource5497509829897147080.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource5658778004173513243.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource6311188029789372111.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource687535794032357405.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource7355485142084317153.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource7766054317123094574.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource7915005380557346248.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource814868448699637882.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource8280052674835343945.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource8831441617416732990.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource8993227383901368225.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0ae6a37120a2d869d6fec22637ad75d2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0ce909d107472f1a630974e931c8a3a0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0cf929cd101ffa1b9ced86a6d5c2c9c6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_22fb0c7d46f2f177bf027696f31d9e9d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_47e668d81fd05a3de5a7be0b3f12b1e2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_56a82d68104a22bf5797b587fe7bf123.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_5dda6233bd120a25f65738dc0fc7fef2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_67a545891b8a3263232727e314f13829.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_7857a84679d6240c5260fd32fd152769.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_874ab10a5e01b8973775ea5a9e89637a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_98b6944c6547032bec0505c7e3015194.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_98c85f0bb82a377162bcb68f58d06970.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a0e965936b832503d763b6295edceffe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a736730efde2d3f091136b86a39d8981.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_b6c0969365cf56bcb7ec5fdda9a289b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_b7551ec22565387836c5039057511db5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_b797aace91f0efabed3dd203a3e634c4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_c509b86ce4244cf659da0d41fbf52797.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_dc18519a2df5e299baca8bb83938d171.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e516ddf02351fbb6ec78b1101a76790c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f014b2528c408d7364e1bb55141eba48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f9f01782f7a32ff2b5202e3bf46b8ac4.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mySerenity-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/mySerenity-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/DefinitionTestSuite.class" afterPath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/DefinitionTestSuite.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/pages/luma/LumaAccountPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/pages/luma/LumaAccountPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/pages/luma/LumaBasePage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/pages/luma/LumaBasePage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/pages/luma/LumaCatPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/pages/luma/LumaCatPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/steps/luma/BasePageSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/steps/luma/BasePageSteps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/steps/luma/ProductSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/steps/luma/ProductSteps.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/pages/luma/LumaCustomerPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/pages/luma/LumaCustomerPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/pages/luma/LumaPDPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/pages/luma/LumaPDPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/steps/luma/LumaHomePageSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/steps/luma/LumaHomePageSteps.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/steps/luma/RegisteredUserEntryPointSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/com/orevan/serenity/steps/luma/RegisteredUserEntryPointSteps.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/DefinitionTestSuite.java" afterPath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/DefinitionTestSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaAccountPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaAccountPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaBasePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaBasePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCatPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCatPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCustomerPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCustomerPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaPDPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaPDPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/BasePageSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/BasePageSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/ProductSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/ProductSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/RegisteredUserEntryPointSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/RegisteredUserEntryPointSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/luma/LumaEntryPoint.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/luma/LumaEntryPoint.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/luma/PDP.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/luma/PDP.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/luma/PLP.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/luma/PLP.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/luma/RegisterLoginLogout.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/luma/RegisterLoginLogout.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/luma/TopCatView.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/luma/TopCatView.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/luma/SearchProduct.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/luma/SearchProduct.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.orevan.serenity.DefinitionTestSuite.xml" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.orevan.serenity.DefinitionTestSuite.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/com.orevan.serenity.DebugTestSuite.txt" afterPath="$PROJECT_DIR$/target/failsafe-reports/com.orevan.serenity.DebugTestSuite.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/com.orevan.serenity.DefinitionTestSuite.txt" afterPath="$PROJECT_DIR$/target/failsafe-reports/com.orevan.serenity.DefinitionTestSuite.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/009922e78194670c39f6ab59a85862d17ba368c7cff34fead60058e3acb0fb77.html" afterPath="$PROJECT_DIR$/target/site/serenity/009922e78194670c39f6ab59a85862d17ba368c7cff34fead60058e3acb0fb77.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/009922e78194670c39f6ab59a85862d17ba368c7cff34fead60058e3acb0fb77.json" afterPath="$PROJECT_DIR$/target/site/serenity/009922e78194670c39f6ab59a85862d17ba368c7cff34fead60058e3acb0fb77.json" />
@@ -34,34 +279,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/0219787c14755a0b1500e7e13b304bb5e99e42d3456a936f8658aac464374453.html" afterPath="$PROJECT_DIR$/target/site/serenity/0219787c14755a0b1500e7e13b304bb5e99e42d3456a936f8658aac464374453.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/097d045285f5dcbdea44b5bbace3e799487591f8d08b496190a517922827f500.csv" afterPath="$PROJECT_DIR$/target/site/serenity/097d045285f5dcbdea44b5bbace3e799487591f8d08b496190a517922827f500.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/097d045285f5dcbdea44b5bbace3e799487591f8d08b496190a517922827f500.html" afterPath="$PROJECT_DIR$/target/site/serenity/097d045285f5dcbdea44b5bbace3e799487591f8d08b496190a517922827f500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/09fe1dbaee131ea0e893b481c339f55af185ce8634d34269e2b780c33080c2c9.csv" afterPath="$PROJECT_DIR$/target/site/serenity/09fe1dbaee131ea0e893b481c339f55af185ce8634d34269e2b780c33080c2c9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/09fe1dbaee131ea0e893b481c339f55af185ce8634d34269e2b780c33080c2c9.html" afterPath="$PROJECT_DIR$/target/site/serenity/09fe1dbaee131ea0e893b481c339f55af185ce8634d34269e2b780c33080c2c9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/118a4b8bf8cc2a0c04b9250013557785b2e621b5c7f0a08de3232308389d8a65.html" afterPath="$PROJECT_DIR$/target/site/serenity/118a4b8bf8cc2a0c04b9250013557785b2e621b5c7f0a08de3232308389d8a65.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/130446c8c0e9c96ba51a92fe8fcb489be2f464a24187091e1ac3d0b527b5e9e0.csv" afterPath="$PROJECT_DIR$/target/site/serenity/130446c8c0e9c96ba51a92fe8fcb489be2f464a24187091e1ac3d0b527b5e9e0.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/130446c8c0e9c96ba51a92fe8fcb489be2f464a24187091e1ac3d0b527b5e9e0.html" afterPath="$PROJECT_DIR$/target/site/serenity/130446c8c0e9c96ba51a92fe8fcb489be2f464a24187091e1ac3d0b527b5e9e0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/15c98130a497e6bd386950eded4110a83cc9c50621186b648fd21d42f2e23889.html" afterPath="$PROJECT_DIR$/target/site/serenity/15c98130a497e6bd386950eded4110a83cc9c50621186b648fd21d42f2e23889.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/0ec35c4e6f5f09633aa022bcb3c11b7ae8bf66c0405e4226723c239d65ad367d.csv" afterPath="$PROJECT_DIR$/target/site/serenity/0ec35c4e6f5f09633aa022bcb3c11b7ae8bf66c0405e4226723c239d65ad367d.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/1ef7b21dc330e7ffbb202c9c8a89814d8ccdbdc96611adf450fa42abd8f40d0c.csv" afterPath="$PROJECT_DIR$/target/site/serenity/1ef7b21dc330e7ffbb202c9c8a89814d8ccdbdc96611adf450fa42abd8f40d0c.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/1ef7b21dc330e7ffbb202c9c8a89814d8ccdbdc96611adf450fa42abd8f40d0c.html" afterPath="$PROJECT_DIR$/target/site/serenity/1ef7b21dc330e7ffbb202c9c8a89814d8ccdbdc96611adf450fa42abd8f40d0c.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/28c784a40c4403ea35f7034838235fea29c891dc41ca37e3745a7651b6bdc87e.html" afterPath="$PROJECT_DIR$/target/site/serenity/28c784a40c4403ea35f7034838235fea29c891dc41ca37e3745a7651b6bdc87e.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2a3eb4b135c9aec937a8d006a6145ae89d7a9884340999954381b6fd595391d2.csv" afterPath="$PROJECT_DIR$/target/site/serenity/2a3eb4b135c9aec937a8d006a6145ae89d7a9884340999954381b6fd595391d2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2f189f11ee648889b64398a2c9454a45201bc0ecea0485bab280d9f619194163.csv" afterPath="$PROJECT_DIR$/target/site/serenity/2f189f11ee648889b64398a2c9454a45201bc0ecea0485bab280d9f619194163.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2f189f11ee648889b64398a2c9454a45201bc0ecea0485bab280d9f619194163.html" afterPath="$PROJECT_DIR$/target/site/serenity/2f189f11ee648889b64398a2c9454a45201bc0ecea0485bab280d9f619194163.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/33b50c0b8cc27322ea9465979fcbd4011ae3a5bd0f5273164d2f06d588673581.html" afterPath="$PROJECT_DIR$/target/site/serenity/33b50c0b8cc27322ea9465979fcbd4011ae3a5bd0f5273164d2f06d588673581.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/350c68ae8e0674b36b9c7644846a9d314ccf09bf1620c4a36e5382f40b056de9.html" afterPath="$PROJECT_DIR$/target/site/serenity/350c68ae8e0674b36b9c7644846a9d314ccf09bf1620c4a36e5382f40b056de9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3bc2a1e447c98c11532d15f6ee919d4bfc26795af38b4b1e2fc0ac33f5f7d3ce.csv" afterPath="$PROJECT_DIR$/target/site/serenity/3bc2a1e447c98c11532d15f6ee919d4bfc26795af38b4b1e2fc0ac33f5f7d3ce.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3bc2a1e447c98c11532d15f6ee919d4bfc26795af38b4b1e2fc0ac33f5f7d3ce.html" afterPath="$PROJECT_DIR$/target/site/serenity/3bc2a1e447c98c11532d15f6ee919d4bfc26795af38b4b1e2fc0ac33f5f7d3ce.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3c028d4ca20a593099954a25a99afafd9f85fd1858baded327eb2db7a5c87eed.csv" afterPath="$PROJECT_DIR$/target/site/serenity/3c028d4ca20a593099954a25a99afafd9f85fd1858baded327eb2db7a5c87eed.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3c6342bed805c2e0563f0e4ef528197c71d98d13fac6d3fbb3383da9ebdd6e6d.csv" afterPath="$PROJECT_DIR$/target/site/serenity/3c6342bed805c2e0563f0e4ef528197c71d98d13fac6d3fbb3383da9ebdd6e6d.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3c6342bed805c2e0563f0e4ef528197c71d98d13fac6d3fbb3383da9ebdd6e6d.html" afterPath="$PROJECT_DIR$/target/site/serenity/3c6342bed805c2e0563f0e4ef528197c71d98d13fac6d3fbb3383da9ebdd6e6d.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3e233b194280b1b5a2cb4d6542f2f17fcaaeda552358647045978f962f081d91.html" afterPath="$PROJECT_DIR$/target/site/serenity/3e233b194280b1b5a2cb4d6542f2f17fcaaeda552358647045978f962f081d91.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3e854020517dc828272b73b08e1993a2c584b124e9db85c140545bce29e54ee7.html" afterPath="$PROJECT_DIR$/target/site/serenity/3e854020517dc828272b73b08e1993a2c584b124e9db85c140545bce29e54ee7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3f928b5dda263b5d0572549558c1dc5194027949b4919a2ff06f872f3538c6e7.html" afterPath="$PROJECT_DIR$/target/site/serenity/3f928b5dda263b5d0572549558c1dc5194027949b4919a2ff06f872f3538c6e7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/44275d9f9111ed8f021935f8223474ad05159345316b8d05e4983f1519a1b67c.html" afterPath="$PROJECT_DIR$/target/site/serenity/44275d9f9111ed8f021935f8223474ad05159345316b8d05e4983f1519a1b67c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/48091b933acafc0961170e3a672433e245992a5f4070e8c237b1e044e9600e54.html" afterPath="$PROJECT_DIR$/target/site/serenity/48091b933acafc0961170e3a672433e245992a5f4070e8c237b1e044e9600e54.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/4efc41cafb02e21745f86477569153c4669fcf915ef7a0631aabd4c8dc4cf0bb.csv" afterPath="$PROJECT_DIR$/target/site/serenity/4efc41cafb02e21745f86477569153c4669fcf915ef7a0631aabd4c8dc4cf0bb.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/4efc41cafb02e21745f86477569153c4669fcf915ef7a0631aabd4c8dc4cf0bb.html" afterPath="$PROJECT_DIR$/target/site/serenity/4efc41cafb02e21745f86477569153c4669fcf915ef7a0631aabd4c8dc4cf0bb.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/535594f62acf3601fd9c1af8cfb68865d2738298e5610063a674b02d8799219f.csv" afterPath="$PROJECT_DIR$/target/site/serenity/535594f62acf3601fd9c1af8cfb68865d2738298e5610063a674b02d8799219f.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/535594f62acf3601fd9c1af8cfb68865d2738298e5610063a674b02d8799219f.html" afterPath="$PROJECT_DIR$/target/site/serenity/535594f62acf3601fd9c1af8cfb68865d2738298e5610063a674b02d8799219f.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/5701d4d1e81b122a573a1b1947751311ba13333e5957c8a541878ab69d384218.csv" afterPath="$PROJECT_DIR$/target/site/serenity/5701d4d1e81b122a573a1b1947751311ba13333e5957c8a541878ab69d384218.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/5701d4d1e81b122a573a1b1947751311ba13333e5957c8a541878ab69d384218.html" afterPath="$PROJECT_DIR$/target/site/serenity/5701d4d1e81b122a573a1b1947751311ba13333e5957c8a541878ab69d384218.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterPath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" />
@@ -76,8 +306,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/642d25eea1042d80aa33553479ecc0121721ffb2c1210f9056572cd46ae550fe.json" afterPath="$PROJECT_DIR$/target/site/serenity/642d25eea1042d80aa33553479ecc0121721ffb2c1210f9056572cd46ae550fe.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/642d25eea1042d80aa33553479ecc0121721ffb2c1210f9056572cd46ae550fe.xml" afterPath="$PROJECT_DIR$/target/site/serenity/642d25eea1042d80aa33553479ecc0121721ffb2c1210f9056572cd46ae550fe.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/642d25eea1042d80aa33553479ecc0121721ffb2c1210f9056572cd46ae550fe_screenshots.html" afterPath="$PROJECT_DIR$/target/site/serenity/642d25eea1042d80aa33553479ecc0121721ffb2c1210f9056572cd46ae550fe_screenshots.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/6614493dc23ceba156c5c36a81ac8afd59ab88579c6a7233a24d1ae6b8ca76b1.csv" afterPath="$PROJECT_DIR$/target/site/serenity/6614493dc23ceba156c5c36a81ac8afd59ab88579c6a7233a24d1ae6b8ca76b1.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/6614493dc23ceba156c5c36a81ac8afd59ab88579c6a7233a24d1ae6b8ca76b1.html" afterPath="$PROJECT_DIR$/target/site/serenity/6614493dc23ceba156c5c36a81ac8afd59ab88579c6a7233a24d1ae6b8ca76b1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/66c61cb55f4988204f1d9c6c4fe892b9a4fb05af832f3435506bcc01f9d63728.html" afterPath="$PROJECT_DIR$/target/site/serenity/66c61cb55f4988204f1d9c6c4fe892b9a4fb05af832f3435506bcc01f9d63728.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/67fa3418e3dab0d8179110fa2b3d443902289b6d3ccb4c10c232bfed0ee79586.html" afterPath="$PROJECT_DIR$/target/site/serenity/67fa3418e3dab0d8179110fa2b3d443902289b6d3ccb4c10c232bfed0ee79586.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/67fa3418e3dab0d8179110fa2b3d443902289b6d3ccb4c10c232bfed0ee79586.json" afterPath="$PROJECT_DIR$/target/site/serenity/67fa3418e3dab0d8179110fa2b3d443902289b6d3ccb4c10c232bfed0ee79586.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/67fa3418e3dab0d8179110fa2b3d443902289b6d3ccb4c10c232bfed0ee79586.xml" afterPath="$PROJECT_DIR$/target/site/serenity/67fa3418e3dab0d8179110fa2b3d443902289b6d3ccb4c10c232bfed0ee79586.xml" />
@@ -89,31 +319,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/6fe0f7c7f3dbc06b064827287460aa455ffc1849880ae58bb50ce8bbe17f3041_screenshots.html" afterPath="$PROJECT_DIR$/target/site/serenity/6fe0f7c7f3dbc06b064827287460aa455ffc1849880ae58bb50ce8bbe17f3041_screenshots.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7052d5ce7975ad56a8b4f43b77482526582a7a1e0d3f786211d44cbe7af5bf84.html" afterPath="$PROJECT_DIR$/target/site/serenity/7052d5ce7975ad56a8b4f43b77482526582a7a1e0d3f786211d44cbe7af5bf84.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/71e4ccde4d6c230efedb637b97ad88e4e0e1cf5e230947a1ead607edea913f5e.html" afterPath="$PROJECT_DIR$/target/site/serenity/71e4ccde4d6c230efedb637b97ad88e4e0e1cf5e230947a1ead607edea913f5e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/742d170d315324a9c3e6bde5024b2e70ca320a5e78dc475f0e93339fdb6008c7.csv" afterPath="$PROJECT_DIR$/target/site/serenity/742d170d315324a9c3e6bde5024b2e70ca320a5e78dc475f0e93339fdb6008c7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/742d170d315324a9c3e6bde5024b2e70ca320a5e78dc475f0e93339fdb6008c7.html" afterPath="$PROJECT_DIR$/target/site/serenity/742d170d315324a9c3e6bde5024b2e70ca320a5e78dc475f0e93339fdb6008c7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/760ffbd6d2c7395bce08d0acf7b439329426675667c854eea78e00eb92547043.csv" afterPath="$PROJECT_DIR$/target/site/serenity/760ffbd6d2c7395bce08d0acf7b439329426675667c854eea78e00eb92547043.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/760ffbd6d2c7395bce08d0acf7b439329426675667c854eea78e00eb92547043.html" afterPath="$PROJECT_DIR$/target/site/serenity/760ffbd6d2c7395bce08d0acf7b439329426675667c854eea78e00eb92547043.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/79fb4546ba492fea0c292f3bf01eaf0f4f54752b637bfd0aaf3638a89e4fcb25.csv" afterPath="$PROJECT_DIR$/target/site/serenity/79fb4546ba492fea0c292f3bf01eaf0f4f54752b637bfd0aaf3638a89e4fcb25.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/79fb4546ba492fea0c292f3bf01eaf0f4f54752b637bfd0aaf3638a89e4fcb25.html" afterPath="$PROJECT_DIR$/target/site/serenity/79fb4546ba492fea0c292f3bf01eaf0f4f54752b637bfd0aaf3638a89e4fcb25.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7a497e1f2d4e52da11f1f2067308a03e7a3b0ae6e85afb9e0e57bce771e4d9de.csv" afterPath="$PROJECT_DIR$/target/site/serenity/7a497e1f2d4e52da11f1f2067308a03e7a3b0ae6e85afb9e0e57bce771e4d9de.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7a497e1f2d4e52da11f1f2067308a03e7a3b0ae6e85afb9e0e57bce771e4d9de.html" afterPath="$PROJECT_DIR$/target/site/serenity/7a497e1f2d4e52da11f1f2067308a03e7a3b0ae6e85afb9e0e57bce771e4d9de.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7b7f6e57fd33ee1ac01c9b77a65e07c25e7bc3f2de648e908716483882bf04d9.csv" afterPath="$PROJECT_DIR$/target/site/serenity/7b7f6e57fd33ee1ac01c9b77a65e07c25e7bc3f2de648e908716483882bf04d9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7b7f6e57fd33ee1ac01c9b77a65e07c25e7bc3f2de648e908716483882bf04d9.html" afterPath="$PROJECT_DIR$/target/site/serenity/7b7f6e57fd33ee1ac01c9b77a65e07c25e7bc3f2de648e908716483882bf04d9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7c3a49ad90c5a9330b8ab1dac9295c382d86208485633c4431a953362ec3a416.csv" afterPath="$PROJECT_DIR$/target/site/serenity/7c3a49ad90c5a9330b8ab1dac9295c382d86208485633c4431a953362ec3a416.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7c3a49ad90c5a9330b8ab1dac9295c382d86208485633c4431a953362ec3a416.html" afterPath="$PROJECT_DIR$/target/site/serenity/7c3a49ad90c5a9330b8ab1dac9295c382d86208485633c4431a953362ec3a416.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7d55084aec0717130491d35a346b9b58ed4dbd4baa1efcadfbbc4b066d1acbca.csv" afterPath="$PROJECT_DIR$/target/site/serenity/7d55084aec0717130491d35a346b9b58ed4dbd4baa1efcadfbbc4b066d1acbca.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7d55084aec0717130491d35a346b9b58ed4dbd4baa1efcadfbbc4b066d1acbca.html" afterPath="$PROJECT_DIR$/target/site/serenity/7d55084aec0717130491d35a346b9b58ed4dbd4baa1efcadfbbc4b066d1acbca.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7de3475bc2dc8d2f73381bc489f16face921a9b348b8a0399e044e81ad3965dd.csv" afterPath="$PROJECT_DIR$/target/site/serenity/7de3475bc2dc8d2f73381bc489f16face921a9b348b8a0399e044e81ad3965dd.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7de3475bc2dc8d2f73381bc489f16face921a9b348b8a0399e044e81ad3965dd.html" afterPath="$PROJECT_DIR$/target/site/serenity/7de3475bc2dc8d2f73381bc489f16face921a9b348b8a0399e044e81ad3965dd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7e42c77a660eb15b190a3769a37a69e0e48e5e9bbb4a21813908631b461465d1.html" afterPath="$PROJECT_DIR$/target/site/serenity/7e42c77a660eb15b190a3769a37a69e0e48e5e9bbb4a21813908631b461465d1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html" afterPath="$PROJECT_DIR$/target/site/serenity/7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/860682f4c7282f73b9674a72fb54a6a770048f3a3146592331836d173f2529b7.csv" afterPath="$PROJECT_DIR$/target/site/serenity/860682f4c7282f73b9674a72fb54a6a770048f3a3146592331836d173f2529b7.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/860682f4c7282f73b9674a72fb54a6a770048f3a3146592331836d173f2529b7.html" afterPath="$PROJECT_DIR$/target/site/serenity/860682f4c7282f73b9674a72fb54a6a770048f3a3146592331836d173f2529b7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/86fa8c49765d2eadb86b35dd5688a41ebbc6bfbca62f78ae4386ba6c74ab5743.html" afterPath="$PROJECT_DIR$/target/site/serenity/86fa8c49765d2eadb86b35dd5688a41ebbc6bfbca62f78ae4386ba6c74ab5743.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/877ec968503b1519211a0ee6137ea9acc9dcc28afdcc489c41aabe81c79cabc5.html" afterPath="$PROJECT_DIR$/target/site/serenity/877ec968503b1519211a0ee6137ea9acc9dcc28afdcc489c41aabe81c79cabc5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/8ac5deaa0057bb0dee8b08e76a7d677f9c331bdc1e85f6b063db608d8e63eaa6.html" afterPath="$PROJECT_DIR$/target/site/serenity/8ac5deaa0057bb0dee8b08e76a7d677f9c331bdc1e85f6b063db608d8e63eaa6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/8bada3f683f65b32c71212248eed9841a0dad4e0fa36972ab2235217085e3c4f.csv" afterPath="$PROJECT_DIR$/target/site/serenity/8bada3f683f65b32c71212248eed9841a0dad4e0fa36972ab2235217085e3c4f.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/8bada3f683f65b32c71212248eed9841a0dad4e0fa36972ab2235217085e3c4f.html" afterPath="$PROJECT_DIR$/target/site/serenity/8bada3f683f65b32c71212248eed9841a0dad4e0fa36972ab2235217085e3c4f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/8c04d130b741d3dc1803102ef6f9847951ab6170186164be77e37e02acf74ca9.csv" afterPath="$PROJECT_DIR$/target/site/serenity/8c04d130b741d3dc1803102ef6f9847951ab6170186164be77e37e02acf74ca9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/8fe4662d745e6a2ca1cb5e40f83cf2818d840cafaed3772770d5cc33b55af7bb.html" afterPath="$PROJECT_DIR$/target/site/serenity/8fe4662d745e6a2ca1cb5e40f83cf2818d840cafaed3772770d5cc33b55af7bb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/95ce1ef9337bdcd4c7e683a94b1a82fa2e6d0c0ff565fa23abbceb85c0002c8c.csv" afterPath="$PROJECT_DIR$/target/site/serenity/95ce1ef9337bdcd4c7e683a94b1a82fa2e6d0c0ff565fa23abbceb85c0002c8c.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016.html" afterPath="$PROJECT_DIR$/target/site/serenity/98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016.json" afterPath="$PROJECT_DIR$/target/site/serenity/98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016.xml" afterPath="$PROJECT_DIR$/target/site/serenity/98cd4a51879e0a1ea76b4b13ccd70587c189a42a999902fef3869ec088a06016.xml" />
@@ -127,8 +347,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a1047c4bfd6db268e15d45be0055acefe8eb170004d04e90f26e29f2ffa563c5.json" afterPath="$PROJECT_DIR$/target/site/serenity/a1047c4bfd6db268e15d45be0055acefe8eb170004d04e90f26e29f2ffa563c5.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a1047c4bfd6db268e15d45be0055acefe8eb170004d04e90f26e29f2ffa563c5.xml" afterPath="$PROJECT_DIR$/target/site/serenity/a1047c4bfd6db268e15d45be0055acefe8eb170004d04e90f26e29f2ffa563c5.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a1047c4bfd6db268e15d45be0055acefe8eb170004d04e90f26e29f2ffa563c5_screenshots.html" afterPath="$PROJECT_DIR$/target/site/serenity/a1047c4bfd6db268e15d45be0055acefe8eb170004d04e90f26e29f2ffa563c5_screenshots.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a3a8d08483fee5a95c021a2793d9dde8b81b0c5ec03b97d9d59d176d2cabdc8c.csv" afterPath="$PROJECT_DIR$/target/site/serenity/a3a8d08483fee5a95c021a2793d9dde8b81b0c5ec03b97d9d59d176d2cabdc8c.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a3a8d08483fee5a95c021a2793d9dde8b81b0c5ec03b97d9d59d176d2cabdc8c.html" afterPath="$PROJECT_DIR$/target/site/serenity/a3a8d08483fee5a95c021a2793d9dde8b81b0c5ec03b97d9d59d176d2cabdc8c.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a3db58a45633511c714c3adad59a4bf5c2f9af2c2186446e8c4d08052c1f488d.csv" afterPath="$PROJECT_DIR$/target/site/serenity/a3db58a45633511c714c3adad59a4bf5c2f9af2c2186446e8c4d08052c1f488d.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a3db58a45633511c714c3adad59a4bf5c2f9af2c2186446e8c4d08052c1f488d.html" afterPath="$PROJECT_DIR$/target/site/serenity/a3db58a45633511c714c3adad59a4bf5c2f9af2c2186446e8c4d08052c1f488d.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a49e6b117f31f3363455e9eb094a1a85ff99ad34d67998f864906d64acee6da4.csv" afterPath="$PROJECT_DIR$/target/site/serenity/a49e6b117f31f3363455e9eb094a1a85ff99ad34d67998f864906d64acee6da4.csv" />
@@ -139,6 +357,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ac4734b3d3b86b00c461401e4792ed0c35ef33fb1c6f121e08af72521dc3451f.xml" afterPath="$PROJECT_DIR$/target/site/serenity/ac4734b3d3b86b00c461401e4792ed0c35ef33fb1c6f121e08af72521dc3451f.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ac4734b3d3b86b00c461401e4792ed0c35ef33fb1c6f121e08af72521dc3451f_screenshots.html" afterPath="$PROJECT_DIR$/target/site/serenity/ac4734b3d3b86b00c461401e4792ed0c35ef33fb1c6f121e08af72521dc3451f_screenshots.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/af64379ef227a07dea9108edb9550281eb916ca56f2702e1c55c46d2370dcc7f.html" afterPath="$PROJECT_DIR$/target/site/serenity/af64379ef227a07dea9108edb9550281eb916ca56f2702e1c55c46d2370dcc7f.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b0d5ea08ce075bfb876820d766f1277c2d2b5d05b6d278e191853b2289eaa90b.csv" afterPath="$PROJECT_DIR$/target/site/serenity/b0d5ea08ce075bfb876820d766f1277c2d2b5d05b6d278e191853b2289eaa90b.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b0d5ea08ce075bfb876820d766f1277c2d2b5d05b6d278e191853b2289eaa90b.html" afterPath="$PROJECT_DIR$/target/site/serenity/b0d5ea08ce075bfb876820d766f1277c2d2b5d05b6d278e191853b2289eaa90b.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b1d03a01a2101e61faba5ea919de6e5a85c26874d5f0470c771306b821ae617e.csv" afterPath="$PROJECT_DIR$/target/site/serenity/b1d03a01a2101e61faba5ea919de6e5a85c26874d5f0470c771306b821ae617e.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b1d03a01a2101e61faba5ea919de6e5a85c26874d5f0470c771306b821ae617e.html" afterPath="$PROJECT_DIR$/target/site/serenity/b1d03a01a2101e61faba5ea919de6e5a85c26874d5f0470c771306b821ae617e.html" />
@@ -147,37 +366,28 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b3e13e55a863673620f194daf3490a8126b091fcc139b451d7466d55b13cd21e.html" afterPath="$PROJECT_DIR$/target/site/serenity/b3e13e55a863673620f194daf3490a8126b091fcc139b451d7466d55b13cd21e.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b8e02ef0b06bc950e8c8979c6750eb8db3e8d489b640963a6f867ab6dce54526.csv" afterPath="$PROJECT_DIR$/target/site/serenity/b8e02ef0b06bc950e8c8979c6750eb8db3e8d489b640963a6f867ab6dce54526.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b8e02ef0b06bc950e8c8979c6750eb8db3e8d489b640963a6f867ab6dce54526.html" afterPath="$PROJECT_DIR$/target/site/serenity/b8e02ef0b06bc950e8c8979c6750eb8db3e8d489b640963a6f867ab6dce54526.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b965ff440326594a4079a5309c2993e8e539217184cc59f0df353cad62f3cecf.html" afterPath="$PROJECT_DIR$/target/site/serenity/b965ff440326594a4079a5309c2993e8e539217184cc59f0df353cad62f3cecf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b9711c2fea0ccd282d57d16b2ab545cac8559be5e5c084b7e204dd692e7de135.html" afterPath="$PROJECT_DIR$/target/site/serenity/b9711c2fea0ccd282d57d16b2ab545cac8559be5e5c084b7e204dd692e7de135.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b9ebcd7d9783c3c27826ac645598fb97c9addf03d991af118aec028ef7059e1c.html" afterPath="$PROJECT_DIR$/target/site/serenity/b9ebcd7d9783c3c27826ac645598fb97c9addf03d991af118aec028ef7059e1c.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/bb2be89781a8f26a2f886cd38a2833fc33a17f204f181a37311bf5d21e30b141.csv" afterPath="$PROJECT_DIR$/target/site/serenity/bb2be89781a8f26a2f886cd38a2833fc33a17f204f181a37311bf5d21e30b141.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/bb2be89781a8f26a2f886cd38a2833fc33a17f204f181a37311bf5d21e30b141.html" afterPath="$PROJECT_DIR$/target/site/serenity/bb2be89781a8f26a2f886cd38a2833fc33a17f204f181a37311bf5d21e30b141.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/bbf336f83ac78ac8aeb6450b8c850562eefc9b5d2877a226bc1cf01d8464e473.csv" afterPath="$PROJECT_DIR$/target/site/serenity/bbf336f83ac78ac8aeb6450b8c850562eefc9b5d2877a226bc1cf01d8464e473.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/bbf336f83ac78ac8aeb6450b8c850562eefc9b5d2877a226bc1cf01d8464e473.html" afterPath="$PROJECT_DIR$/target/site/serenity/bbf336f83ac78ac8aeb6450b8c850562eefc9b5d2877a226bc1cf01d8464e473.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/browser-firefox.properties" afterPath="$PROJECT_DIR$/target/site/serenity/browser-firefox.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c34aa8b58641211ff146c6eb0b3ed4cdc26fd3bd69d4f242e2ae24cd5779014c.html" afterPath="$PROJECT_DIR$/target/site/serenity/c34aa8b58641211ff146c6eb0b3ed4cdc26fd3bd69d4f242e2ae24cd5779014c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c7918a568dfbfc93b90b43eb0374d73340e81853abed55daf34cfc52d263abdc.html" afterPath="$PROJECT_DIR$/target/site/serenity/c7918a568dfbfc93b90b43eb0374d73340e81853abed55daf34cfc52d263abdc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c2ff1edf192c715c99238f75f63ec5d949a77ad568d962a9f276d50227536464.html" afterPath="$PROJECT_DIR$/target/site/serenity/c2ff1edf192c715c99238f75f63ec5d949a77ad568d962a9f276d50227536464.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" afterPath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" afterPath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c9396ac4c841ce420185bfa269eb6c58a90866a0b282562a972ff2f3d51c0988.csv" afterPath="$PROJECT_DIR$/target/site/serenity/c9396ac4c841ce420185bfa269eb6c58a90866a0b282562a972ff2f3d51c0988.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c99ebdd5cb55f114998ab3f33860d8fdb41ed5197b896baa0240dd3e677e4876.csv" afterPath="$PROJECT_DIR$/target/site/serenity/c99ebdd5cb55f114998ab3f33860d8fdb41ed5197b896baa0240dd3e677e4876.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c99ebdd5cb55f114998ab3f33860d8fdb41ed5197b896baa0240dd3e677e4876.html" afterPath="$PROJECT_DIR$/target/site/serenity/c99ebdd5cb55f114998ab3f33860d8fdb41ed5197b896baa0240dd3e677e4876.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d29943a4fcced1f35118f5947721ec2deaf1e1b2b0ce94e77deab7c4d3bd6b7a.html" afterPath="$PROJECT_DIR$/target/site/serenity/d29943a4fcced1f35118f5947721ec2deaf1e1b2b0ce94e77deab7c4d3bd6b7a.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d3902c168663e775384a999861c71b1812c66751ea9b57880d3405365262d8c3.csv" afterPath="$PROJECT_DIR$/target/site/serenity/d3902c168663e775384a999861c71b1812c66751ea9b57880d3405365262d8c3.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d3902c168663e775384a999861c71b1812c66751ea9b57880d3405365262d8c3.html" afterPath="$PROJECT_DIR$/target/site/serenity/d3902c168663e775384a999861c71b1812c66751ea9b57880d3405365262d8c3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d3f4df02c827082e260555dbd572adfa4bc77aeab79e4db1de724abd393d8661.csv" afterPath="$PROJECT_DIR$/target/site/serenity/d3f4df02c827082e260555dbd572adfa4bc77aeab79e4db1de724abd393d8661.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d3f4df02c827082e260555dbd572adfa4bc77aeab79e4db1de724abd393d8661.html" afterPath="$PROJECT_DIR$/target/site/serenity/d3f4df02c827082e260555dbd572adfa4bc77aeab79e4db1de724abd393d8661.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d4369ae205d94002142b43c8d10004805f555ac9f7107e8b187f8511bd86ac7c.html" afterPath="$PROJECT_DIR$/target/site/serenity/d4369ae205d94002142b43c8d10004805f555ac9f7107e8b187f8511bd86ac7c.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d50273de082c2f5e6a533ee39f9e06f0368ebae0df36b57d823ca416b6856d9e.html" afterPath="$PROJECT_DIR$/target/site/serenity/d50273de082c2f5e6a533ee39f9e06f0368ebae0df36b57d823ca416b6856d9e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d5c7548ea6ceb192a061809da5d93061ed487f8b2f0b97907d9401848a30cb13.html" afterPath="$PROJECT_DIR$/target/site/serenity/d5c7548ea6ceb192a061809da5d93061ed487f8b2f0b97907d9401848a30cb13.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d687009db1513435cc68655c7e56168a9bf0a08ceb1240decda639f17f2b7211.html" afterPath="$PROJECT_DIR$/target/site/serenity/d687009db1513435cc68655c7e56168a9bf0a08ceb1240decda639f17f2b7211.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d8cd262adabe7a850b1d5439772ccb2e6aeb7e6b6e789687520d76faaf4f72fd.html" afterPath="$PROJECT_DIR$/target/site/serenity/d8cd262adabe7a850b1d5439772ccb2e6aeb7e6b6e789687520d76faaf4f72fd.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d8cd262adabe7a850b1d5439772ccb2e6aeb7e6b6e789687520d76faaf4f72fd.json" afterPath="$PROJECT_DIR$/target/site/serenity/d8cd262adabe7a850b1d5439772ccb2e6aeb7e6b6e789687520d76faaf4f72fd.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d8cd262adabe7a850b1d5439772ccb2e6aeb7e6b6e789687520d76faaf4f72fd.xml" afterPath="$PROJECT_DIR$/target/site/serenity/d8cd262adabe7a850b1d5439772ccb2e6aeb7e6b6e789687520d76faaf4f72fd.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d8cd262adabe7a850b1d5439772ccb2e6aeb7e6b6e789687520d76faaf4f72fd_screenshots.html" afterPath="$PROJECT_DIR$/target/site/serenity/d8cd262adabe7a850b1d5439772ccb2e6aeb7e6b6e789687520d76faaf4f72fd_screenshots.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d924b2fa28896eadce0bed1bf728ce340dc48b30ee95c250a67f14d996cb177c.html" afterPath="$PROJECT_DIR$/target/site/serenity/d924b2fa28896eadce0bed1bf728ce340dc48b30ee95c250a67f14d996cb177c.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d9ed5745b13ef8cb959fe590e3fed443fbc76cae93a17192fca083193f0801ed.csv" afterPath="$PROJECT_DIR$/target/site/serenity/d9ed5745b13ef8cb959fe590e3fed443fbc76cae93a17192fca083193f0801ed.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d9ed5745b13ef8cb959fe590e3fed443fbc76cae93a17192fca083193f0801ed.html" afterPath="$PROJECT_DIR$/target/site/serenity/d9ed5745b13ef8cb959fe590e3fed443fbc76cae93a17192fca083193f0801ed.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" afterPath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" />
@@ -193,18 +403,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/df8f48b682f2441cae534b394419454f4ce71e2f40b95f99bc5a5fe4d3edc0d9.xml" afterPath="$PROJECT_DIR$/target/site/serenity/df8f48b682f2441cae534b394419454f4ce71e2f40b95f99bc5a5fe4d3edc0d9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/df8f48b682f2441cae534b394419454f4ce71e2f40b95f99bc5a5fe4d3edc0d9_screenshots.html" afterPath="$PROJECT_DIR$/target/site/serenity/df8f48b682f2441cae534b394419454f4ce71e2f40b95f99bc5a5fe4d3edc0d9_screenshots.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/e36a12ab5f9fc3573128da9208158a314e35d4f05fab548991a12754971e6f78.html" afterPath="$PROJECT_DIR$/target/site/serenity/e36a12ab5f9fc3573128da9208158a314e35d4f05fab548991a12754971e6f78.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/e6f6164564ae2c1a9f501a54edcc7b524f88b60c95220effaddabc562da69766.csv" afterPath="$PROJECT_DIR$/target/site/serenity/e6f6164564ae2c1a9f501a54edcc7b524f88b60c95220effaddabc562da69766.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/e6f6164564ae2c1a9f501a54edcc7b524f88b60c95220effaddabc562da69766.html" afterPath="$PROJECT_DIR$/target/site/serenity/e6f6164564ae2c1a9f501a54edcc7b524f88b60c95220effaddabc562da69766.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/e848063338195dd6592f338dcea87c4d0cc0b50ee91a8689cb6ebe7e9f82f397.csv" afterPath="$PROJECT_DIR$/target/site/serenity/e848063338195dd6592f338dcea87c4d0cc0b50ee91a8689cb6ebe7e9f82f397.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/eb99680a103812a26c1299908e25589c629effa8223f4c78c21ce341f010d340.html" afterPath="$PROJECT_DIR$/target/site/serenity/eb99680a103812a26c1299908e25589c629effa8223f4c78c21ce341f010d340.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ed0643ae9ac0e4e4d78f70dab5a44bc5e32f2b978402cd8056c1420767c6884d.html" afterPath="$PROJECT_DIR$/target/site/serenity/ed0643ae9ac0e4e4d78f70dab5a44bc5e32f2b978402cd8056c1420767c6884d.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ed0643ae9ac0e4e4d78f70dab5a44bc5e32f2b978402cd8056c1420767c6884d.json" afterPath="$PROJECT_DIR$/target/site/serenity/ed0643ae9ac0e4e4d78f70dab5a44bc5e32f2b978402cd8056c1420767c6884d.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ed0643ae9ac0e4e4d78f70dab5a44bc5e32f2b978402cd8056c1420767c6884d.xml" afterPath="$PROJECT_DIR$/target/site/serenity/ed0643ae9ac0e4e4d78f70dab5a44bc5e32f2b978402cd8056c1420767c6884d.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ed0643ae9ac0e4e4d78f70dab5a44bc5e32f2b978402cd8056c1420767c6884d_screenshots.html" afterPath="$PROJECT_DIR$/target/site/serenity/ed0643ae9ac0e4e4d78f70dab5a44bc5e32f2b978402cd8056c1420767c6884d_screenshots.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ed438227c41251f398d69908d5f1903de4d44ea484433d299df0212b08fe2a8c.html" afterPath="$PROJECT_DIR$/target/site/serenity/ed438227c41251f398d69908d5f1903de4d44ea484433d299df0212b08fe2a8c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ee120c31e6a4862d0fa2e8b48169fe709858e7babd5f814c41a98a6a22981d25.html" afterPath="$PROJECT_DIR$/target/site/serenity/ee120c31e6a4862d0fa2e8b48169fe709858e7babd5f814c41a98a6a22981d25.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ee327c6d9feef908128be75c543b716e850e60e2db0d3a49581c843b0d339ce8.html" afterPath="$PROJECT_DIR$/target/site/serenity/ee327c6d9feef908128be75c543b716e850e60e2db0d3a49581c843b0d339ce8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/eeaa767cc196d0414851e76fe04f8985ded53236a355c032b1db9d2475cc71ca.html" afterPath="$PROJECT_DIR$/target/site/serenity/eeaa767cc196d0414851e76fe04f8985ded53236a355c032b1db9d2475cc71ca.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ef34c78ee6618cc0a7b893203b53dfe3edbbd988dd80a8cefddfe7a45bd9b1e0.html" afterPath="$PROJECT_DIR$/target/site/serenity/ef34c78ee6618cc0a7b893203b53dfe3edbbd988dd80a8cefddfe7a45bd9b1e0.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ef7131d8ebec05e084df0ef3cbd90b2330520504e5bd116724a2b34037873c7a.html" afterPath="$PROJECT_DIR$/target/site/serenity/ef7131d8ebec05e084df0ef3cbd90b2330520504e5bd116724a2b34037873c7a.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ef7131d8ebec05e084df0ef3cbd90b2330520504e5bd116724a2b34037873c7a.json" afterPath="$PROJECT_DIR$/target/site/serenity/ef7131d8ebec05e084df0ef3cbd90b2330520504e5bd116724a2b34037873c7a.json" />
@@ -212,26 +415,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ef7131d8ebec05e084df0ef3cbd90b2330520504e5bd116724a2b34037873c7a_screenshots.html" afterPath="$PROJECT_DIR$/target/site/serenity/ef7131d8ebec05e084df0ef3cbd90b2330520504e5bd116724a2b34037873c7a_screenshots.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f33226f7e20ddeda089d50eeb39ac811a69dc26f24eec6884875bb7a16a1c163.csv" afterPath="$PROJECT_DIR$/target/site/serenity/f33226f7e20ddeda089d50eeb39ac811a69dc26f24eec6884875bb7a16a1c163.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f33226f7e20ddeda089d50eeb39ac811a69dc26f24eec6884875bb7a16a1c163.html" afterPath="$PROJECT_DIR$/target/site/serenity/f33226f7e20ddeda089d50eeb39ac811a69dc26f24eec6884875bb7a16a1c163.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f3d55f04c03a7930ed4fe14af85e6cc66c165bc44d19dddff26820ae35cdf45a.csv" afterPath="$PROJECT_DIR$/target/site/serenity/f3d55f04c03a7930ed4fe14af85e6cc66c165bc44d19dddff26820ae35cdf45a.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f3d55f04c03a7930ed4fe14af85e6cc66c165bc44d19dddff26820ae35cdf45a.html" afterPath="$PROJECT_DIR$/target/site/serenity/f3d55f04c03a7930ed4fe14af85e6cc66c165bc44d19dddff26820ae35cdf45a.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f476be54b235024005c2cbae884722e2c8015d7a05c9bd544f69760c336425d6.csv" afterPath="$PROJECT_DIR$/target/site/serenity/f476be54b235024005c2cbae884722e2c8015d7a05c9bd544f69760c336425d6.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f476be54b235024005c2cbae884722e2c8015d7a05c9bd544f69760c336425d6.html" afterPath="$PROJECT_DIR$/target/site/serenity/f476be54b235024005c2cbae884722e2c8015d7a05c9bd544f69760c336425d6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f5b24d6b1f210cbafaf2add4e78066fdfbcbae8de685366c5b4b73d7f8e601ae.html" afterPath="$PROJECT_DIR$/target/site/serenity/f5b24d6b1f210cbafaf2add4e78066fdfbcbae8de685366c5b4b73d7f8e601ae.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f8697bb75a3d9f54ee4f7d23d1224034e005b4468582122e78f76edf428b7c9a.html" afterPath="$PROJECT_DIR$/target/site/serenity/f8697bb75a3d9f54ee4f7d23d1224034e005b4468582122e78f76edf428b7c9a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f90cfcf62cd1832772a35be9196aacc44fc60470d2e7e53629a7ee993f01479e.html" afterPath="$PROJECT_DIR$/target/site/serenity/f90cfcf62cd1832772a35be9196aacc44fc60470d2e7e53629a7ee993f01479e.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f50e60bebed035af78852c6860177e28986e8346bb129916416c53ef20c12256.csv" afterPath="$PROJECT_DIR$/target/site/serenity/f50e60bebed035af78852c6860177e28986e8346bb129916416c53ef20c12256.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/faa9943a8097376e01934375ee691e9f0420a05709c80d3f11c03d52fb6ba3de.csv" afterPath="$PROJECT_DIR$/target/site/serenity/faa9943a8097376e01934375ee691e9f0420a05709c80d3f11c03d52fb6ba3de.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/faa9943a8097376e01934375ee691e9f0420a05709c80d3f11c03d52fb6ba3de.html" afterPath="$PROJECT_DIR$/target/site/serenity/faa9943a8097376e01934375ee691e9f0420a05709c80d3f11c03d52fb6ba3de.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ff20eff672069cfc898938aa254949836e4a5d88eb438616659e7350c6acb26a.csv" afterPath="$PROJECT_DIR$/target/site/serenity/ff20eff672069cfc898938aa254949836e4a5d88eb438616659e7350c6acb26a.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ff20eff672069cfc898938aa254949836e4a5d88eb438616659e7350c6acb26a.html" afterPath="$PROJECT_DIR$/target/site/serenity/ff20eff672069cfc898938aa254949836e4a5d88eb438616659e7350c6acb26a.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/index.html" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/luma/LumaEntryPoint.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/luma/LumaEntryPoint.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/luma/PDP.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/luma/PDP.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/luma/PLP.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/luma/PLP.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/luma/RegisterLoginLogout.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/luma/RegisterLoginLogout.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/luma/TopCatView.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/luma/TopCatView.feature" />
     </list>
     <ignored path="mySerenity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -253,143 +446,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LumaEntryPoint.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/LumaEntryPoint.feature">
+      <file leaf-file-name="WishList.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/WishList.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="11" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDP.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/PDP.feature">
+      <file leaf-file-name="CompareProducts.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/CompareProducts.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="63" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PLP.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/PLP.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterLoginLogout.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/RegisterLoginLogout.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchProduct.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/SearchProduct.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LumaBasePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaBasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="220" column="16" selection-start-line="220" selection-start-column="16" selection-end-line="220" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#verifyHomePageBody#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#verifyHeader#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#verifyFooter#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#countFooterLinks#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#clickSignIn#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#clickSignOut#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#clickCreateAccount#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#currentUserMode#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#guestUser#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#registeredUser#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#countTopCatNodes#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#countContent#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#countWhiteContent#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#countProductNodes#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#countLHSHeading#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#countLHSItems#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="method#vpEmptyLHS#0;class#LumaBasePage#0" expanded="false" />
-                <element signature="e#8525#8526#0" expanded="true" />
-                <element signature="e#8567#8568#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/ProductSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#userTriggerTopLevelThenSubCategoryLevel#0;class#ProductSteps#0" expanded="false" />
-                <element signature="method#configurableProductsAreDisplayedInGridView#0;class#ProductSteps#0" expanded="false" />
-                <element signature="method#userClickSwitchViewCTA#0;class#ProductSteps#0" expanded="false" />
-                <element signature="method#configurableProductsAreDisplayedInListView#0;class#ProductSteps#0" expanded="false" />
-                <element signature="method#userClickSimpleProduct#0;class#ProductSteps#0" expanded="false" />
-                <element signature="method#userClickConfigurableProduct#0;class#ProductSteps#0" expanded="false" />
-                <element signature="method#pdpForConfigurableProductIsDisplayed#0;class#ProductSteps#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LumaPDPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaPDPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#countFotorama#0;class#LumaPDPage#0" expanded="false" />
-                <element signature="method#simpleOrconfigurable#0;class#LumaPDPage#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisteredUserEntryPointSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/RegisteredUserEntryPointSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LumaCatPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCatPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="202" column="16" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#clickSecondCatINT#0;class#LumaCatPage#0" expanded="false" />
-                <element signature="method#clickSecondCat#0;class#LumaCatPage#0" expanded="false" />
-                <element signature="method#countProducts#0;class#LumaCatPage#0" expanded="false" />
-                <element signature="method#countToolbarNodes#0;class#LumaCatPage#0" expanded="false" />
-                <element signature="method#clickProduct#0;class#LumaCatPage#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -433,23 +505,26 @@
         <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/CucumberWithSerenity.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/SmokeTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCustomerPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaAccountPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/RegisteredUserEntryPointSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/EcommerceSteps.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/BasePageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaBasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaPDPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/luma/LumaEntryPoint.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/luma/PDP.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/luma/PLP.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/luma/TopCatView.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/DefinitionTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCatPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/ProductSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCustomerPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/AccountStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaBasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaAccountPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/AccountSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/luma/SearchProduct.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCatPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaPDPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/luma/PDP.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/luma/RegisterLoginLogout.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/luma/MyAccount.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/luma/LumaEntryPoint.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/RegisteredUserEntryPointSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orevan/serenity/DefinitionTestSuite.java" />
       </list>
     </option>
   </component>
@@ -560,6 +635,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="update_definition" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -799,7 +878,7 @@
       <recent name="com.orevan.serenity" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Guest User Sign Up to be Registered User">
+  <component name="RunManager" selected="Cucumber java.Scenario: Registered User">
     <configuration default="false" name="Scenario: Search Simple Product Result Default PLP" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -824,7 +903,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Scenario: Search Configurable Product Result PLP List View" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Feature: SearchProduct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -833,11 +912,11 @@
       </extension>
       <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/luma/SearchProduct.feature" />
       <option name="GLUE" value="net.serenitybdd.cucumber.actors com.orevan.serenity.steps.luma" />
-      <option name="myNameFilter" value="^Search Configurable Product Result PLP List View$" />
-      <option name="myGeneratedName" value="Scenario: Search Configurable Product Result PLP List View" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="Feature: SearchProduct" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Search Configurable Product Result PLP List View$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -848,20 +927,20 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Scenario: Search and Navigate to Simple Product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Scenario: Navigate Simple Product via Top Category" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/luma/SearchProduct.feature" />
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/luma/PDP.feature" />
       <option name="GLUE" value="net.serenitybdd.cucumber.actors com.orevan.serenity.steps.luma" />
-      <option name="myNameFilter" value="^Search and Navigate to Simple Product$" />
-      <option name="myGeneratedName" value="Scenario: Search and Navigate to Simple Product" />
+      <option name="myNameFilter" value="^Navigate Simple Product via Top Category$" />
+      <option name="myGeneratedName" value="Scenario: Navigate Simple Product via Top Category" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Search and Navigate to Simple Product$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Navigate Simple Product via Top Category$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -872,20 +951,20 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Scenario: Search and Navigate to Configurable Product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Scenario: Navigate Simple Product via Sub Category" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/luma/SearchProduct.feature" />
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/luma/PDP.feature" />
       <option name="GLUE" value="net.serenitybdd.cucumber.actors com.orevan.serenity.steps.luma" />
-      <option name="myNameFilter" value="^Search and Navigate to Configurable Product$" />
-      <option name="myGeneratedName" value="Scenario: Search and Navigate to Configurable Product" />
+      <option name="myNameFilter" value="^Navigate Simple Product via Sub Category$" />
+      <option name="myGeneratedName" value="Scenario: Navigate Simple Product via Sub Category" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Search and Navigate to Configurable Product$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Navigate Simple Product via Sub Category$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -896,20 +975,20 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Scenario: Guest User Sign Up to be Registered User" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Scenario: Registered User" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/luma/RegisterLoginLogout.feature" />
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/luma/LumaEntryPoint.feature" />
       <option name="GLUE" value="net.serenitybdd.cucumber.actors com.orevan.serenity.steps.luma" />
-      <option name="myNameFilter" value="^Guest User Sign Up to be Registered User$" />
-      <option name="myGeneratedName" value="Scenario: Guest User Sign Up to be Registered User" />
+      <option name="myNameFilter" value="^Registered User$" />
+      <option name="myGeneratedName" value="Scenario: Registered User" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Guest User Sign Up to be Registered User$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Registered User$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1204,17 +1283,17 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search Simple Product Result Default PLP" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search Configurable Product Result PLP List View" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search and Navigate to Simple Product" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search and Navigate to Configurable Product" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Guest User Sign Up to be Registered User" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: SearchProduct" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: Navigate Simple Product via Top Category" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Navigate Simple Product via Sub Category" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Registered User" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: Guest User Sign Up to be Registered User" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search and Navigate to Configurable Product" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search and Navigate to Simple Product" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search Configurable Product Result PLP List View" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: Registered User" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Navigate Simple Product via Sub Category" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: Navigate Simple Product via Top Category" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: SearchProduct" />
         <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search Simple Product Result Default PLP" />
       </list>
     </recent_temporary>
@@ -1247,44 +1326,51 @@
       <option name="project" value="LOCAL" />
       <updated>1469631768188</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SearchProduct_Feature_290716_0050">
+      <created>1469749874790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1469749874790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Guest_User_Sign_Up_to_be_Registered_User - 2016.07.29 at 00h 18m 51s.xml">
-      <configuration name="Scenario: Guest User Sign Up to be Registered User" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__SearchProduct - 2016.07.31 at 00h 19m 53s.xml">
+      <configuration name="Feature: SearchProduct" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Guest_User_Sign_Up_to_be_Registered_User - 2016.07.29 at 00h 20m 15s.xml">
-      <configuration name="Scenario: Guest User Sign Up to be Registered User" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__SearchProduct - 2016.07.31 at 00h 22m 01s.xml">
+      <configuration name="Feature: SearchProduct" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_Configurable_Product_Result_PLP_List_View - 2016.07.28 at 23h 49m 28s.xml">
-      <configuration name="Scenario: Search Configurable Product Result PLP List View" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Navigate_Simple_Product_via_Sub_Category - 2016.07.31 at 00h 32m 32s.xml">
+      <configuration name="Scenario: Navigate Simple Product via Sub Category" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_Product_with_Empty_Result - 2016.07.28 at 23h 33m 22s.xml">
-      <configuration name="Scenario: Search Product with Empty Result" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Navigate_Simple_Product_via_Sub_Category - 2016.07.31 at 00h 35m 17s.xml">
+      <configuration name="Scenario: Navigate Simple Product via Sub Category" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_Simple_Product_Result_Default_PLP - 2016.07.28 at 23h 37m 31s.xml">
-      <configuration name="Scenario: Search Simple Product Result Default PLP" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Navigate_Simple_Product_via_Top_Category - 2016.07.31 at 00h 24m 20s.xml">
+      <configuration name="Scenario: Navigate Simple Product via Top Category" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_and_Navigate_to_Configurable_Product - 2016.07.28 at 23h 53m 27s.xml">
-      <configuration name="Scenario: Search and Navigate to Configurable Product" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Navigate_Simple_Product_via_Top_Category - 2016.07.31 at 00h 30m 49s.xml">
+      <configuration name="Scenario: Navigate Simple Product via Top Category" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_and_Navigate_to_Configurable_Product - 2016.07.28 at 23h 54m 11s.xml">
-      <configuration name="Scenario: Search and Navigate to Configurable Product" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Registered_User - 2016.07.31 at 01h 04m 21s.xml">
+      <configuration name="Scenario: Registered User" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_and_Navigate_to_Configurable_Product - 2016.07.28 at 23h 55m 08s.xml">
-      <configuration name="Scenario: Search and Navigate to Configurable Product" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Registered_User - 2016.07.31 at 01h 06m 02s.xml">
+      <configuration name="Scenario: Registered User" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_and_Navigate_to_Simple_Product - 2016.07.28 at 23h 51m 33s.xml">
-      <configuration name="Scenario: Search and Navigate to Simple Product" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Registered_User - 2016.07.31 at 01h 07m 31s.xml">
+      <configuration name="Scenario: Registered User" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_and_Navigate_to_Simple_Product - 2016.07.28 at 23h 52m 47s.xml">
-      <configuration name="Scenario: Search and Navigate to Simple Product" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Registered_User - 2016.07.31 at 01h 09m 23s.xml">
+      <configuration name="Scenario: Registered User" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1293,12 +1379,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37541163" sideWeight="0.50208336" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42041713" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46432492" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24322917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28489584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1326,14 +1412,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AddedReadme" />
     <MESSAGE value="GitAddResolution" />
-    <option name="LAST_COMMIT_MESSAGE" value="GitAddResolution" />
+    <MESSAGE value="SearchProduct_Feature_290716_0050" />
+    <option name="LAST_COMMIT_MESSAGE" value="SearchProduct_Feature_290716_0050" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="75" />
+      <option name="time" value="82" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1342,51 +1429,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.1.36/serenity-core-1.1.36-sources.jar!/net/thucydides/core/steps/ScenarioSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.1.36/serenity-core-1.1.36-sources.jar!/net/serenitybdd/core/pages/PageUrls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="58" column="67" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaShippingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaSupportPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.1.36/serenity-core-1.1.36-sources.jar!/net/serenitybdd/core/pages/WebElementFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/CucumberWithSerenity.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/net/thucydides/thucydides-core/0.9.275/thucydides-core-0.9.275.jar!/net/thucydides/core/pages/PageObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4434">
@@ -1394,26 +1436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mySerenity.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serenity.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="94" column="42" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1442,32 +1468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCustomerPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="method#customerLoginPage#0;class#LumaCustomerPage#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/LumaEntryPointSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaEcommercePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.53.0/selenium-remote-driver-2.53.0.jar!/org/openqa/selenium/remote/ErrorHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -1480,14 +1480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="599" column="0" selection-start-line="599" selection-start-column="0" selection-end-line="599" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.1.36/serenity-core-1.1.36-sources.jar!/net/serenitybdd/core/pages/RenderedPageObjectView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="364" column="0" selection-start-line="364" selection-start-column="0" selection-end-line="364" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1532,26 +1524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/DictionaryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/DebugTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/LumaHomePageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1591,25 +1567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaAccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/serenity/EndUserSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1622,25 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.1.36/serenity-core-1.1.36-sources.jar!/net/serenitybdd/core/pages/PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1601">
-          <caret line="835" column="21" selection-start-line="835" selection-start-column="16" selection-end-line="835" selection-end-column="21" />
-          <folding>
-            <element signature="e#29903#29904#0" expanded="false" />
-            <element signature="e#29946#29947#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/BasePageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -1661,14 +1599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/DefinitionTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="83" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/PLP.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1677,55 +1607,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/PDP.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/BasePageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="63" />
+        <state relative-caret-position="1012">
+          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/LumaEntryPoint.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaBasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaEcommercePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="220" column="16" selection-start-line="220" selection-start-column="16" selection-end-line="220" selection-end-column="16" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaShippingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaSupportPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/DictionaryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2068">
+          <caret line="94" column="42" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mySerenity.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.1.36/serenity-core-1.1.36-sources.jar!/net/serenitybdd/core/pages/RenderedPageObjectView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="251" column="16" selection-start-line="251" selection-start-column="16" selection-end-line="251" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/AccountSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/LumaEntryPointSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.1.36/serenity-core-1.1.36-sources.jar!/net/serenitybdd/core/pages/PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="542" column="23" selection-start-line="542" selection-start-column="23" selection-end-line="542" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCustomerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#verifyHomePageBody#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#verifyHeader#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#verifyFooter#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#countFooterLinks#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#clickSignIn#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#clickSignOut#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#clickCreateAccount#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#currentUserMode#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#guestUser#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#registeredUser#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#countTopCatNodes#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#countContent#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#countWhiteContent#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#countProductNodes#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#countLHSHeading#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#countLHSItems#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="method#vpEmptyLHS#0;class#LumaBasePage#0" expanded="false" />
-            <element signature="e#8525#8526#0" expanded="true" />
-            <element signature="e#8567#8568#0" expanded="true" />
+            <element signature="method#newCustomerPage#0;class#LumaCustomerPage#0" expanded="false" />
+            <element signature="method#customerLoginPage#0;class#LumaCustomerPage#0" expanded="false" />
+            <element signature="method#signIn#0;class#LumaCustomerPage#0" expanded="false" />
+            <element signature="method#registerUser#0;class#LumaCustomerPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/LumaHomePageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaAccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="76" column="86" selection-start-line="76" selection-start-column="86" selection-end-line="76" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#myAccountPage#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#newAccountDashboard#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#myAccountDashboard#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#countDashboardOrdersTable#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#countDownloadableProducts#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#countMyOrdersTable#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#navigateAccountTab#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#vpAccountDashboard#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#accountInformationEmail#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#vpAccountInformation#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#vpAddressBook#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#vpMyDownloadableProducts#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#vpMyOrders#0;class#LumaAccountPage#0" expanded="false" />
+            <element signature="method#vpNewsletterSubscriptions#0;class#LumaAccountPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/AccountSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaCatPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="202" column="16" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
+        <state relative-caret-position="89">
+          <caret line="206" column="52" selection-start-line="206" selection-start-column="52" selection-end-line="206" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#clickSecondCatINT#0;class#LumaCatPage#0" expanded="false" />
@@ -1737,9 +1777,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/SearchProduct.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/ProductSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="121">
           <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1756,8 +1804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaPDPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="517">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#countFotorama#0;class#LumaPDPage#0" expanded="false" />
@@ -1766,18 +1814,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/SearchProduct.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/PDP.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        <state relative-caret-position="65">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/RegisteredUserEntryPointSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/MyAccount.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="264">
+          <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
           <folding />
         </state>
       </provider>
@@ -1785,7 +1833,70 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/RegisterLoginLogout.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/pages/luma/LumaBasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="151" column="18" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#verifyHomePageBody#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#verifyFooter#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#countFooterLinks#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#clickSignIn#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#clickSignOut#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#clickCreateAccount#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#countTopCatNodes#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#countContent#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#countWhiteContent#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#countProductNodes#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#countLHSHeading#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#countLHSItems#0;class#LumaBasePage#0" expanded="false" />
+            <element signature="method#vpEmptyLHS#0;class#LumaBasePage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/steps/luma/RegisteredUserEntryPointSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orevan/serenity/DefinitionTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/LumaEntryPoint.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/WishList.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/luma/CompareProducts.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

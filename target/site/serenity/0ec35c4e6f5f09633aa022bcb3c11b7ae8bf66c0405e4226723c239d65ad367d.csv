@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Browse Top Level Category","What's New, Women and Men","ERROR","2016-07-26T00:50:33.656+01:00","0.0","55.65"
+"Browse Top Level Category","Gear with Empty LHS","ERROR","2016-07-30T11:30:07.908+01:00","0.0","10.08"
+"Browse Top Level Category","Sale without Products","ERROR","2016-07-30T11:30:29.913+01:00","0.0","10.23"
+"Browse Top Level Category","Training with Promo Only","ERROR","2016-07-30T11:30:19.026+01:00","0.0","9.94"
+"Browse Top Level Category","What's New, Women and Men","ERROR","2016-07-30T11:29:35.862+01:00","0.0","31.04"

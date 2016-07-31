@@ -15,15 +15,15 @@ Feature: Guest User to Registered User Login and Logout
         | firstName | lastName | email | password | rUser |
         #| bdd1001 | Serenity | bdd1001@duduosun.com | salmon01 | bdd1001 Serenity |
         #| bdd1002 | Serenity | bdd1002@duduosun.com | salmon02 | bdd1002 Serenity |
-        | bdd1003 | Serenity | bdd1003@duduosun.com | salmon03 | bdd1003 Serenity |
-        | bdd1004 | Serenity | bdd1004@duduosun.com | salmon04 | bdd1004 Serenity |
+        #| bdd1003 | Serenity | bdd1003@duduosun.com | salmon03 | bdd1003 Serenity |
+        | bdd3005 | Duduosun | bdd3005@duduosun.com | salmon05 | bdd3005 Duduosun |
 
   @users
   Scenario Outline: Registered User Login and Logout
       When User Interact with Luma Website
       And Trigger Registered "<rUser>" Action with "<rUsername>" and "<rPassword>"
-      Then Luma Module for Registered "<rUser>" is available
-      Then User "<rUser>" is active
+      Then Luma Default for Registered "<rUser>" is available
+      And User "<rUser>" is active
     Examples:
       | rUser | rUsername | rPassword |
-      | bdd1004 Serenity | bdd1004@duduosun.com | salmon04 |
+      | BDD1001 Duduosun | bdd1001@duduosun.com | salmon01 |

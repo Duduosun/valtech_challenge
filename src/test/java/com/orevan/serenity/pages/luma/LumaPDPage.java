@@ -34,7 +34,7 @@ public class LumaPDPage extends PageObject {
         shouldBeVisible(base);
         shouldBeVisible(reviewBlock);
         shouldBeVisible(priceInfoBlock);
-        shouldBeVisible(cartBoxBlock);
+        shouldBeVisible(cartBoxBlock); //out of stock product NA
         shouldBeVisible(socialLinks);
         shouldBeVisible(tabListBlock);
         element(base).getText().equals(eproduct);

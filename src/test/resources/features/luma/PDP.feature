@@ -15,7 +15,7 @@ Feature: Luma Product Details Page - Category and Search
     Examples:
       | topcat | sproduct |
       | What's New | Overnight Duffle |
-      | Gear | Push It Messenger Bag |
+      | Gear | Fusion Backpack |
       | Training | LifeLong Fitness IV |
 
   @pdp
@@ -27,7 +27,7 @@ Feature: Luma Product Details Page - Category and Search
       | topcat | subcategory | sproduct |
       | Training | Video Download | Luma Yoga For Life |
       | Gear | Bags | Endeavor Daytrip Backpack |
-      | Gear | Fitness Equipment | Sprite Foam Roller |
+      | Gear | Fitness Equipment | Sprite Foam Yoga Brick |
       | Gear | Watches | Bolo Sport Watch |
 
   @pdp

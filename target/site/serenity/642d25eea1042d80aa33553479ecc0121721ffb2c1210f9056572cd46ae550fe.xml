@@ -1,4 +1,4 @@
-<acceptance-test-run title="What&apos;s New, Women and Men" name="What&apos;s New, Women and Men" description="" steps="15" successful="15" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="57570" timestamp="2016-07-29T00:37:03.004+01:00" session-id="40337324-a542-4c49-9fe7-fcd2aa3da53f">
+<acceptance-test-run title="What&apos;s New, Women and Men" name="What&apos;s New, Women and Men" description="" steps="15" successful="15" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="63288" timestamp="2016-07-31T00:58:16.414+01:00" session-id="6e1eeaa0-4e60-4ed1-8d41-2b20d9b76f5e">
   <user-story id="browse-top-level-category" name="Browse Top Level Category" path="TopCatView.feature"/>
   <tags>
     <tag name="Browse Top Level Category" type="feature"/>
@@ -30,108 +30,108 @@
   </examples>
   <test-group name="[1] {topcat=What&apos;s New, espotproduct=Wayfarer Messenger Bag}" result="SUCCESS">
     <screenshots>
-      <screenshot image="3fbcdb9307e5f344558dd5c5c7cc7a2c.png"/>
+      <screenshot image="8c42f63da0918fc6d2989f4e222829c0.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7092">
+    <test-step result="SUCCESS" duration="9344">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
       </screenshots>
       <description>Given Luma Home Page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4287">
+    <test-step result="SUCCESS" duration="4695">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-        <screenshot image="3fbcdb9307e5f344558dd5c5c7cc7a2c.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
+        <screenshot image="8c42f63da0918fc6d2989f4e222829c0.png"/>
       </screenshots>
       <description>When User Trigger Top Level Entry &quot;What&apos;s New&quot;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2597">
+    <test-step result="SUCCESS" duration="2287">
       <screenshots>
-        <screenshot image="3fbcdb9307e5f344558dd5c5c7cc7a2c.png"/>
+        <screenshot image="8c42f63da0918fc6d2989f4e222829c0.png"/>
       </screenshots>
       <description>Then Page &quot;What&apos;s New&quot; Header and Footer Elements are Interactive</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2469">
+    <test-step result="SUCCESS" duration="2503">
       <screenshots>
-        <screenshot image="3fbcdb9307e5f344558dd5c5c7cc7a2c.png"/>
+        <screenshot image="8c42f63da0918fc6d2989f4e222829c0.png"/>
       </screenshots>
       <description>And Complete LHS and Promo Module is Visible</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2132">
+    <test-step result="SUCCESS" duration="2004">
       <screenshots>
-        <screenshot image="3fbcdb9307e5f344558dd5c5c7cc7a2c.png"/>
+        <screenshot image="8c42f63da0918fc6d2989f4e222829c0.png"/>
       </screenshots>
       <description>And Product List is Displayed with &quot;Wayfarer Messenger Bag&quot;</description>
     </test-step>
   </test-group>
   <test-group name="[1] {topcat=Women, espotproduct=Selene Yoga Hoodie}" result="SUCCESS">
     <screenshots>
-      <screenshot image="71e30a7ef3138d3b4cbdcace583fb1e9.png"/>
+      <screenshot image="36cace6ae35c3088238dadfdb29f3ab9.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7586">
+    <test-step result="SUCCESS" duration="9068">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
       </screenshots>
       <description>Given Luma Home Page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4167">
+    <test-step result="SUCCESS" duration="4932">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-        <screenshot image="71e30a7ef3138d3b4cbdcace583fb1e9.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
+        <screenshot image="36cace6ae35c3088238dadfdb29f3ab9.png"/>
       </screenshots>
       <description>When User Trigger Top Level Entry &quot;Women&quot;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1911">
+    <test-step result="SUCCESS" duration="2063">
       <screenshots>
-        <screenshot image="71e30a7ef3138d3b4cbdcace583fb1e9.png"/>
+        <screenshot image="36cace6ae35c3088238dadfdb29f3ab9.png"/>
       </screenshots>
       <description>Then Page &quot;Women&quot; Header and Footer Elements are Interactive</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2321">
+    <test-step result="SUCCESS" duration="2097">
       <screenshots>
-        <screenshot image="71e30a7ef3138d3b4cbdcace583fb1e9.png"/>
+        <screenshot image="36cace6ae35c3088238dadfdb29f3ab9.png"/>
       </screenshots>
       <description>And Complete LHS and Promo Module is Visible</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1943">
+    <test-step result="SUCCESS" duration="1830">
       <screenshots>
-        <screenshot image="71e30a7ef3138d3b4cbdcace583fb1e9.png"/>
+        <screenshot image="36cace6ae35c3088238dadfdb29f3ab9.png"/>
       </screenshots>
       <description>And Product List is Displayed with &quot;Selene Yoga Hoodie&quot;</description>
     </test-step>
   </test-group>
   <test-group name="[1] {topcat=Men, espotproduct=Geo Insulated Jogging Pant}" result="SUCCESS">
     <screenshots>
-      <screenshot image="e3079e43d2c95d674b7074c60bb60df4.png"/>
+      <screenshot image="6d484d85ce35766135a7ff5fc1853127.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7684">
+    <test-step result="SUCCESS" duration="9704">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
       </screenshots>
       <description>Given Luma Home Page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3834">
+    <test-step result="SUCCESS" duration="3928">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-        <screenshot image="e3079e43d2c95d674b7074c60bb60df4.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
+        <screenshot image="6d484d85ce35766135a7ff5fc1853127.png"/>
       </screenshots>
       <description>When User Trigger Top Level Entry &quot;Men&quot;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1892">
+    <test-step result="SUCCESS" duration="1727">
       <screenshots>
-        <screenshot image="e3079e43d2c95d674b7074c60bb60df4.png"/>
+        <screenshot image="6d484d85ce35766135a7ff5fc1853127.png"/>
       </screenshots>
       <description>Then Page &quot;Men&quot; Header and Footer Elements are Interactive</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1867">
+    <test-step result="SUCCESS" duration="1787">
       <screenshots>
-        <screenshot image="e3079e43d2c95d674b7074c60bb60df4.png"/>
+        <screenshot image="6d484d85ce35766135a7ff5fc1853127.png"/>
       </screenshots>
       <description>And Complete LHS and Promo Module is Visible</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1687">
+    <test-step result="SUCCESS" duration="1509">
       <screenshots>
-        <screenshot image="e3079e43d2c95d674b7074c60bb60df4.png"/>
+        <screenshot image="6d484d85ce35766135a7ff5fc1853127.png"/>
       </screenshots>
       <description>And Product List is Displayed with &quot;Geo Insulated Jogging Pant&quot;</description>
     </test-step>

@@ -31,28 +31,23 @@ public class RegisteredUserEntryPointSteps {
         lumaCustomerPage.signIn(rusername, rpassword);
     }
 
-    @Then("^Luma Module for Registered \"([^\"]*)\" is available$")
+    @Then("^Luma Module for Registered \"([^\"]*)\" remain available$")
     public void lumaModuleForRegisteredIsAvailable(String ruser) throws Throwable {
-        lumaAccountPage.myAccountPage();
         Assert.assertTrue(lumaBasePage.registeredUser().contains(ruser));
-        lumaBasePage.currentUserMode(ruser);
+        Assert.assertTrue(lumaBasePage.currentUserMode(ruser).contains(ruser));
+        lumaBasePage.verifyFooter();
+        lumaBasePage.clickSignOut();
     }
 
     @But("^Luma Modules for Guest \"([^\"]*)\" is not available$")
     public void lumaModulesForGuestIsNotAvailable(String guser) throws Throwable {
         Assert.assertFalse(lumaBasePage.registeredUser().contains(guser));
-        lumaBasePage.currentUserMode(guser);
     }
 
-    @When("^User Trigger Sign Up Action with \"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\" Details$")
-    public void userTriggerSignUpActionWithDetails(String fname, String lname, String email, String pword, String cpword) throws Throwable {
-
-    }
-
-    @Then("^User \"([^\"]*)\" is active$")
+    @And("^User \"([^\"]*)\" is active$")
     public void userIsActive(String ruser) throws Throwable {
         lumaAccountPage.myAccountDashboard(ruser);
-        lumaBasePage.currentUserMode(ruser);
+        Assert.assertTrue(lumaBasePage.currentUserMode(ruser).contains(ruser));
         lumaBasePage.clickSignOut();
     }
 
@@ -66,7 +61,15 @@ public class RegisteredUserEntryPointSteps {
     @Then("^New User \"([^\"]*)\" is active$")
     public void newUserIsActive(String ruser) throws Throwable {
         lumaAccountPage.newAccountDashboard(ruser);
-        lumaBasePage.currentUserMode(ruser);
+        Assert.assertTrue(lumaBasePage.currentUserMode(ruser).contains(ruser));
         lumaBasePage.clickSignOut();
+    }
+
+    @Then("^Luma Default for Registered \"([^\"]*)\" is available$")
+    public void lumaDefaultForRegisteredIsAvailable(String ruser) throws Throwable {
+        lumaAccountPage.myAccountPage();
+        Assert.assertTrue(lumaBasePage.registeredUser().contains(ruser));
+        Assert.assertTrue(lumaBasePage.currentUserMode(ruser).contains(ruser));
+        lumaBasePage.verifyFooter();
     }
 }

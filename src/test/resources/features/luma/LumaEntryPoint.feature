@@ -31,8 +31,8 @@ Feature: Guest User and Registered User Entry Point
   Scenario Outline: Registered User
     When User Interact with Luma Website
     And Trigger Registered "<rUser>" Action with "<rUsername>" and "<rPassword>"
-    Then Luma Module for Registered "<rUser>" is available
+    Then Luma Default for Registered "<rUser>" is available
     But Luma Modules for Guest "<gUser>" is not available
     Examples:
       | rUser | rUsername | rPassword | gUser |
-      | Welcome, bdd1002 Serenity! | bdd1002@duduosun.com | salmon02 | Sign In |
+      | Welcome, BDD1002 Duduosun! | bdd1002@duduosun.com | salmon02 | Sign In |

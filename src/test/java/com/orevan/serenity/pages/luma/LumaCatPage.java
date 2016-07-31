@@ -44,6 +44,7 @@ public class LumaCatPage extends PageObject {
     private By sizeSwatchNodes = By.cssSelector(".swatch-attribute.size");
     private By searchProduct = By.cssSelector("#search");
     private By emptySearchNotice = By.cssSelector(".message.notice");
+    private By baseString = By.cssSelector(".base");
 
 
     //methods
@@ -199,13 +200,14 @@ public class LumaCatPage extends PageObject {
         }
     }
 
-    @FindBy (css = ".base") WebElementFacade sBase;
     public void searchProduct(String search){
-        String searchConstant = "Search results for:";
+        String searchConstant = "Search results for: ";
+        String completeSearch = searchConstant + "'" + search + "'";
         element(searchProduct).sendKeys(search);
         element(searchProduct).sendKeys(Keys.ENTER);
-        waitForTextToAppear(sBase, searchConstant + " " + "'" + search + "'");
-        waitForTitleToAppear(searchConstant + " " + "'" + search + "'");
+        waitForTextToAppear(element(baseString), completeSearch);
+        waitForTextToAppear(element(baseString), completeSearch);
+        waitForTitleToAppear(completeSearch);
     }
     @FindBy (css = ".message.notice") WebElementFacade sEmptySearchNotice;
     public void emptyResultMessage(String message){

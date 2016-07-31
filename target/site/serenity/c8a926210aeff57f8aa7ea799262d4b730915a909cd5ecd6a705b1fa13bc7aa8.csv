@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Guest User and Registered User Entry Point","Registered User","ERROR","2016-07-28T23:57:26.459+01:00","0.0","23.87"
+"Luma Product Details Page - Category and Search","Navigate Simple Product via Sub Category","ERROR","2016-07-30T23:22:38.632+01:00","0.0","115.98"
+"Luma Product Details Page - Category and Search","Navigate Simple Product via Top Category","ERROR","2016-07-30T23:21:09.161+01:00","0.0","88.4"
+"Product Search","Search Configurable Product Result PLP List View","ERROR","2016-07-30T23:31:21.748+01:00","0.0","32.65"
+"Product Search","Search Simple Product Result Default PLP","ERROR","2016-07-30T23:30:39.672+01:00","0.0","40.37"

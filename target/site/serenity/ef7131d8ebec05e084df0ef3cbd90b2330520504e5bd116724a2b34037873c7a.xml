@@ -1,4 +1,4 @@
-<acceptance-test-run title="Registered User Login and Logout" name="Registered User Login and Logout" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26294" timestamp="2016-07-29T00:33:21.895+01:00" session-id="da22a547-ba26-49ba-9fa0-d63890248177">
+<acceptance-test-run title="Registered User Login and Logout" name="Registered User Login and Logout" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="25284" timestamp="2016-07-31T01:12:44.031+01:00" session-id="5910232b-1913-492a-b67d-95d8af6ca481">
   <user-story id="guest-user-to-registered-user-login-and-logout" name="Guest User to Registered User Login and Logout" path="RegisterLoginLogout.feature"/>
   <tags>
     <tag name="Guest User to Registered User Login and Logout" type="feature"/>
@@ -16,48 +16,48 @@
     </headers>
     <rows>
       <row result="SUCCESS">
-        <value>bdd1004 Serenity</value>
-        <value>bdd1004@duduosun.com</value>
-        <value>salmon04</value>
+        <value>BDD1001 Duduosun</value>
+        <value>bdd1001@duduosun.com</value>
+        <value>salmon01</value>
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {rUser=bdd1004 Serenity, rUsername=bdd1004@duduosun.com, rPassword=salmon04}" result="SUCCESS">
+  <test-group name="[1] {rUser=BDD1001 Duduosun, rUsername=bdd1001@duduosun.com, rPassword=salmon01}" result="SUCCESS">
     <screenshots>
       <screenshot image="2bcc5f03621474e66e19642a5a0fb617.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="12069">
+    <test-step result="SUCCESS" duration="9063">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
       </screenshots>
       <description>Given Luma Home Page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3370">
+    <test-step result="SUCCESS" duration="3503">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
       </screenshots>
       <description>When User Interact with Luma Website</description>
     </test-step>
-    <test-step result="SUCCESS" duration="6957">
+    <test-step result="SUCCESS" duration="7425">
       <screenshots>
-        <screenshot image="c039bb7e7fe4df51557cda629785667e.png"/>
-        <screenshot image="e228d2b2bf4346bad6f0768f88ccadb2.png"/>
+        <screenshot image="3f951216a6ec4ae33be75b86580afb62.png"/>
+        <screenshot image="50441273f266560420d14a48ffe57f53.png"/>
       </screenshots>
-      <description>And Trigger Registered &quot;bdd1004 Serenity&quot; Action with &quot;bdd1004@duduosun.com&quot; and &quot;salmon04&quot;</description>
+      <description>And Trigger Registered &quot;BDD1001 Duduosun&quot; Action with &quot;bdd1001@duduosun.com&quot; and &quot;salmon01&quot;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1160">
+    <test-step result="SUCCESS" duration="1489">
       <screenshots>
-        <screenshot image="e228d2b2bf4346bad6f0768f88ccadb2.png"/>
-        <screenshot image="58634b30d6b447f463677eb5c75b280b.png"/>
+        <screenshot image="50441273f266560420d14a48ffe57f53.png"/>
+        <screenshot image="767506cdfba8b79b6089e72c3ff89b82.png"/>
       </screenshots>
-      <description>Then Luma Module for Registered &quot;bdd1004 Serenity&quot; is available</description>
+      <description>Then Luma Default for Registered &quot;BDD1001 Duduosun&quot; is available</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2658">
+    <test-step result="SUCCESS" duration="3669">
       <screenshots>
-        <screenshot image="58634b30d6b447f463677eb5c75b280b.png"/>
+        <screenshot image="767506cdfba8b79b6089e72c3ff89b82.png"/>
         <screenshot image="2bcc5f03621474e66e19642a5a0fb617.png"/>
       </screenshots>
-      <description>Then User &quot;bdd1004 Serenity&quot; is active</description>
+      <description>And User &quot;BDD1001 Duduosun&quot; is active</description>
     </test-step>
   </test-group>
 </acceptance-test-run>
