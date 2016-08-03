@@ -132,5 +132,12 @@
     <orderEntry type="library" scope="TEST" name="Maven: net.thucydides:thucydides-report-resources:0.9.275" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.sf.flexjson:flexjson:2.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: asm:asm:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.jayway.restassured:rest-assured:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-xml:2.4.4" level="project" />
+    <orderEntry type="library" name="Maven: org.ccil.cowan.tagsoup:tagsoup:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: com.jayway.restassured:json-path:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-json:2.4.4" level="project" />
+    <orderEntry type="library" name="Maven: com.jayway.restassured:rest-assured-common:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.jayway.restassured:xml-path:2.9.0" level="project" />
   </component>
 </module>
