@@ -34,4 +34,11 @@ public class EntryPointApiSteps {
     public void userGetHTTPStatusCode(Integer code) throws Throwable {
         Assert.assertEquals(scode, code);
     }
+
+    @Then("^Collection \"([^\"]*)\" is returned$")
+    public void collectionIsReturned(String list) throws Throwable {
+        //String customerCollection = response.asString();
+        String customerCollection = response.asString();
+        Assert.assertTrue(customerCollection.contains(list));
+    }
 }

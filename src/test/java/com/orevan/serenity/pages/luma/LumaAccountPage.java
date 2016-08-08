@@ -75,7 +75,10 @@ public class LumaAccountPage extends PageObject {
     private By wishListBlock = By.cssSelector(".products-grid.wishlist");
     private By wishListNodes = By.cssSelector(".products-grid.wishlist>ol>li");
     private By wishListButtons = By.cssSelector("#wishlist-view-form>div>div>button");
+    private By removeFromWishList = By.cssSelector(".products-grid.wishlist>ol>li>div>div>div>a.btn-remove.action.delete");
 
+
+        //methods
     public void myAccountPage(){
         waitForTitleToAppear(accountPage);
         waitForTextToAppear(myDashboard);
@@ -112,6 +115,10 @@ public class LumaAccountPage extends PageObject {
         List<WebElement> sWishListNodes = thenReturnElementList(wishListNodes);
         sWishListNodes.get(0).isDisplayed();
         return sWishListNodes.size();
+    }
+    public String wishListProducts(){
+        shouldBeVisible(wishListBlock);
+        return element(wishListBlock).getText();
     }
 
     public void navigateAccountTab(String acctab){
@@ -237,4 +244,19 @@ public class LumaAccountPage extends PageObject {
         waitForTextToAppear(element(wishListBlock), wproduct);
         shouldBeVisible(wishListButtons);
     }
+
+    public void removeProductFromMyWishList(String wproduct){
+        List<WebElement> sWishListNodes = thenReturnElementList(wishListNodes);
+        for (WebElement iWishList : sWishListNodes) {
+            if (iWishList.getText().contains(wproduct)) {
+                moveTo(By.linkText(wproduct));
+                iWishList.findElement(By.linkText("Remove")).click();
+                break;
+            }
+        }
+    }
+
+
+
+
 }

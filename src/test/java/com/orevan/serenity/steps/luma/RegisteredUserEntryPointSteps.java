@@ -37,6 +37,7 @@ public class RegisteredUserEntryPointSteps {
         Assert.assertTrue(lumaBasePage.currentUserMode(ruser).contains(ruser));
         lumaBasePage.verifyFooter();
         lumaBasePage.clickSignOut();
+        lumaBasePage.waitForAngularRequestsToFinish();
     }
 
     @But("^Luma Modules for Guest \"([^\"]*)\" is not available$")

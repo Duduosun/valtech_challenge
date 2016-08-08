@@ -67,6 +67,10 @@ public class ExampleService {
         //response = when().get(duluxBaseURL + colorEndPoint);
         //Assert.assertEquals(200, response.statusCode());
     }
+
+
+
+
 }
 
 

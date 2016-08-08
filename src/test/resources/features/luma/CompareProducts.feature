@@ -5,6 +5,8 @@ Feature: Guest User and Registered User Compare Products
     Given Luma Home Page
 
   Scenario: Guest User Compare Product via Base Page
+  When User Trigger Compare Entry Point CTA
+
   Scenario: Guest User Compare Product from PLP
   Scenario: Guest User Compare Product from PDP
   Scenario: Registered User Compare Product via Base Page

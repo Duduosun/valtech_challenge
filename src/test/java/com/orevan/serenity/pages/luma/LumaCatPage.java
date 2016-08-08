@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
+
 /**
  * Created by tolaf on 22/07/2016.
  */
@@ -29,7 +30,7 @@ public class LumaCatPage extends PageObject {
     private By fitnessEquipment = By.cssSelector("#ui-id-26");
     private By watches = By.cssSelector("#ui-id-27");
     private By videoDownload = By.cssSelector("#ui-id-28");
-    private By productNodes = By.cssSelector(".product-item-info");
+    private By productNodes = By.cssSelector(".product-item");
     private By productLinkNodes = By.cssSelector(".product-item-link");
     private By breadcrumbsNodes = By.cssSelector(".breadcrumbs>ul>li");
     private By pageHeading = By.cssSelector(".base");
@@ -45,6 +46,16 @@ public class LumaCatPage extends PageObject {
     private By searchProduct = By.cssSelector("#search");
     private By emptySearchNotice = By.cssSelector(".message.notice");
     private By baseString = By.cssSelector(".base");
+    private By actionToWishListNodes = By.cssSelector(".action.towishlist");
+    private By actionToCompareNodes = By.cssSelector(".action.tocompare");
+    private By wishListProductNodes = By.cssSelector(".product-item>div>div>div>div>a.action.towishlist");
+    private By fullProductNodes = By.cssSelector(".product-items.widget-product-grid>li");
+    private By successMessage = By.cssSelector(".message-success.success.message");
+    private By plpProductNodes = By.cssSelector(".products.list.items.product-items>li");
+    private By pdpWishList = By.cssSelector(".product-info-main>div>div>a.action.towishlist");
+    private By removeFromWishList = By.cssSelector("#wishlist-sidebar>li>div>div>div>div>a.btn-remove.action.delete");
+    private By sidebarWishListNodes = By.cssSelector("#wishlist-sidebar>li");
+    private By goToWishList = By.cssSelector(".action.details");
 
 
     //methods
@@ -115,25 +126,35 @@ public class LumaCatPage extends PageObject {
         sProductNodes.get(2).isDisplayed();
         return sProductNodes.size();
     }
-
     public Integer countBreadcrumbs() {
         List<WebElement> sBreadcrumbsNodes = thenReturnElementList(breadcrumbsNodes);
         sBreadcrumbsNodes.get(1).isDisplayed();
         return sBreadcrumbsNodes.size();
     }
-
     public Integer countFilterOptions() {
         shouldBeVisible(shoppingOptions);
         List<WebElement> sFilterOptionNodes = thenReturnElementList(filterOptionNodes);
         sFilterOptionNodes.get(1).isDisplayed();
         return sFilterOptionNodes.size();
     }
-
     public Integer countToolbarNodes() {
         List<WebElement> sToolbarNodes = thenReturnElementList(productToolbarNodes);
         sToolbarNodes.get(0).isDisplayed();
         sToolbarNodes.get(1).isDisplayed();
         return sToolbarNodes.size();
+    }
+    public Integer countWishListNodes(){
+        List<WebElement> sWishListNodes = thenReturnElementList(actionToWishListNodes);
+        sWishListNodes.get(0).isDisplayed();
+        return sWishListNodes.size();
+    }
+    public String successMessage(){
+        return element(successMessage).getText();
+    }
+    public Integer countCompareNodes(){
+        List<WebElement> sCompareNodes = thenReturnElementList(actionToCompareNodes);
+        sCompareNodes.get(0).isDisplayed();
+        return sCompareNodes.size();
     }
 
     public void verifyPLPGridView() {
@@ -209,6 +230,7 @@ public class LumaCatPage extends PageObject {
         waitForTextToAppear(element(baseString), completeSearch);
         waitForTitleToAppear(completeSearch);
     }
+
     @FindBy (css = ".message.notice") WebElementFacade sEmptySearchNotice;
     public void emptyResultMessage(String message){
         shouldBeVisible(emptySearchNotice);
@@ -218,6 +240,49 @@ public class LumaCatPage extends PageObject {
         waitForTextToAppear(sEmptySearchNotice, message);
     }
 
+    public void clickAddToWishList(){
+        List<WebElement> sWishList = thenReturnElementList(actionToWishListNodes);
+        clickOn(sWishList.get(0));
+    }
+    public void clickAddToWishList(String wproduct){
+        List<WebElement> sProductNodes = thenReturnElementList(productNodes);
+        for (WebElement iProduct : sProductNodes) {
+            if (iProduct.getText().contains(wproduct)) {
+                moveTo(By.linkText(wproduct));
+                iProduct.findElement(By.linkText("WISH LIST")).click();
+                break;
+            }
+        }
+    }
+    public void addPDProductToWishList(String wproduct){
+        clickOn(element(pdpWishList));
+    }
+    public void removeProductFromWishList(String wproduct){
+        List<WebElement> sWishListNodes = thenReturnElementList(sidebarWishListNodes);
+        for (WebElement iWishList : sWishListNodes) {
+            if (iWishList.getText().contains(wproduct)) {
+                //moveTo(By.linkText(wproduct));
+                iWishList.findElement(By.linkText("REMOVE THIS ITEM")).click();
+                break;
+            }
+        }
+    }
+    public void goToWishList(){
+        clickOn(element(goToWishList));
+    }
+    public void clickAddToCompareProduct(){
+        List<WebElement> sCompareProduct = thenReturnElementList(actionToCompareNodes);
+        clickOn(sCompareProduct.get(0));
+    }
+    public void clickAddToCompareProduct(String cproduct){
+        List<WebElement> sProductNodes = thenReturnElementList(fullProductNodes);
+        for (WebElement iProductNodes : sProductNodes) {
+            if (iProductNodes.getText().contains(cproduct)) {
+                iProductNodes.findElement(By.linkText("COMPARE")).click();
+                break;
+            }
+        }
+    }
 }
 
 //evaluateJavascript("document.getElementById('firstname').focus()");

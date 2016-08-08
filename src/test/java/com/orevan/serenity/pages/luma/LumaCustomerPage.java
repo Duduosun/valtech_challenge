@@ -29,6 +29,7 @@ public class LumaCustomerPage extends PageObject {
     private By nPassword = By.cssSelector("#password");
     private By cPassword = By.cssSelector("#password-confirmation");
 
+        //methods
     @FindBy(css = ".base") WebElementFacade sPageHeader;
     public void newCustomerPage(){
         waitForTitleToAppear(newCustomerPage);

@@ -123,11 +123,12 @@ public class LumaBasePage extends PageObject {
         List<WebElement> signIn = thenReturnElementList(signInNodes);
         signIn.get(0).click();
     }
-    public void clickSignOut() {
+    public void clickSignOut() throws InterruptedException {
         List<WebElement> sActiveUser = thenReturnElementList(activeUserNodes);
         sActiveUser.get(0).click();
         List<WebElement> signOut = thenReturnElementList(signOutNodes);
         signOut.get(0).click();
+        waitForTitleToAppear(homePage);
     }
     public void clickCreateAccount(){
         List<WebElement> createAccount = thenReturnElementList(createAccountNodes);

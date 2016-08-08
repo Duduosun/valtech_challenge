@@ -77,7 +77,7 @@ public class AccountSteps {
     @Then("^My Wish List \"([^\"]*)\" is Displayed$")
     public void myWishListIsDisplayed(String wproduct) throws Throwable {
         lumaAccountPage.vpMyWishList(wproduct);
-        Assert.assertTrue((lumaAccountPage.countWishList()) >=2);
+        Assert.assertTrue((lumaAccountPage.countWishList()) >=1);
         Assert.assertTrue((lumaAccountPage.countWishList()) <=6);
     }
 }
