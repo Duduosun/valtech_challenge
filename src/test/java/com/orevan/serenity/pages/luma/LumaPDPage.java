@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
+
 /**
  * Created by tolaf on 22/07/2016.
  */
@@ -20,10 +21,13 @@ public class LumaPDPage extends PageObject {
     private By base = By.cssSelector(".base");
     private By reviewBlock = By.cssSelector(".product-reviews-summary");
     private By priceInfoBlock = By.cssSelector(".product-info-price");
+    private By swatchOptionsBlock = By.cssSelector(".swatch-opt");
     private By swatchOptionsNodes = By.cssSelector(".swatch-opt>div");
     private By cartBoxBlock = By.cssSelector(".box-tocart");
     private By socialLinks = By.cssSelector(".product-social-links");
     private By tabListBlock = By.cssSelector(".product.data.items");
+    private By swatchColorNodes = By.cssSelector(".swatch-option.color");
+    private By swatchSizeNodes = By.cssSelector(".swatch-option.text");
 
 
         //method
@@ -39,6 +43,15 @@ public class LumaPDPage extends PageObject {
         shouldBeVisible(tabListBlock);
         element(base).getText().equals(eproduct);
     }
+    public void clickColorSwatchIndex(Integer icolor){
+        List<WebElement> aSwatchNodes = thenReturnElementList(swatchColorNodes);
+        aSwatchNodes.get(icolor).click();
+    }
+    public void clickSizeSwatchIndex(Integer isize){
+        List<WebElement> aSwatchNodes = thenReturnElementList(swatchSizeNodes);
+        aSwatchNodes.get(isize).click();
+    }
+
 
     public Integer countFotorama(){
         List<WebElement> sFotoramaNodes = thenReturnElementList(fotoramaNodes);
@@ -46,7 +59,7 @@ public class LumaPDPage extends PageObject {
         return sFotoramaNodes.size();
     }
     public Boolean simpleOrconfigurable(){
-        if (isElementVisible(swatchOptionsNodes).equals(true)){
+        if (isElementVisible(swatchOptionsBlock).equals(true)){
             return true;
         } else  {
             return false;

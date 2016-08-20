@@ -4,6 +4,7 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -23,7 +24,7 @@ public class LumaBasePage extends PageObject {
     private String luma = "http://magento2-demo.nexcess.net/";
     //private String luma = "http://magento2.nublue.co.uk/?_ga=1.162718655.222142942.1469213708";
 
-
+    private WebDriver driver;
     private String homePage = "Home Page";
     private String whatsNewPage = "What's New";
     private String womenPage = "Women";
@@ -95,6 +96,12 @@ public class LumaBasePage extends PageObject {
         //header n footer
     public void goToLuma(){
         openAt(luma);
+    }
+    public void clearBrowserCache(){
+        driver.manage().deleteAllCookies();
+    }
+    public void goHome(){
+        clickOn(element(lumaLogo));
     }
     public void verifyHomeLogo(){
         waitForTitleToAppear(homePage);
@@ -197,6 +204,7 @@ public class LumaBasePage extends PageObject {
         List<WebElement> sTopCatNodes = thenReturnElementList(topCatNodes);
         sTopCatNodes.get(tcat).click();
     }
+
     public void clickTopCat(String tcat) {
         List<WebElement> sTopCatNodes = thenReturnElementList(topCatNodes);
         for (WebElement iTopCat : sTopCatNodes) {

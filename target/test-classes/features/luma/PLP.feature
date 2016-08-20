@@ -35,7 +35,6 @@ Feature: Luma Product List Page
       | Gear | Fitness Equipment | Sprite Foam Yoga Brick |
       | Gear | Watches | Cruise Dual Analog Watch |
 
-
   @subcat
   Scenario Outline: Navigate Configurable Products PLP List View
     When User Trigger Top Level "<topcat>" then Sub Category Level "<subcategory>"

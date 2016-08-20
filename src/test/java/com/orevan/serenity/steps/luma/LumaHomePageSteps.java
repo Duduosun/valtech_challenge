@@ -1,6 +1,7 @@
 package com.orevan.serenity.steps.luma;
 
 import com.orevan.serenity.pages.luma.LumaBasePage;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.But;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -32,5 +33,13 @@ public class LumaHomePageSteps {
     public void lumaModulesForRegisteredIsNotAvailable(String ruser) throws Throwable {
         Assert.assertFalse(lumaBasePage.guestUser().contains(ruser));
         lumaBasePage.currentUserMode(ruser);
+    }
+
+    @And("^Luma Recovery Scenario$")
+    public void lumaRecoveryScenario() throws Throwable {
+        //lumaBasePage.goHome();
+        lumaBasePage.waitForAngularRequestsToFinish();
+        Assert.assertTrue(lumaBasePage.guestUser().contains("Sign In"));
+        lumaBasePage.currentUserMode("Create an Account");
     }
 }

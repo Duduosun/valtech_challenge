@@ -76,30 +76,13 @@ public class LumaAccountPage extends PageObject {
     private By wishListNodes = By.cssSelector(".products-grid.wishlist>ol>li");
     private By wishListButtons = By.cssSelector("#wishlist-view-form>div>div>button");
     private By removeFromWishList = By.cssSelector(".products-grid.wishlist>ol>li>div>div>div>a.btn-remove.action.delete");
-
+    private By messageInfoEmpty = By.cssSelector(".message.info.empty");
 
         //methods
-    public void myAccountPage(){
-        waitForTitleToAppear(accountPage);
-        waitForTextToAppear(myDashboard);
-    }
-    @FindBy(css =".column.main") WebElementFacade sMyDashboard;
-    public void newAccountDashboard(String ruser){
-        waitForTitleToAppear(accountPage);
-        waitForTextToAppear(myDashboard);
-        waitForTextToAppear(messageThanks);
-        waitForAnyTextToAppear(sMyDashboard, ruser);
-    }
-    public void myAccountDashboard(String ruser) {
-        waitForTitleToAppear(accountPage);
-        waitForTextToAppear(myDashboard);
-        waitForAnyTextToAppear(sMyDashboard, ruser );
-    }
-
     public Integer countDashboardOrdersTable(){
-        List<WebElement> sDashboardOrderTableNodes = thenReturnElementList(dashboardOrdersTableBodyNodes);
-        sDashboardOrderTableNodes.get(0).isDisplayed();
-        return sDashboardOrderTableNodes.size();
+            List<WebElement> sDashboardOrderTableNodes = thenReturnElementList(dashboardOrdersTableBodyNodes);
+            sDashboardOrderTableNodes.get(0).isDisplayed();
+            return sDashboardOrderTableNodes.size();
     }
     public Integer countDownloadableProducts(){
         List<WebElement> sDownloadableTableNodes = thenReturnElementList(downloadableBodyNodes);
@@ -116,11 +99,53 @@ public class LumaAccountPage extends PageObject {
         sWishListNodes.get(0).isDisplayed();
         return sWishListNodes.size();
     }
+
     public String wishListProducts(){
         shouldBeVisible(wishListBlock);
         return element(wishListBlock).getText();
     }
+    @FindBy (css = ".fieldset.info>div>div>input[id*=email]") WebElementFacade sEmail;
+    public String accountInformationEmail(String rusername){
+        String vEmail = null;
+        if (sEmail.getValue().equals(rusername)){
+            vEmail = sEmail.getValue();
+        }
+        return vEmail;
+    }
 
+    public void myAccountPage(){
+        waitForTitleToAppear(accountPage);
+        waitForTextToAppear(myDashboard);
+    }
+    @FindBy(css =".column.main") WebElementFacade sMyDashboard;
+
+    @FindBy (css = ".base") WebElementFacade sPageHeading;
+    public void vpAccountDashboard(String ruser, String rusername){
+        waitForTextToAppear(sPageHeading, myDashboard);
+        shouldBeVisible(accountLHSNodes);
+        shouldBeVisible(accountBottomLHSNodes);
+        waitForTextToAppear(element(dasboardRecentOrders),"Recent Orders");
+        shouldBeVisible(dashboardOrdersTableHead);
+        waitForTextToAppear(element(dashboardOrdersTableHead), "Order Total");
+        waitForTextToAppear(element(dashboardAccountInfo), ruser);
+        waitForTextToAppear(element(dashboardAccountInfo), rusername);
+        waitForTextToAppear(element(dashboardAccountInfo), "Account Information");
+        waitForTextToAppear(element(dashboardAddress), ruser);
+        waitForTextToAppear(element(dashboardAddress), addressBook);
+        waitForTextToAppear(element(dashboardAddress), "Default Billing Address");
+        waitForTextToAppear(element(dashboardAddress), "Default Shipping Address");
+    }
+    public void newAccountDashboard(String ruser){
+        waitForTitleToAppear(accountPage);
+        waitForTextToAppear(myDashboard);
+        waitForTextToAppear(messageThanks);
+        waitForAnyTextToAppear(sMyDashboard, ruser);
+    }
+    public void myAccountDashboard(String ruser) {
+        waitForTitleToAppear(accountPage);
+        waitForTextToAppear(myDashboard);
+        waitForAnyTextToAppear(sMyDashboard, ruser );
+    }
     public void navigateAccountTab(String acctab){
         List<WebElement> sAccountLHSNodes = thenReturnElementList(accountLHSNodes);
 
@@ -153,32 +178,6 @@ public class LumaAccountPage extends PageObject {
                 clickOn(sAccountLHSNodes.get(8));
                 break;
         }
-    }
-
-    @FindBy (css = ".base") WebElementFacade sPageHeading;
-    public void vpAccountDashboard(String ruser, String rusername){
-        waitForTextToAppear(sPageHeading, myDashboard);
-        shouldBeVisible(accountLHSNodes);
-        shouldBeVisible(accountBottomLHSNodes);
-        waitForTextToAppear(element(dasboardRecentOrders),"Recent Orders");
-        shouldBeVisible(dashboardOrdersTableHead);
-        waitForTextToAppear(element(dashboardOrdersTableHead), "Order Total");
-        waitForTextToAppear(element(dashboardAccountInfo), ruser);
-        waitForTextToAppear(element(dashboardAccountInfo), rusername);
-        waitForTextToAppear(element(dashboardAccountInfo), "Account Information");
-        waitForTextToAppear(element(dashboardAddress), ruser);
-        waitForTextToAppear(element(dashboardAddress), addressBook);
-        waitForTextToAppear(element(dashboardAddress), "Default Billing Address");
-        waitForTextToAppear(element(dashboardAddress), "Default Shipping Address");
-    }
-
-    @FindBy (css = ".fieldset.info>div>div>input[id*=email]") WebElementFacade sEmail;
-    public String accountInformationEmail(String rusername){
-        String vEmail = null;
-        if (sEmail.getValue().equals(rusername)){
-            vEmail = sEmail.getValue();
-        }
-        return vEmail;
     }
     public void vpAccountInformation(){
         waitForTextToAppear(sPageHeading, accountInformation);
@@ -244,7 +243,6 @@ public class LumaAccountPage extends PageObject {
         waitForTextToAppear(element(wishListBlock), wproduct);
         shouldBeVisible(wishListButtons);
     }
-
     public void removeProductFromMyWishList(String wproduct){
         List<WebElement> sWishListNodes = thenReturnElementList(wishListNodes);
         for (WebElement iWishList : sWishListNodes) {
@@ -255,8 +253,7 @@ public class LumaAccountPage extends PageObject {
             }
         }
     }
-
-
-
-
+    public void emptyComparisonPage(){
+        shouldBeVisible(messageInfoEmpty);
+    }
 }

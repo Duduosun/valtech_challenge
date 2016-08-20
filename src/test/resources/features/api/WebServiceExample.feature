@@ -21,5 +21,5 @@
       Then Collection "<list>" is returned
       Examples:
         | URL | endpoint | list |
-        | http://www.thomas-bayer.com | /sqlrest/CUSTOMER/ | 7777 |
+        | http://www.thomas-bayer.com | /sqlrest/CUSTOMER/ | 3333 |
         | http://magento2-demo.nexcess.net | /api/rest/products/ | Women |

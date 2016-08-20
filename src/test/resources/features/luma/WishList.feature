@@ -22,17 +22,6 @@ Feature: User Wish List Module
       | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Women | Breathe-Easy Tank |
 
   @wishlist
-  Scenario Outline: Remove Wish List Product via My Account
-    And Trigger Registered "<rUser>" Action with "<rUsername>" and "<rPassword>"
-    When User Remove Product "<wProduct>" from Sidebar Wish List
-    Then Product "<wProduct>" is not Visible in My Wish List
-    And Luma Module for Registered "<rUser>" remain available
-    Examples:
-      | rUser | rUsername | rPassword | wProduct |
-      | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Rival Field Messenger |
-      | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Breathe-Easy Tank |
-
-  @wishlist
   Scenario Outline: Populate Wish List from PLP
     And Trigger Registered "<rUser>" Action with "<rUsername>" and "<rPassword>"
     When User Trigger Top Level "<topCat>" then Sub Category Level "<subCat>"
@@ -45,19 +34,6 @@ Feature: User Wish List Module
       | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | Gear | Bags | Voyage Yoga Bag |
       | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | Men | Men Tops | Zoltan Gym Tee |
       | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | Gear | Watches | Cruise Dual Analog Watch |
-
-  @wishlist
-  Scenario Outline: Remove Wish List Product via My Wish List
-    And Trigger Registered "<rUser>" Action with "<rUsername>" and "<rPassword>"
-    And User Trigger My Account "<accounttab>" Tab
-    And My Wish List "<wProduct>" is Displayed
-    When User Remove Product "<wProduct>" from My Wish List Dasboard
-    Then Product "<wProduct>" is not Visible in My Wish List
-    And Luma Module for Registered "<rUser>" remain available
-    Examples:
-      | rUser | rUsername | rPassword | accounttab | wProduct |
-      | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | My Wish List | Balboa Persistence Tee |
-      | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | My Wish List | Voyage Yoga Bag |
 
   @wishlist
   Scenario Outline: Populate Wish List from PDP
@@ -73,6 +49,30 @@ Feature: User Wish List Module
       | BDD1004 Duduosun | bdd1004@duduosun.com | salmon04 | Men | Hero Hoodie |
 
   @wishlist
+  Scenario Outline: Remove Wish List Product via My Account
+    And Trigger Registered "<rUser>" Action with "<rUsername>" and "<rPassword>"
+    When User Remove Product "<wProduct>" from Sidebar Wish List
+    Then Product "<wProduct>" is not Visible in My Wish List
+    And Luma Module for Registered "<rUser>" remain available
+    Examples:
+      | rUser | rUsername | rPassword | wProduct |
+      | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Rival Field Messenger |
+      | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Breathe-Easy Tank |
+
+  @wishlist
+  Scenario Outline: Remove Wish List Product via My Wish List
+    And Trigger Registered "<rUser>" Action with "<rUsername>" and "<rPassword>"
+    And User Trigger My Account "<accounttab>" Tab
+    And My Wish List "<wProduct>" is Displayed
+    When User Remove Product "<wProduct>" from My Wish List Dasboard
+    Then Product "<wProduct>" is not Visible in My Wish List
+    And Luma Module for Registered "<rUser>" remain available
+    Examples:
+      | rUser | rUsername | rPassword | accounttab | wProduct |
+      | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | My Wish List | Balboa Persistence Tee |
+      | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | My Wish List | Voyage Yoga Bag |
+
+  @wishlist
   Scenario Outline: Remove Wish List Product via Base Page
     And Trigger Registered "<rUser>" Action with "<rUsername>" and "<rPassword>"
     And User Trigger Top Level Entry "<topcat>"
@@ -81,7 +81,7 @@ Feature: User Wish List Module
     And Luma Module for Registered "<rUser>" remain available
     Examples:
       | rUser | rUsername | rPassword | topcat | wProduct |
-      #| BDD1004 Duduosun | bdd1004@duduosun.com | salmon04 | Women | Selene Yoga Hoodie |
+      | BDD1004 Duduosun | bdd1004@duduosun.com | salmon04 | Women | Selene Yoga Hoodie |
       | BDD1004 Duduosun | bdd1004@duduosun.com | salmon04 | Men | Hero Hoodie |
 
   @wishlist
