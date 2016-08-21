@@ -15,16 +15,6 @@
         | Gear | Fitness Equipment | Dual Handle Cardio Ball |
 
     @addtocart
-    Scenario Outline: Populate Cart via Base Page - Simple Product
-      When User Trigger Top Level Entry "<topcat>"
-      And User Add One of Listed Products "<aProduct>" to Cart
-      Then Product "<aProduct>" is added to Cart
-      And Luma Recovery Scenario
-      Examples:
-        | topcat | aProduct |
-        | What's New | Go-Get'r Pushup Grips |
-
-    @addtocart
     Scenario Outline: Populate Cart via PDP - Simple Product
       When User Trigger Top Level Entry "<topcat>"
       And User Click Simple Product "<sProduct>"
@@ -34,6 +24,16 @@
       Examples:
         | topcat | sProduct |
         | Training | Solo Power Circuit |
+
+    @addtocart
+    Scenario Outline: Populate Cart via Base Page - Simple Product
+      When User Trigger Top Level Entry "<topcat>"
+      And User Add One of Listed Products "<aProduct>" to Cart
+      Then Product "<aProduct>" is added to Cart
+      And Luma Recovery Scenario
+      Examples:
+        | topcat | aProduct |
+        | What's New | Go-Get'r Pushup Grips |
 
     @addtocart
     Scenario Outline: Populate Cart via PDP - Configurable Product

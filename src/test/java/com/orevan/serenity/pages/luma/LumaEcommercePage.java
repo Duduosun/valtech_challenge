@@ -8,7 +8,6 @@ import net.thucydides.core.pages.PageObject;
 public class LumaEcommercePage extends PageObject {
     /**
      * Basket
-     Compare Products
      Signed Out
      Order Confirmation
      Orders n Returns

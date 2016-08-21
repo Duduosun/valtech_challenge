@@ -24,7 +24,7 @@ public class LumaBasePage extends PageObject {
     private String luma = "http://magento2-demo.nexcess.net/";
     //private String luma = "http://magento2.nublue.co.uk/?_ga=1.162718655.222142942.1469213708";
 
-    private WebDriver driver;
+    private WebDriver fDriver;
     private String homePage = "Home Page";
     private String whatsNewPage = "What's New";
     private String womenPage = "Women";
@@ -94,14 +94,21 @@ public class LumaBasePage extends PageObject {
     }
 
         //header n footer
+    public void closeLuma(){
+        fDriver.close();
+    }
+
     public void goToLuma(){
         openAt(luma);
     }
     public void clearBrowserCache(){
-        driver.manage().deleteAllCookies();
+        fDriver.manage().deleteAllCookies();
     }
     public void goHome(){
         clickOn(element(lumaLogo));
+        verifyHeader();
+        verifyHomePageBody();
+        verifyFooter();
     }
     public void verifyHomeLogo(){
         waitForTitleToAppear(homePage);
@@ -142,7 +149,7 @@ public class LumaBasePage extends PageObject {
         createAccount.get(0).click();
     }
 
-    @FindBy(css = ".panel.header") WebElementFacade sPanelHeader;
+    @FindBy(css = ".panel.header") private WebElementFacade sPanelHeader;
     public String currentUserMode(String ocurrent){
         String cUser = null;
         shouldBeVisible(panelHeader);
@@ -264,8 +271,8 @@ public class LumaBasePage extends PageObject {
         return espot;
     }
 
-    @FindBy(css = ".base") WebElementFacade sPageHeading;
-    @FindBy(css = ".breadcrumbs") WebElementFacade sBreadcrumbs;
+    @FindBy(css = ".base") private WebElementFacade sPageHeading;
+    @FindBy(css = ".breadcrumbs") private WebElementFacade sBreadcrumbs;
     public void verifyBasePage(String bpage){
         waitForTitleToAppear(bpage);
         waitForAnyTextToAppear(sPageHeading, bpage);

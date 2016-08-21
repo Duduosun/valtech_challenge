@@ -1,5 +1,6 @@
 package com.orevan.serenity.steps.luma;
 
+import com.orevan.serenity.pages.luma.LumaBasePage;
 import com.orevan.serenity.pages.luma.LumaCatPage;
 import com.orevan.serenity.pages.luma.LumaPDPage;
 import cucumber.api.java.en.And;
@@ -16,6 +17,9 @@ public class CartSteps {
     LumaCatPage lumaCatPage;
 
     @Steps
+    LumaBasePage lumaBasePage;
+
+    @Steps
     LumaPDPage lumaPDPage;
 
     @And("^User Add One of Listed Products \"([^\"]*)\" to Cart$")
@@ -30,6 +34,7 @@ public class CartSteps {
         Assert.assertTrue(lumaCatPage.successMessage().contains("You added"));
         Assert.assertTrue(lumaCatPage.successMessage().contains("to your shopping cart."));
         Assert.assertTrue(lumaCatPage.successMessage().contains(aproduct));
+
     }
 
     @And("^User Add PDP Product \"([^\"]*)\" to Cart$")

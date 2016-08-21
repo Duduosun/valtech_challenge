@@ -104,7 +104,7 @@ public class LumaAccountPage extends PageObject {
         shouldBeVisible(wishListBlock);
         return element(wishListBlock).getText();
     }
-    @FindBy (css = ".fieldset.info>div>div>input[id*=email]") WebElementFacade sEmail;
+    @FindBy (css = ".fieldset.info>div>div>input[id*=email]") private WebElementFacade sEmail;
     public String accountInformationEmail(String rusername){
         String vEmail = null;
         if (sEmail.getValue().equals(rusername)){
@@ -117,9 +117,9 @@ public class LumaAccountPage extends PageObject {
         waitForTitleToAppear(accountPage);
         waitForTextToAppear(myDashboard);
     }
-    @FindBy(css =".column.main") WebElementFacade sMyDashboard;
+    @FindBy(css =".column.main") private WebElementFacade sMyDashboard;
 
-    @FindBy (css = ".base") WebElementFacade sPageHeading;
+    @FindBy (css = ".base") private WebElementFacade sPageHeading;
     public void vpAccountDashboard(String ruser, String rusername){
         waitForTextToAppear(sPageHeading, myDashboard);
         shouldBeVisible(accountLHSNodes);

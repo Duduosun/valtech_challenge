@@ -19,6 +19,7 @@ public class LumaCatPage extends PageObject {
      * 2nd Level Cat
      * 3rd Level Cat
      * Search Results
+     * Compare Products
      */
 
     private By topCatNodes = By.cssSelector("#ui-id-2>li>a");
@@ -106,7 +107,6 @@ public class LumaCatPage extends PageObject {
 
     public String pageHeading(){return element(pageHeading).getText();}
     public String successMessage() {
-        waitFor(element(successMessage));
         element(successMessage).waitUntilVisible();
         return element(successMessage).getText();
     }
