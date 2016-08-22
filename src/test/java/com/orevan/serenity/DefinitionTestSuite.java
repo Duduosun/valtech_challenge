@@ -5,5 +5,5 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="src/test/resources/features/luma/", tags = {"@addtocart"})
+@CucumberOptions(features="src/test/resources/features/luma/", tags = {"@minicart"})
 public class DefinitionTestSuite {}

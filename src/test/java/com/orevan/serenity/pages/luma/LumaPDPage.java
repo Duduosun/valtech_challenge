@@ -28,6 +28,8 @@ public class LumaPDPage extends PageObject {
     private By tabListBlock = By.cssSelector(".product.data.items");
     private By swatchColorNodes = By.cssSelector(".swatch-option.color");
     private By swatchSizeNodes = By.cssSelector(".swatch-option.text");
+    private By updateCart = By.cssSelector("#product-updatecart-button");
+    private By pdpQuantity = By.cssSelector("#qty");
 
 
         //method
@@ -50,6 +52,13 @@ public class LumaPDPage extends PageObject {
     public void clickSizeSwatchIndex(Integer isize){
         List<WebElement> aSwatchNodes = thenReturnElementList(swatchSizeNodes);
         aSwatchNodes.get(isize).click();
+    }
+    public void updatePDPQuantity(Integer nqty){
+        element(pdpQuantity).clear();
+        element(pdpQuantity).sendKeys(nqty.toString());
+    }
+    public void clickUpdateCart(){
+        clickOn(element(updateCart));
     }
 
 
