@@ -17,7 +17,8 @@
         #| bdd1005 | Duduosun | bdd1005@duduosun.com | salmon05 | bdd1005 Duduosun |
         #| bdd1006 | Duduosun | bdd1006@duduosun.com | salmon06 | bdd1006 Duduosun |
         #| bdd1007 | Duduosun | bdd1007@duduosun.com | salmon07 | bdd1007 Duduosun |
-        | bdd1013 | Duduosun | bdd1013@duduosun.com | salmon13 | bdd1013 Duduosun |
+        | check1001 | Duduosun | check1001@duduosun.com | salmon01 | check1001 Duduosun |
+        | check1001 | Duduosun | check1001@duduosun.com | salmon01 | check1001 Duduosun |
 
     @account
     Scenario Outline: My Dashboard View

@@ -286,5 +286,3 @@ public class LumaBasePage extends PageObject {
 //find(By.cssSelector(".foo")).getValue();
 //findBy("#demo").then("#specialField").getValue(); //css selectors
 //find(By.name("demo")).then(By.name("specialField")).getValue();
-
-//List<WebElement> eleHomeBody = thenReturnElementList(homeBody);

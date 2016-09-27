@@ -95,6 +95,3 @@ Feature: User Wish List Module
       | rUser | rUsername | rPassword | topCat | subCat | wProduct |
       | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | Men | Men Top | Zoltan Gym Tee |
       | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | Gear | Watches | Cruise Dual Analog Watch |
-
-
-  #Scenario: Populate Wish List from Cart

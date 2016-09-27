@@ -59,7 +59,7 @@
         | Gear | Fusion Backpack | 7 |
 
     @minicart
-    Scenario Outline: Edit Configurable Product Swatch Options
+    Scenario Outline: Edit Configurable Product Swatch Options via Mini Cart
       And User Trigger Top Level "<topCat>" then Sub Category Level "<subCat>"
       And User Click Configurable Product "<cProduct>"
       And User Select Random Swatch Options
