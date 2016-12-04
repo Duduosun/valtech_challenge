@@ -31,7 +31,6 @@ public class LumaPDPage extends PageObject {
     private By updateCart = By.cssSelector("#product-updatecart-button");
     private By pdpQuantity = By.cssSelector("#qty");
 
-
         //method
     public void verifyPDP(String eproduct){
         shouldBeVisible(gallery);
@@ -43,7 +42,7 @@ public class LumaPDPage extends PageObject {
         shouldBeVisible(cartBoxBlock); //out of stock product NA
         shouldBeVisible(socialLinks);
         shouldBeVisible(tabListBlock);
-        element(base).getText().equals(eproduct);
+        element(base).getText().equals(eproduct); //boolean equals = element(base).getText().equals(eproduct);
     }
     public void clickColorSwatchIndex(Integer icolor){
         List<WebElement> aSwatchNodes = thenReturnElementList(swatchColorNodes);
@@ -61,7 +60,6 @@ public class LumaPDPage extends PageObject {
         clickOn(element(updateCart));
     }
 
-
     public Integer countFotorama(){
         List<WebElement> sFotoramaNodes = thenReturnElementList(fotoramaNodes);
         sFotoramaNodes.get(0).isDisplayed();
@@ -73,5 +71,7 @@ public class LumaPDPage extends PageObject {
         } else  {
             return false;
         }
+
+        //return isElementVisible(swatchOptionsBlock).equals(true);
     }
 }

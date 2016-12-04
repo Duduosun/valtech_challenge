@@ -19,11 +19,8 @@ public class LumaMiniCartPage extends PageObject {
     private By miniCartItems = By.cssSelector(".minicart-items-wrapper");
     private By miniProductDetailsNodes = By.cssSelector("#ui-id-1>div>div>div>ol>li>div>div");
     private By miniProductNodes = By.cssSelector(".item.product.product-item>div>div>strong>a");
-            //"#ui-id-1>div>div>div>ol>li>div>div>strong>a"
     private By miniEditNodes = By.cssSelector(".product.actions>div>a.action.edit");
-    //"#ui-id-1>div>div>div>ol>li>div>div>div>div>a.action.edit"
     private By miniDeleteNodes = By.cssSelector(".product.actions>div>a.action.delete");
-    //"#ui-id-1>div>div>div>ol>li>div>div>div>div>a.action.delete"
     private By miniUpdateNodes = By.cssSelector(".details-qty.qty>button");
     private By miniCheckout = By.cssSelector("#top-cart-btn-checkout");
     private By viewEditCart = By.cssSelector(".action.viewcart>span>span");
@@ -65,11 +62,13 @@ public class LumaMiniCartPage extends PageObject {
         shouldBeVisible(viewEditCart);
         shouldBeVisible(miniCheckout);
     }
+
     @FindBy(css = ".action.showcart") private WebElementFacade sShowMiniCart;
     public void openMiniCart(){
         clickOn(sShowMiniCart);
         waitABit(2000);
     }
+
     @FindBy(css = "#btn-minicart-close") private WebElementFacade sMiniClose;
     public void closeMiniCart(){
         clickOn(sMiniClose);
@@ -102,6 +101,4 @@ public class LumaMiniCartPage extends PageObject {
         List<WebElement> sMiniEditNodes = thenReturnElementList(miniEditNodes);
         sMiniEditNodes.get(0).click();
     }
-
 }
-

@@ -64,7 +64,6 @@ public class LumaBasePage extends PageObject {
     private By productNodes = By.cssSelector(".product-item-info");
     private By productLinkNodes = By.cssSelector(".product-item-name>a"); // .product-item-name>a  .product-item-link
 
-
     //Base page
     private By breadcrumbs = By.cssSelector(".breadcrumbs");
     private By pageHeading = By.cssSelector(".base");
@@ -79,7 +78,6 @@ public class LumaBasePage extends PageObject {
     private By contentNodes = By.cssSelector(".content");
 
     //methods
-        //home page
     public void verifyHomePageBody(){
         shouldBeVisible(homeBody);
         shouldBeVisible(topCatBlock);
@@ -92,12 +90,9 @@ public class LumaBasePage extends PageObject {
         shouldBeVisible(trendingContent);
         shouldBeVisible(productNodes);
     }
-
-        //header n footer
     public void closeLuma(){
         fDriver.close();
     }
-
     public void goToLuma(){
         openAt(luma);
     }
@@ -169,8 +164,17 @@ public class LumaBasePage extends PageObject {
         waitForAnyTextToAppear(sPanelHeader, "Welcome");
         return sPanelHeader.getText();
     }
+    public String espotProducts(String eproduct) {
+        List<WebElement> sProductNodes = thenReturnElementList(productLinkNodes);
+        String espot = null;
+        for (WebElement iProduct : sProductNodes) {
+            if (iProduct.getAttribute("title").equals(eproduct)) {
+                espot = iProduct.getText();
+            }
+        }
+        return espot;
+    }
 
-        //Category
     public Integer countTopCatNodes(){
         List<WebElement> sTopCatNodes = thenReturnElementList(topCatNodes);
         sTopCatNodes.get(0).isDisplayed();
@@ -211,7 +215,6 @@ public class LumaBasePage extends PageObject {
         List<WebElement> sTopCatNodes = thenReturnElementList(topCatNodes);
         sTopCatNodes.get(tcat).click();
     }
-
     public void clickTopCat(String tcat) {
         List<WebElement> sTopCatNodes = thenReturnElementList(topCatNodes);
         for (WebElement iTopCat : sTopCatNodes) {
@@ -221,7 +224,6 @@ public class LumaBasePage extends PageObject {
             }
         }
     }
-
     public void vpBreadcrumbs(){}
     public void vpPageHeading(){}
     public void vpLHS(){
@@ -260,17 +262,6 @@ public class LumaBasePage extends PageObject {
         }
     }
 
-    public String espotProducts(String eproduct) {
-        List<WebElement> sProductNodes = thenReturnElementList(productLinkNodes);
-        String espot = null;
-        for (WebElement iProduct : sProductNodes) {
-            if (iProduct.getAttribute("title").equals(eproduct)) {
-                espot = iProduct.getText();
-            }
-        }
-        return espot;
-    }
-
     @FindBy(css = ".base") private WebElementFacade sPageHeading;
     @FindBy(css = ".breadcrumbs") private WebElementFacade sBreadcrumbs;
     public void verifyBasePage(String bpage){
@@ -279,6 +270,7 @@ public class LumaBasePage extends PageObject {
         waitForAnyTextToAppear(sBreadcrumbs, "Home");
         waitForAnyTextToAppear(sBreadcrumbs, bpage);
     }
+
 }
 
 //(fuelLevel > 0) ? 'Y': 'N';

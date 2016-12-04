@@ -30,7 +30,7 @@ public class LumaCustomerPage extends PageObject {
     private By cPassword = By.cssSelector("#password-confirmation");
 
         //methods
-    @FindBy(css = ".base") WebElementFacade sPageHeader;
+    @FindBy(css = ".base") private WebElementFacade sPageHeader;
     public void newCustomerPage(){
         waitForTitleToAppear(newCustomerPage);
         shouldBeVisible(pageHeader);
@@ -42,7 +42,7 @@ public class LumaCustomerPage extends PageObject {
         waitForAnyTextToAppear(sPageHeader, customerLoginPage);
     }
 
-    @FindBy(css = "#send2") WebElementFacade sLogin;
+    @FindBy(css = "#send2") private WebElementFacade sLogin;
     public void signIn(String uname, String pword){
         List<WebElement> sEmailAddress = thenReturnElementList(emailAddress);
         sEmailAddress.get(0).sendKeys(uname);
@@ -51,12 +51,12 @@ public class LumaCustomerPage extends PageObject {
         sLogin.click();
     }
 
-    @FindBy(css = ".action.submit.primary") WebElementFacade sCreateAccount;
-    @FindBy(css = "#firstname") WebElementFacade sFirstName;
-    @FindBy(css = "#lastname") WebElementFacade sLastName;
-    @FindBy(css = "#email_address") WebElementFacade sEmail;
-    @FindBy(css = "#password") WebElementFacade sNewPassword;
-    @FindBy(css = "#password-confirmation") WebElementFacade sConfirmPassword;
+    @FindBy(css = ".action.submit.primary") private WebElementFacade sCreateAccount;
+    @FindBy(css = "#firstname") private WebElementFacade sFirstName;
+    @FindBy(css = "#lastname") private WebElementFacade sLastName;
+    @FindBy(css = "#email_address") private WebElementFacade sEmail;
+    @FindBy(css = "#password") private WebElementFacade sNewPassword;
+    @FindBy(css = "#password-confirmation") private WebElementFacade sConfirmPassword;
     public void registerUser(String fname, String lname, String email, String pword){
         waitFor(sFirstName).sendKeys(fname);
         waitFor(sLastName).sendKeys(lname);

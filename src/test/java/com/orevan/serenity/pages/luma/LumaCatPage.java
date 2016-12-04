@@ -255,8 +255,7 @@ public class LumaCatPage extends PageObject {
         waitForTitleToAppear(completeSearch);
     }
 
-    @FindBy(css = ".message.notice")
-    WebElementFacade sEmptySearchNotice;
+    @FindBy(css = ".message.notice") private WebElementFacade sEmptySearchNotice;
     public void emptyResultMessage(String message) {
         shouldBeVisible(emptySearchNotice);
         shouldNotBeVisible(productLinkNodes);
@@ -353,7 +352,6 @@ public class LumaCatPage extends PageObject {
         List<WebElement> sRemoveComparison = thenReturnElementList(removeComparisonProductNodes);
             sRemoveComparison.get(0).click();
     }
-
     public void addListedProductToCart(String aproduct){
         List<WebElement> sProductNodes = thenReturnElementList(productNodes);
         for(WebElement iProductNodes : sProductNodes){
@@ -368,10 +366,3 @@ public class LumaCatPage extends PageObject {
         clickOn(element(pdpAddToCart));
     }
 }
-
-
-//evaluateJavascript("document.getElementById('firstname').focus()");
-//withAction().moveToElement($("#item-tabs")).perform();
-  //      $(".buy-button button").click();
-
-//evaluateJavascript("$('#firstname').focus()");

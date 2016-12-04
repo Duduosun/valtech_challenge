@@ -1,5 +1,5 @@
 @regression
-Feature: Luma Product Details Page - Category and Search
+Feature: Luma Product Details Page - Category Navigation and Search
   As a customer
   I want to see the details for the product I am interested in
   So that I can decide whether it is the product I want
@@ -30,7 +30,7 @@ Feature: Luma Product Details Page - Category and Search
       | Gear | Fitness Equipment | Sprite Foam Yoga Brick |
       | Gear | Watches | Bolo Sport Watch |
 
-  @pdp
+  @pdpconfig
   Scenario Outline: Navigate Configurable Product via Top Category
     When User Trigger Top Level Entry "<topcat>"
     And User Click Configurable Product "<cproduct>"
@@ -40,7 +40,7 @@ Feature: Luma Product Details Page - Category and Search
       | Men | Geo Insulated Jogging Pant |
       | Women | Deirdre Relaxed-Fit Capri |
 
-  @pdp
+  @pdpconfig
   Scenario Outline: Navigate Configurable Product via Sub Category
     When User Trigger Top Level "<topcat>" then Sub Category Level "<subcategory>"
     And User Click Configurable Product "<cproduct>"

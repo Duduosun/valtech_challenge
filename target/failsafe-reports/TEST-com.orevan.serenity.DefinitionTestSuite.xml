@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.orevan.serenity.DefinitionTestSuite" time="28.215" tests="57" errors="0" skipped="0" failures="0">
+<testsuite name="com.orevan.serenity.DefinitionTestSuite" time="17.965" tests="36" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Automation Framework\apache-maven-3.3.9\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Automation Framework\apache-maven-3.3.9\bin;C:\Automation Framework\gradle-2.14.1\bin;C:\Users\tolaf\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Automation Framework\apache-maven-3.3.9\bin;C:\Automation Framework\gradle-2.14.1\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\galenframework\;C:\Users\tolaf\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,61 +62,40 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given Luma Home Page" classname="Scenario: Open and Close Mini Cart" time="0.001"/>
-  <testcase name="When User Trigger Mini Cart" classname="Scenario: Open and Close Mini Cart" time="0"/>
-  <testcase name="Then Mini Cart remain Open" classname="Scenario: Open and Close Mini Cart" time="0"/>
-  <testcase name="When User Close Mini Cart" classname="Scenario: Open and Close Mini Cart" time="0"/>
-  <testcase name="Then Mini Cart is Closed" classname="Scenario: Open and Close Mini Cart" time="0"/>
-  <testcase name="Scenario: Open and Close Mini Cart" classname="Scenario: Open and Close Mini Cart" time="2.772"/>
-  <testcase name="Given Luma Home Page" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="0"/>
-  <testcase name="And User Trigger Top Level Entry &quot;What&apos;s New&quot;" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="0"/>
-  <testcase name="And User Add One of Listed Products &quot;Wayfarer Messenger Bag&quot; to Cart" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="0"/>
-  <testcase name="When User Trigger Mini Cart" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="0"/>
-  <testcase name="Then Product &quot;Wayfarer Messenger Bag&quot; is Visible in Mini Cart" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="0"/>
-  <testcase name="| What&apos;s New | Wayfarer Messenger Bag |" classname="| What&apos;s New | Wayfarer Messenger Bag |" time="2.302"/>
-  <testcase name="Given Luma Home Page" classname="| Gear | Fusion Backpack |" time="0"/>
-  <testcase name="And User Trigger Top Level Entry &quot;Gear&quot;" classname="| Gear | Fusion Backpack |" time="0"/>
-  <testcase name="And User Add One of Listed Products &quot;Fusion Backpack&quot; to Cart" classname="| Gear | Fusion Backpack |" time="0"/>
-  <testcase name="When User Trigger Mini Cart" classname="| Gear | Fusion Backpack |" time="0"/>
-  <testcase name="Then Product &quot;Fusion Backpack&quot; is Visible in Mini Cart" classname="| Gear | Fusion Backpack |" time="0"/>
-  <testcase name="| Gear | Fusion Backpack |" classname="| Gear | Fusion Backpack |" time="4.854"/>
-  <testcase name="Given Luma Home Page" classname="| What&apos;s New | Rival Field Messenger |" time="0"/>
-  <testcase name="And User Trigger Top Level Entry &quot;What&apos;s New&quot;" classname="| What&apos;s New | Rival Field Messenger |" time="0"/>
-  <testcase name="And User Add One of Listed Products &quot;Rival Field Messenger&quot; to Cart" classname="| What&apos;s New | Rival Field Messenger |" time="0"/>
-  <testcase name="When User Trigger Mini Cart" classname="| What&apos;s New | Rival Field Messenger |" time="0"/>
-  <testcase name="And Remove Product &quot;Rival Field Messenger&quot; in Mini Cart" classname="| What&apos;s New | Rival Field Messenger |" time="0"/>
-  <testcase name="Then Mini Cart is Empty" classname="| What&apos;s New | Rival Field Messenger |" time="0"/>
-  <testcase name="| What&apos;s New | Rival Field Messenger |" classname="| What&apos;s New | Rival Field Messenger |" time="2.347"/>
-  <testcase name="Given Luma Home Page" classname="| Gear | Affirm Water Bottle |" time="0"/>
-  <testcase name="And User Trigger Top Level Entry &quot;Gear&quot;" classname="| Gear | Affirm Water Bottle |" time="0"/>
-  <testcase name="And User Add One of Listed Products &quot;Affirm Water Bottle&quot; to Cart" classname="| Gear | Affirm Water Bottle |" time="0"/>
-  <testcase name="When User Trigger Mini Cart" classname="| Gear | Affirm Water Bottle |" time="0"/>
-  <testcase name="And Remove Product &quot;Affirm Water Bottle&quot; in Mini Cart" classname="| Gear | Affirm Water Bottle |" time="0"/>
-  <testcase name="Then Mini Cart is Empty" classname="| Gear | Affirm Water Bottle |" time="0"/>
-  <testcase name="| Gear | Affirm Water Bottle |" classname="| Gear | Affirm Water Bottle |" time="5.752"/>
-  <testcase name="Given Luma Home Page" classname="| Men | Men Bottoms | Meteor Workout Short | 3 |" time="0"/>
-  <testcase name="And User Trigger Top Level &quot;Men&quot; then Sub Category Level &quot;Men Bottoms&quot;" classname="| Men | Men Bottoms | Meteor Workout Short | 3 |" time="0"/>
-  <testcase name="And User Click Configurable Product &quot;Meteor Workout Short&quot;" classname="| Men | Men Bottoms | Meteor Workout Short | 3 |" time="0"/>
-  <testcase name="And User Select Random Swatch Options" classname="| Men | Men Bottoms | Meteor Workout Short | 3 |" time="0"/>
-  <testcase name="And User Add PDP Product &quot;Meteor Workout Short&quot; to Cart" classname="| Men | Men Bottoms | Meteor Workout Short | 3 |" time="0"/>
-  <testcase name="When User Trigger Mini Cart" classname="| Men | Men Bottoms | Meteor Workout Short | 3 |" time="0"/>
-  <testcase name="And Update Product Quantity with &quot;3&quot;" classname="| Men | Men Bottoms | Meteor Workout Short | 3 |" time="0"/>
-  <testcase name="Then Product &quot;Meteor Workout Short&quot; Quantity is Updated to &quot;3&quot;" classname="| Men | Men Bottoms | Meteor Workout Short | 3 |" time="0"/>
-  <testcase name="| Men | Men Bottoms | Meteor Workout Short | 3 |" classname="| Men | Men Bottoms | Meteor Workout Short | 3 |" time="4.697"/>
-  <testcase name="Given Luma Home Page" classname="| Gear | Fusion Backpack | 7 |" time="0"/>
-  <testcase name="And User Trigger Top Level Entry &quot;Gear&quot;" classname="| Gear | Fusion Backpack | 7 |" time="0"/>
-  <testcase name="And User Add One of Listed Products &quot;Fusion Backpack&quot; to Cart" classname="| Gear | Fusion Backpack | 7 |" time="0"/>
-  <testcase name="When User Trigger Mini Cart" classname="| Gear | Fusion Backpack | 7 |" time="0"/>
-  <testcase name="And Edit Product with Quantity &quot;7&quot;" classname="| Gear | Fusion Backpack | 7 |" time="0"/>
-  <testcase name="Then Product &quot;Fusion Backpack&quot; Quantity is Updated to &quot;7&quot;" classname="| Gear | Fusion Backpack | 7 |" time="0.001"/>
-  <testcase name="| Gear | Fusion Backpack | 7 |" classname="| Gear | Fusion Backpack | 7 |" time="1.208"/>
-  <testcase name="Given Luma Home Page" classname="| Women | Women Tops | Gwyn Endurance Tee | Yellow |" time="0.001"/>
-  <testcase name="And User Trigger Top Level &quot;Women&quot; then Sub Category Level &quot;Women Tops&quot;" classname="| Women | Women Tops | Gwyn Endurance Tee | Yellow |" time="0"/>
-  <testcase name="And User Click Configurable Product &quot;Gwyn Endurance Tee&quot;" classname="| Women | Women Tops | Gwyn Endurance Tee | Yellow |" time="0"/>
-  <testcase name="And User Select Random Swatch Options" classname="| Women | Women Tops | Gwyn Endurance Tee | Yellow |" time="0"/>
-  <testcase name="And User Add PDP Product &quot;Gwyn Endurance Tee&quot; to Cart" classname="| Women | Women Tops | Gwyn Endurance Tee | Yellow |" time="0"/>
-  <testcase name="When User Trigger Mini Cart" classname="| Women | Women Tops | Gwyn Endurance Tee | Yellow |" time="0"/>
-  <testcase name="And Edit Product with Swatch &quot;Yellow&quot;" classname="| Women | Women Tops | Gwyn Endurance Tee | Yellow |" time="0"/>
-  <testcase name="Then Product &quot;Gwyn Endurance Tee&quot; Swatch is Updated to &quot;Yellow&quot;" classname="| Women | Women Tops | Gwyn Endurance Tee | Yellow |" time="0"/>
-  <testcase name="| Women | Women Tops | Gwyn Endurance Tee | Yellow |" classname="| Women | Women Tops | Gwyn Endurance Tee | Yellow |" time="4.28"/>
+  <testcase name="Given Luma Home Page" classname="| Gear | Bags | Voyage Yoga Bag |" time="0.002"/>
+  <testcase name="When User Trigger Top Level &quot;Gear&quot; then Sub Category Level &quot;Bags&quot;" classname="| Gear | Bags | Voyage Yoga Bag |" time="0"/>
+  <testcase name="Then Simple Products &quot;Voyage Yoga Bag&quot; are Displayed in Grid View" classname="| Gear | Bags | Voyage Yoga Bag |" time="0"/>
+  <testcase name="| Gear | Bags | Voyage Yoga Bag |" classname="| Gear | Bags | Voyage Yoga Bag |" time="1.408"/>
+  <testcase name="Given Luma Home Page" classname="| Training | Video Download | Solo Power Circuit |" time="0"/>
+  <testcase name="When User Trigger Top Level &quot;Training&quot; then Sub Category Level &quot;Video Download&quot;" classname="| Training | Video Download | Solo Power Circuit |" time="0"/>
+  <testcase name="Then Simple Products &quot;Solo Power Circuit&quot; are Displayed in Grid View" classname="| Training | Video Download | Solo Power Circuit |" time="0"/>
+  <testcase name="| Training | Video Download | Solo Power Circuit |" classname="| Training | Video Download | Solo Power Circuit |" time="2.921"/>
+  <testcase name="Given Luma Home Page" classname="| Women | Women Tops | Diva Gym Tee |" time="0"/>
+  <testcase name="When User Trigger Top Level &quot;Women&quot; then Sub Category Level &quot;Women Tops&quot;" classname="| Women | Women Tops | Diva Gym Tee |" time="0"/>
+  <testcase name="Then Configurable Products &quot;Diva Gym Tee&quot; are Displayed in Grid View" classname="| Women | Women Tops | Diva Gym Tee |" time="0"/>
+  <testcase name="| Women | Women Tops | Diva Gym Tee |" classname="| Women | Women Tops | Diva Gym Tee |" time="1.397"/>
+  <testcase name="Given Luma Home Page" classname="| Men | Men Bottoms | Rapha Sports Short |" time="0"/>
+  <testcase name="When User Trigger Top Level &quot;Men&quot; then Sub Category Level &quot;Men Bottoms&quot;" classname="| Men | Men Bottoms | Rapha Sports Short |" time="0"/>
+  <testcase name="Then Configurable Products &quot;Rapha Sports Short&quot; are Displayed in Grid View" classname="| Men | Men Bottoms | Rapha Sports Short |" time="0"/>
+  <testcase name="| Men | Men Bottoms | Rapha Sports Short |" classname="| Men | Men Bottoms | Rapha Sports Short |" time="2.464"/>
+  <testcase name="Given Luma Home Page" classname="| Gear | Fitness Equipment | Sprite Foam Yoga Brick |" time="0"/>
+  <testcase name="When User Trigger Top Level &quot;Gear&quot; then Sub Category Level &quot;Fitness Equipment&quot;" classname="| Gear | Fitness Equipment | Sprite Foam Yoga Brick |" time="0"/>
+  <testcase name="And User Click Switch View CTA" classname="| Gear | Fitness Equipment | Sprite Foam Yoga Brick |" time="0"/>
+  <testcase name="Then Simple Products &quot;Sprite Foam Yoga Brick&quot; are Displayed in List View" classname="| Gear | Fitness Equipment | Sprite Foam Yoga Brick |" time="0"/>
+  <testcase name="| Gear | Fitness Equipment | Sprite Foam Yoga Brick |" classname="| Gear | Fitness Equipment | Sprite Foam Yoga Brick |" time="1.695"/>
+  <testcase name="Given Luma Home Page" classname="| Gear | Watches | Cruise Dual Analog Watch |" time="0"/>
+  <testcase name="When User Trigger Top Level &quot;Gear&quot; then Sub Category Level &quot;Watches&quot;" classname="| Gear | Watches | Cruise Dual Analog Watch |" time="0"/>
+  <testcase name="And User Click Switch View CTA" classname="| Gear | Watches | Cruise Dual Analog Watch |" time="0"/>
+  <testcase name="Then Simple Products &quot;Cruise Dual Analog Watch&quot; are Displayed in List View" classname="| Gear | Watches | Cruise Dual Analog Watch |" time="0"/>
+  <testcase name="| Gear | Watches | Cruise Dual Analog Watch |" classname="| Gear | Watches | Cruise Dual Analog Watch |" time="3.486"/>
+  <testcase name="Given Luma Home Page" classname="| Women | Women Bottoms | Echo Fit Compression Short |" time="0"/>
+  <testcase name="When User Trigger Top Level &quot;Women&quot; then Sub Category Level &quot;Women Bottoms&quot;" classname="| Women | Women Bottoms | Echo Fit Compression Short |" time="0"/>
+  <testcase name="And User Click Switch View CTA" classname="| Women | Women Bottoms | Echo Fit Compression Short |" time="0"/>
+  <testcase name="Then Configurable Products &quot;Echo Fit Compression Short&quot; are Displayed in List View" classname="| Women | Women Bottoms | Echo Fit Compression Short |" time="0"/>
+  <testcase name="| Women | Women Bottoms | Echo Fit Compression Short |" classname="| Women | Women Bottoms | Echo Fit Compression Short |" time="1.687"/>
+  <testcase name="Given Luma Home Page" classname="| Men | Men Tops | Aero Daily Fitness Tee |" time="0"/>
+  <testcase name="When User Trigger Top Level &quot;Men&quot; then Sub Category Level &quot;Men Tops&quot;" classname="| Men | Men Tops | Aero Daily Fitness Tee |" time="0"/>
+  <testcase name="And User Click Switch View CTA" classname="| Men | Men Tops | Aero Daily Fitness Tee |" time="0"/>
+  <testcase name="Then Configurable Products &quot;Aero Daily Fitness Tee&quot; are Displayed in List View" classname="| Men | Men Tops | Aero Daily Fitness Tee |" time="0"/>
+  <testcase name="| Men | Men Tops | Aero Daily Fitness Tee |" classname="| Men | Men Tops | Aero Daily Fitness Tee |" time="2.905"/>
 </testsuite>
