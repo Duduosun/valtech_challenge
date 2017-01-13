@@ -17,7 +17,7 @@ public class EntryPointApiSteps {
 
     private Response response;
 
-    Integer scode;
+    private Integer scode;
 
     @Given("^Web API Entry Point$")
     public void webAPIEntryPoint() throws Throwable {
