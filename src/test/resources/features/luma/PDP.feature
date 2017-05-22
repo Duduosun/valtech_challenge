@@ -15,7 +15,7 @@ Feature: Luma Product Details Page - Category Navigation and Search
     Examples:
       | topcat | sproduct |
       | What's New | Overnight Duffle |
-      | Gear | Fusion Backpack |
+      | Gear | Affirm Water Bottle |
       | Training | LifeLong Fitness IV |
 
   @pdp

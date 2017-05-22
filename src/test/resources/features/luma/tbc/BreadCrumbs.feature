@@ -1,2 +1,2 @@
-@regression
+@webwip
   Feature: BreadCrumbTemplateTests - in progress

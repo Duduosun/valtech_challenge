@@ -5,10 +5,10 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 /**
- * Created by tolaf on 24/07/2016.
+ * Created by tolaf on 02/03/2017.
  */
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="src/test/resources/features/luma/", tags = {"@pdpconfig"})
+@CucumberOptions(features="src/test/resources/features/", tags = {"@regression"})
 public class SmokeTestSuite {
 }

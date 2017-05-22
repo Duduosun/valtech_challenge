@@ -4,11 +4,11 @@ Feature: Guest User Compare Products
   Background:
     Given Luma Home Page
 
-  @CompareGuest
+  @CompareGuest @btdsmoke
   Scenario Outline: Guest User Populate Compare Product via Base Page
     When User Trigger Top Level Entry "<topCat>"
     And User Compare One of Listed Products "<cProduct>"
-    Then Listed Product "<cProduct>" is Added to Compare Products
+    Then Listed Product "<cPr, oduct>" is Added to Compare Products
     And Luma Module for Guest remain available
     Examples:
       | topCat | cProduct |

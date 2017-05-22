@@ -35,4 +35,4 @@ Feature: Guest User and Registered User Entry Point
     But Luma Modules for Guest "<gUser>" is not available
     Examples:
       | rUser | rUsername | rPassword | gUser |
-      | Welcome, BDD1002 Duduosun! | bdd1002@duduosun.com | salmon02 | Sign In |
+      | Welcome, bdd1002! | bdd1002@duduosun.com | Salmon02 | Sign In |

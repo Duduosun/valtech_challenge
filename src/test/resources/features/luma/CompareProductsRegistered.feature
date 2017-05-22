@@ -13,7 +13,7 @@ Feature: Registered User Compare Products
     And Luma Module for Registered "<rUser>" remain available
     Examples:
       | rUser | rUsername | rPassword | topcat | cProduct |
-      | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Men | Argus All-Weather Tank |
+      | BDD1002 Duduosun | bdd1002@duduosun.com | Salmon02 | Men | Argus All-Weather Tank |
 
   @CompareRegistered
   Scenario Outline: Registered User Compare Product via PLP
@@ -24,7 +24,7 @@ Feature: Registered User Compare Products
     And Luma Module for Registered "<rUser>" remain available
     Examples:
       | rUser | rUsername | rPassword | topCat | subCat | cProduct |
-      | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Gear | Watches | Aim Analog Watch |
+      | BDD1002 Duduosun | bdd1002@duduosun.com | Salmon02 | Gear | Watches | Aim Analog Watch |
 
   @CompareRegistered
   Scenario Outline: Registered User Compare Product via PDP
@@ -36,7 +36,7 @@ Feature: Registered User Compare Products
     And Luma Module for Registered "<rUser>" remain available
     Examples:
       | rUser | rUsername | rPassword | topcat | cProduct |
-      | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Gear | Affirm Water Bottle |
+      | BDD1002 Duduosun | bdd1002@duduosun.com | Salmon02 | Gear | Affirm Water Bottle |
 
   @CompareRegistered
   Scenario Outline: Registered User Compare N Products
@@ -50,8 +50,8 @@ Feature: Registered User Compare Products
     And Luma Module for Registered "<rUser>" remain available
     Examples:
       | rUser | rUsername | rPassword | topCat | aProduct | bProduct | cProduct | dProduct |
-      | BDD1004 Duduosun | bdd1004@duduosun.com | salmon04 | Women | Breathe-Easy Tank | Selene Yoga Hoodie  | Deirdre Relaxed-Fit Capri | Radiant Tee |
-      | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | Men | Hero Hoodie | Argus All-Weather Tank | Geo Insulated Jogging Pant | Meteor Workout Short |
+      | BDD1004 Duduosun | bdd1004@duduosun.com | Salmon04 | Women | Breathe-Easy Tank | Selene Yoga Hoodie  | Deirdre Relaxed-Fit Capri | Radiant Tee |
+      | BDD1003 Duduosun | bdd1003@duduosun.com | Salmon03 | Men | Hero Hoodie | Argus All-Weather Tank | Geo Insulated Jogging Pant | Meteor Workout Short |
 
   @CompareRegistered
   Scenario Outline: Remove Compared Product via My Account
@@ -61,7 +61,7 @@ Feature: Registered User Compare Products
     And Luma Module for Registered "<rUser>" remain available
     Examples:
       | rUser | rUsername | rPassword | cProduct |
-      | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Argus All-Weather Tank |
+      | BDD1002 Duduosun | bdd1002@duduosun.com | Salmon02 | Argus All-Weather Tank |
 
   @CompareRegistered
   Scenario Outline: Remove Compared Product via Base Page
@@ -72,7 +72,7 @@ Feature: Registered User Compare Products
     And Luma Module for Registered "<rUser>" remain available
     Examples:
       | rUser | rUsername | rPassword | topcat | cProduct |
-      | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Gear | Affirm Water Bottle |
+      | BDD1002 Duduosun | bdd1002@duduosun.com | Salmon02 | Gear | Affirm Water Bottle |
 
   @CompareRegistered
   Scenario Outline: Remove Compared Product via PLP
@@ -83,7 +83,7 @@ Feature: Registered User Compare Products
     And Luma Module for Registered "<rUser>" remain available
     Examples:
       | rUser | rUsername | rPassword | topCat | subCat | cProduct |
-      | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Gear | Watches | Aim Analog Watch |
+      | BDD1002 Duduosun | bdd1002@duduosun.com | Salmon02 | Gear | Watches | Aim Analog Watch |
 
   @CompareRegistered
   Scenario Outline: Remove Compared Product via Compare Page
@@ -95,7 +95,7 @@ Feature: Registered User Compare Products
     And Luma Module for Registered "<rUser>" remain available
     Examples:
       | rUser | rUsername | rPassword |
-      | BDD1004 Duduosun | bdd1004@duduosun.com | salmon04 |
+      | BDD1004 Duduosun | bdd1004@duduosun.com | Salmon04 |
 
   @CompareRegistered
   Scenario Outline: Remove all Compared Products with One Click
@@ -106,4 +106,4 @@ Feature: Registered User Compare Products
     And Luma Module for Registered "<rUser>" remain available
     Examples:
       | rUser | rUsername | rPassword | topCat |
-      | BDD1003 Duduosun | bdd1003@duduosun.com | salmon03 | Training |
+      | BDD1003 Duduosun | bdd1003@duduosun.com | Salmon03 | Training |

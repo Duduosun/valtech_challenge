@@ -1,2 +1,2 @@
-@regression
+@webwip
   Feature: BrowseFooter - in progress

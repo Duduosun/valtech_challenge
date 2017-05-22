@@ -4,7 +4,7 @@
     Background:
       Given Luma Home Page
 
-    @createuser
+    @createcheckusers
     Scenario Outline: Sign Up New Account
       When User Trigger Sign Up Action with "<firstName>","<lastName>","<email>","<password>" Details
       Then New User "<rUser>" is active
@@ -17,8 +17,8 @@
         #| bdd1005 | Duduosun | bdd1005@duduosun.com | salmon05 | bdd1005 Duduosun |
         #| bdd1006 | Duduosun | bdd1006@duduosun.com | salmon06 | bdd1006 Duduosun |
         #| bdd1007 | Duduosun | bdd1007@duduosun.com | salmon07 | bdd1007 Duduosun |
-        | check1001 | Duduosun | check1001@duduosun.com | salmon01 | check1001 Duduosun |
-        | check1001 | Duduosun | check1001@duduosun.com | salmon01 | check1001 Duduosun |
+        | check1001 | Duduosun | check1001@duduosun.com | Salmon01 | check1001 Duduosun |
+        | check1002 | Duduosun | check1001@duduosun.com | Salmon02 | check1002 Duduosun |
 
     @account
     Scenario Outline: My Dashboard View
@@ -30,7 +30,7 @@
 
       Examples:
         | rUser | rUsername | rPassword |
-        | BDD1001 Duduosun | bdd1001@duduosun.com | salmon01 |
+        | BDD1001 Duduosun | bdd1001@duduosun.com | Salmon01 |
         #| Veronica Costello | roni_cost@example.com | roni_cost@example.com | #nublue
 
     @account
@@ -43,7 +43,7 @@
       And Luma Module for Registered "<rUser>" remain available
       Examples:
         | rUser | rUsername | rPassword | accounttab |
-        | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Account Information |
+        | BDD1002 Duduosun | bdd1002@duduosun.com | Salmon02 | Account Information |
 
     @account
     Scenario Outline: My Address Book View
@@ -55,7 +55,7 @@
       And Luma Module for Registered "<rUser>" remain available
       Examples:
         | rUser | rUsername | rPassword | accounttab |
-        | BDD1001 Duduosun | bdd1001@duduosun.com | salmon01 | Address Book |
+        | BDD1001 Duduosun | bdd1001@duduosun.com | Salmon01 | Address Book |
 
     @account
     Scenario Outline: My Downloadable Products View
@@ -67,7 +67,7 @@
       And Luma Module for Registered "<rUser>" remain available
       Examples:
         | rUser | rUsername | rPassword | accounttab | vproduct |
-        | BDD1001 Duduosun | bdd1001@duduosun.com | salmon01 | My Downloadable Products | Luma Yoga For Life |
+        | BDD1001 Duduosun | bdd1001@duduosun.com | Salmon01 | My Downloadable Products | Luma Yoga For Life |
 
     @account
     Scenario Outline: My Orders View
@@ -79,7 +79,7 @@
       And Luma Module for Registered "<rUser>" remain available
       Examples:
         | rUser | rUsername | rPassword | accounttab |
-        | BDD1001 Duduosun | bdd1001@duduosun.com | salmon01 | My Orders |
+        | BDD1001 Duduosun | bdd1001@duduosun.com | Salmon01 | My Orders |
 
     @account
     Scenario Outline: My Newsletter Subscriptions View
@@ -91,7 +91,7 @@
       And Luma Module for Registered "<rUser>" remain available
       Examples:
         | rUser | rUsername | rPassword | accounttab |
-        | BDD1001 Duduosun | bdd1001@duduosun.com | salmon01 | Newsletter Subscriptions |
+        | BDD1001 Duduosun | bdd1001@duduosun.com | Salmon01 | Newsletter Subscriptions |
 
     @account
     Scenario Outline: My Billing Agreement View
@@ -103,7 +103,7 @@
       And Luma Module for Registered "<rUser>" remain available
       Examples:
         | rUser | rUsername | rPassword | accounttab |
-        | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | Billing Agreements |
+        | BDD1002 Duduosun | bdd1002@duduosun.com | Salmon02 | Billing Agreements |
 
     @account
     Scenario Outline: My My Product Reviews View
@@ -115,7 +115,7 @@
       And Luma Module for Registered "<rUser>" remain available
       Examples:
         | rUser | rUsername | rPassword | accounttab |
-        | BDD1002 Duduosun | bdd1002@duduosun.com | salmon02 | My Product Reviews |
+        | BDD1002 Duduosun | bdd1002@duduosun.com | Salmon02 | My Product Reviews |
 
     @account
     Scenario Outline: My Wish List Subscriptions View
@@ -127,4 +127,4 @@
       And Luma Module for Registered "<rUser>" remain available
       Examples:
         | rUser | rUsername | rPassword | accounttab | wproduct |
-        | BDD1001 Duduosun | bdd1001@duduosun.com | salmon01 | My Wish List | Meteor Workout Short |
+        | BDD1001 Duduosun | bdd1001@duduosun.com | Salmon01 | My Wish List | Meteor Workout Short |

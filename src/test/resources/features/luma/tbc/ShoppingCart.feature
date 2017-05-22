@@ -1,4 +1,4 @@
-@regression
+@webwip
   Feature: Shopping Cart
 
     Background:

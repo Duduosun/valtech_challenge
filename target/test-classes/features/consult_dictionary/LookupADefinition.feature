@@ -1,3 +1,4 @@
+@example
 Feature: Lookup a definition
   In order to talk better
   As an English student

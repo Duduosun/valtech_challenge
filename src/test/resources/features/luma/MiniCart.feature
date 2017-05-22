@@ -5,7 +5,7 @@
       Given Luma Home Page
 
     @minicart
-    Scenario: Open and Close Mini Cart
+    Scenario: Ohpen and Close Mini Cart
       When User Trigger Mini Cart
       Then Mini Cart remain Open
       When User Close Mini Cart
