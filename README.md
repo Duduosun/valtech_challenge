@@ -1,1 +1,1 @@
-**_Regression Suite with Serenity_**
+**_Valtech Challenge with SerenityBDD_**

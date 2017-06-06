@@ -36,7 +36,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
@@ -73,17 +73,17 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '12 / 12 tests passed' },
-                {label: '0 / 12 tests pending'},
-                {label: '0 / 12 tests not executed'},
-                {label: '0 / 12 tests failed'},
-                {label: '0 / 12 errors'}
+                {label: '0 / 0 tests passed' },
+                {label: '0 / 0 tests pending'},
+                {label: '0 / 0 tests not executed'},
+                {label: '0 / 0 tests failed'},
+                {label: '0 / 0 errors'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
@@ -121,11 +121,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '12 / 12 tests passed (1% of all test steps)' },
-                {label: '0 / 12 tests pending'},
-                {label: '0 / 12 tests not executed'},
-                {label: '0 / 12 tests failed (0% of all test steps)'},
-                {label: '0 / 12 errors (0% of all test steps)'}
+                {label: '0 / 0 tests passed (0% of all test steps)' },
+                {label: '0 / 0 tests pending'},
+                {label: '0 / 0 tests not executed'},
+                {label: '0 / 0 tests failed (0% of all test steps)'},
+                {label: '0 / 0 errors (0% of all test steps)'}
             ]
         });
 
@@ -160,7 +160,7 @@
     <div id="topbanner">
         <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
-            <span class="projectname">Magento 2 Demo Website with Serenity</span>
+            <span class="projectname">Valtech Challenge</span>
         </div>
     </div>
 </div>
@@ -185,17 +185,8 @@
         <li >
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
-        <li >
-            <a href="e3a5a59a6d792683cf33d050ee0f6f92.html"><i class="fa fa-comments-o"></i> Capabilities</a>
-        </li>
-        <li >
-            <a href="d782c44557441225cc92a5e35bf4b23b.html"><i class="fa fa-comments-o"></i> Features</a>
-        </li>
-        <li >
-            <a href="5fe8ee410aa9f915d6dd9972033bb18c.html"><i class="fa fa-comments-o"></i> Themes</a>
-        </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-04-2017 00:52</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-06-2017 14:23</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -207,80 +198,15 @@
 
                 <table class="table table-striped build-info">
                     <tr>
-                        <td style="width: 30%">Remote driver</td>
+                        <td style="width: 30%">Default Driver</td>
                         <td>firefox</td>
                     </tr>
                     <tr>
                         <td style="width: 30%">Operating System</td>
                         <td>Windows 10 version 10.0</td>
                     </tr>
-                    <tr>
-                        <td style="width: 30%">Remote OS</td>
-                        <td>LINUX</td>
-                    </tr>
-                    <tr>
-                        <td style="width: 30%">Remote browser version</td>
-                        <td>51.0.1</td>
-                    </tr>
-                    <tr>
-                        <td style="width: 30%">Default Driver</td>
-                        <td>firefox</td>
-                    </tr>
                 </table>
 
-                    <h2>Driver capabilities: remote</h2>
-                    <table class="table table-striped build-info">
-                            <tr>
-                                <td style="width: 30%">webdriver.remote.sessionid</td><td>9ade226b-ca95-41e6-a84a-8b7d48ed94b2</td>
-                            </tr>
-                            <tr>
-                                <td style="width: 30%">platformVersion</td><td>4.9.13-moby</td>
-                            </tr>
-                            <tr>
-                                <td style="width: 30%">browserVersion</td><td>51.0.1</td>
-                            </tr>
-                            <tr>
-                                <td style="width: 30%">XULappId</td><td>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</td>
-                            </tr>
-                            <tr>
-                                <td style="width: 30%">browserName</td><td>firefox</td>
-                            </tr>
-                            <tr>
-                                <td style="width: 30%">appBuildId</td><td>20170125094131</td>
-                            </tr>
-                            <tr>
-                                <td style="width: 30%">platformName</td><td>linux</td>
-                            </tr>
-                            <tr>
-                                <td style="width: 30%">version</td><td>51.0.1</td>
-                            </tr>
-                            <tr>
-                                <td style="width: 30%">platform</td><td>LINUX</td>
-                            </tr>
-                            <tr>
-                                <td style="width: 30%">firefox_profile</td><td>UEsDBBQACAgIAIMGjkoAAAAAAAAAAAAAAAAHAAAAdXNlci5qc51XTY/bNhC991cUPqVATexmm0PT
-03azAQoE3SLGIkeCIkcW1xTJ8sOy++s7pKz4S6bs+GJLnhFn3rw3M4oeHLUO6nezypkOr4hnNeTf
-Ui9Jy1THHBDQrFIgZr/+XDPl4Zc/fop7T8EC2ljjQnJpgKnQ9NcEjdaST/hrCJ1xK9KEYIltpG+2
-8/S3Zd7PFehlaNDx/YcPx25DwA6YwC8BAXgA8Vk6Hx4xFq4A3YKLp+GaFvPaUN440wL13EkbqIua
-Btkml4e78YMCqzxBOPSLflLGw3g2g7UwnVaGCTxLs2UCtjHdtwb0AtFKSI27WwzKBp8Oo60RTE1g
-D+tgjPIEnDOOG+2NOoT7PH0vl9poRK2FtgK3yJe+XBkMarMl3vCVp6muaP07fsYT9+C9xEcGg8Rx
-4COCXGNWlDvmmzJoSuoVMRY0hU0Ap5lKlb+ZbnXiwNeoxw/roBJOrvGacQ5Y+6gRJo/coRxc8KOw
-fS+r9FaxLYjn+7vF3wZplnjw27gx3hIv+pvUSAZ/f0ckHmRev35BjxmrTAwfK8X0anZO0D4hypSi
-bx7BSHHKvk7nsW2sRLjRlnSNDKCkD/iAf6N0l2iTOLOSgewKPFAUk0vEKQKgGBYG1VLmpU8kj5Y0
-KDGLz6YdKJ7kFl0q6ewk5VRtnVlDosUCA9EIbb19RZMLBwCPToZtFiRdS+iQDbSVGxBZadRofkGh
-BQJFmyT7XMxsOLjPn76xNZuwrKUC/EV8cJIHapxcSo1CUpJvL4SIFNgVg3aZPtgM1kBRTvK/icaj
-ocPmQXZAF2h2BEMfDUk3F7FqZdbwP/nmY1bJdd1/9DFFPL+3jR1jElvQ8kIP3jcITLNH5rxDmLpG
-O5gzaz1BWSB61ZYKqFlUYbwpDqXi3u4Kew3tQKMWEu86YKtxh3NmF3UzCBNVjA06uC3pB0K2fz9l
-W5bkeOj5NkxpZsD/+fXLI3kgbE+JczCTIvqpWhxEp4UfWkWZtedJO3jLg794SC+K9PhbQFLA1tdj
-dFBqFoP51Ot3wZGuqW/fn1B6P4Z2nUSzgJcU1lib8hA62EReUAuT4VQKR3ceCz+c/M1deELtwBxv
-dpKYWqRa0iudiNjaIqdQ8VfJ7IjO2Fidk2J87J018dPu/TC+MvUjdT60IiR5iBe2rCGYne3liZC2
-1ul19WC98Xn52q832I5jHqhF5BJ5x4M4ULbp95Gsib/0U794jj75aL3HFOa4pWpUbHKfW3DztLXl
-qE4VUuxY04MzjwkRs08a6zd39Gubom8Ady/eAF996ofMn/0/t+9GhAkhEzRsYnqPvq796GuaMstl
-url7fyjO64O2kjN+wvGEjauSKoGo5bIJ6sJWcwy1T/tBoLi6Fup5cNoQZEn/+004veag5HBhmliF
-9x1J1T7afg3cL6n/A1BLBwh9EqkXIwQAACIPAABQSwECFAAUAAgICACDBo5KfRKpFyMEAAAiDwAA
-BwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAABYBAAAAAA=</td>
-                            </tr>
-                    </table>
 
 
             </div>
